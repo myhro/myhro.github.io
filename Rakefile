@@ -4,14 +4,14 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
-ssh_port       = "22"
-document_root  = "~/website.com/"
+ssh_user       = "git@myhro.info"
+ssh_port       = "2002"
+document_root  = "/var/www/myhro.info/blog.myhro.info/"
 rsync_delete   = true
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "blog"
 
 ## -- Misc Configs -- ##
 
