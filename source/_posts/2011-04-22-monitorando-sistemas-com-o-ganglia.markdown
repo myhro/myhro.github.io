@@ -45,7 +45,6 @@ Não é necessário remover ou comentar as rotas multicast já existentes pois a
 
 Por fim, para separar os clusters em grids (como na página do [Wikimedia Cloud Report](http://ganglia.wikimedia.org/)), você precisaria de duas ou mais instâncias do "gmetad". Cada uma contaria com um parâmetro "gridname" diferente e o servidor web qual reúne todos os dados teria dois ou mais parâmetros "data_source" referentes a cada uma das instâncias (incluindo o "localhost" já que ele normalmente também roda o "gmetad").
 
-Fontes não citadas no texto: 
-
-1. [IBM developerWorks: Wikis - Systems - ganglia](http://www.ibm.com/developerworks/wikis/display/WikiPtype/ganglia) 
+Fontes não citadas no texto:  
+1. [IBM developerWorks: Wikis - Systems - ganglia](http://www.ibm.com/developerworks/wikis/display/WikiPtype/ganglia)  
 2. [Server Fault: Ganglia without multicast](http://serverfault.com/questions/22269/ganglia-without-multicast)
