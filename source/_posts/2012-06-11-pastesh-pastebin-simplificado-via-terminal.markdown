@@ -4,7 +4,7 @@ layout: post
 slug: pastesh-pastebin-simplificado-via-terminal
 title: 'PasteSH: pastebin simplificado, via terminal'
 categories:
-- github
+- pastebin
 - terminal
 ---
 

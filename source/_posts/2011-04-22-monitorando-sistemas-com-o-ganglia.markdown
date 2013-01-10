@@ -4,7 +4,6 @@ layout: post
 slug: monitorando-sistemas-com-o-ganglia
 title: Monitorando sistemas com o Ganglia
 categories:
-- cluster
 - ganglia
 - linux
 ---

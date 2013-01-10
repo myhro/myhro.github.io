@@ -5,7 +5,6 @@ slug: carta-aberta-as-autoridades-servidores-professores-e-academicos-da-unimont
 title: Carta aberta às autoridades, servidores, professores e acadêmicos da Unimontes
 categories:
 - carta-aberta
-- educacao
 - unimontes
 ---
 
