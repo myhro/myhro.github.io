@@ -73,5 +73,5 @@ public class CRUD {
 Muito mais cômodo do que ficar lidando com o ResultSet a todo momento, verificando se ainda há linhas no resultado com o método next(), etc. Com esta classe, simplesmente tem-se uma lista de dicionários. Caso a consulta não tenha gerado resultado algum, o valor retornado nada mais é do que "null". Simples e prático, não?
 
 Referências:  
-[Put ResultSet into HashMap?](http://stackoverflow.com/questions/8392942/put-resultset-into-hashmap)  
-[Retrieve column names from java.sql.ResultSet](http://stackoverflow.com/questions/696782/retrieve-column-names-from-java-sql-resultset)
+1. [Put ResultSet into HashMap?](http://stackoverflow.com/questions/8392942/put-resultset-into-hashmap)  
+2. [Retrieve column names from java.sql.ResultSet](http://stackoverflow.com/questions/696782/retrieve-column-names-from-java-sql-resultset)

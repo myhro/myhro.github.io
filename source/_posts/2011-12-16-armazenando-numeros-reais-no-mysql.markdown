@@ -34,7 +34,7 @@ number_format($numero_real, 2, '.', '');
 Desta forma você não mais precisará se preocupar com seus números reais sendo armazenados incorretamente no banco de dados, nem relembrar como as coisas funcionavam há 30 ou 40 anos atrás.
 
 Referências:  
-[.NET String.Format() to add commas in thousands place for a number](http://stackoverflow.com/questions/105770/net-string-format-to-add-commas-in-thousands-place-for-a-number)  
-[A função number_format()](http://imasters.com.br/artigo/448/php/a_funcao_number_format/)  
-[Currency format for display](http://stackoverflow.com/questions/4842332/currency-format-for-display)  
-[PHP: number_format](http://www.php.net/manual/en/function.number-format.php)
+1. [.NET String.Format() to add commas in thousands place for a number](http://stackoverflow.com/questions/105770/net-string-format-to-add-commas-in-thousands-place-for-a-number)  
+2. [A função number_format()](http://imasters.com.br/artigo/448/php/a_funcao_number_format/)  
+3. [Currency format for display](http://stackoverflow.com/questions/4842332/currency-format-for-display)  
+4. [PHP: number_format](http://www.php.net/manual/en/function.number-format.php)
