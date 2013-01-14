@@ -1,6 +1,5 @@
 ---
-published: false
-date: 2013-01-14 19:05
+date: 2013-01-14 13:40
 layout: post
 slug: 'traduzindo-apps-do-django'
 title: "Traduzindo apps do Django"
