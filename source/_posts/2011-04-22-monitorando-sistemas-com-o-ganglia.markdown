@@ -23,7 +23,7 @@ A configuração do Ganglia não é muito difícil, mas pode ser um tanto quanto
     # cp /etc/ganglia-webfrontend/apache.conf /etc/apache2/conf.d/ganglia.conf
     # /etc/init.d/apache2 reload
 
-Se você estiver monitorando apenas uma máquina, nenhuma configuração adicional é realmente necessária. Você poderia editar nome do cluster (que na verdade é um computador só) a ser exibido na página do Ganglia no arquivo "/etc/ganglia/gmond.conf" no bloco "cluster", que contém os parâmetros "name", "owner", "latlong" e "url". No arquivo "/etc/ganglia/gmetad.conf" você precisaria modificar o parâmetro "data_source", trocando "my cluster" pelo nome desejado. Em seguida, ao reiniciar os serviços "ganglia-monitor" e "gmetad" você poderá acompanhar a utilização dos recursos da máquina em tempo "quase" real.
+Se você estiver monitorando apenas uma máquina, nenhuma configuração adicional é realmente necessária. Você poderia editar nome do cluster (que na verdade é um computador só) a ser exibido na página do Ganglia no arquivo "/etc/ganglia/gmond.conf" no bloco "cluster", que contém os parâmetros "name", "owner", "latlong" e "url". No arquivo "/etc/ganglia/gmetad.conf" você precisaria modificar o parâmetro "data\_source", trocando "my cluster" pelo nome desejado. Em seguida, ao reiniciar os serviços "ganglia-monitor" e "gmetad" você poderá acompanhar a utilização dos recursos da máquina em tempo "quase" real.
 
 Para monitorar duas ou mais máquinas, você precisa configurar a forma de troca dos dados entre elas. Por padrão, o Ganglia utiliza multicast para isto e em alguns ambientes pode ser possível utilizá-lo sem realizar nenhuma modificação adicional. Em outros casos é preciso aumentar o TTL dos pacotes multicast ou definir uma rota estática. Às vezes isto pode nem mesmo ser possível, como no [caso do Amazon EC2](http://blog.kenweiner.com/2010/10/monitor-hbase-hadoop-with-ganglia-on.html). Você pode ver detalhes a respeito da segunda situação [nesta página](http://www.msg.ucsf.edu/local/ganglia/ganglia_docs/install.html).
 
@@ -35,7 +35,7 @@ Creio que a forma mais simples é utilizar unicast ao invés de multicast. Basta
         ttl = 1
     }
 
-E em seguida modificar o parâmetro "send_metadata_interval" no mesmo arquivo, trocando o "0" por um valor maior. O [FAQ oficial do Ganglia](http://sourceforge.net/apps/trac/ganglia/wiki/FAQ) recomenda 15 segundos. Em seguida, insira estas outras linhas no arquivo "/etc/ganglia/gmond.conf" do servidor qual monitora o cluster inteiro:
+E em seguida modificar o parâmetro "send\_metadata\_interval" no mesmo arquivo, trocando o "0" por um valor maior. O [FAQ oficial do Ganglia](http://sourceforge.net/apps/trac/ganglia/wiki/FAQ) recomenda 15 segundos. Em seguida, insira estas outras linhas no arquivo "/etc/ganglia/gmond.conf" do servidor qual monitora o cluster inteiro:
 
     udp_recv_channel {
         port = 8666
@@ -43,8 +43,8 @@ E em seguida modificar o parâmetro "send_metadata_interval" no mesmo arquivo, t
 
 Não é necessário remover ou comentar as rotas multicast já existentes pois as versões mais recentes do Ganglia suportam vários canais simultâneos.
 
-Por fim, para separar os clusters em grids (como na página do [Wikimedia Cloud Report](http://ganglia.wikimedia.org/)), você precisaria de duas ou mais instâncias do "gmetad". Cada uma contaria com um parâmetro "gridname" diferente e o servidor web qual reúne todos os dados teria dois ou mais parâmetros "data_source" referentes a cada uma das instâncias (incluindo o "localhost" já que ele normalmente também roda o "gmetad").
+Por fim, para separar os clusters em grids (como na página do [Wikimedia Cloud Report](http://ganglia.wikimedia.org/)), você precisaria de duas ou mais instâncias do "gmetad". Cada uma contaria com um parâmetro "gridname" diferente e o servidor web qual reúne todos os dados teria dois ou mais parâmetros "data\_source" referentes a cada uma das instâncias (incluindo o "localhost" já que ele normalmente também roda o "gmetad").
 
-Fontes não citadas no texto:  
+Referências:  
 1. [IBM developerWorks: Wikis - Systems - ganglia](http://www.ibm.com/developerworks/wikis/display/WikiPtype/ganglia)  
 2. [Server Fault: Ganglia without multicast](http://serverfault.com/questions/22269/ganglia-without-multicast)

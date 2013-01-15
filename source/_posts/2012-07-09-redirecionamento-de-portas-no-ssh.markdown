@@ -43,7 +43,7 @@ O detalhe que mais torna a situação dos túneis reversos, estes com a utiliza�
     [root@squeeze:~]# netstat -tap | grep 5901 | tr -s ' '
     tcp 0 0 localhost:5901 *:* LISTEN 2910/4
 
-Os parâmetros "**-tap**" listam todos os sockets TCP abertos em todas as interfaces rede, o "[grep](http://blog.myhro.info/2012/01/expressoes-regulares-grep-egrep-fgrep/)" filtra somente a porta que queremos e o "[tr](http://www.manpagez.com/man/1/tr/)" com o parâmetro "**-s**" remove os espaços desnecessários. Perceba que o servidor está aceitando conexões apenas na interface de rede "localhost" (127.0.0.1). Há duas formas de contornar isto: a forma segura e a não tão segura. A segunda consiste em tornar disponíveis globalmente estes sockets abertos pelo SSH, adicionando a opção "GatewayPorts yes" no arquivo de configuração do servidor SSH (no Debian é o "/etc/ssh/sshd_config") e em seguida reiniciando-o. Ao realizar novamente a conexão, veja como fica a porta aberta:
+Os parâmetros "**-tap**" listam todos os sockets TCP abertos em todas as interfaces rede, o "[grep](http://blog.myhro.info/2012/01/expressoes-regulares-grep-egrep-fgrep/)" filtra somente a porta que queremos e o "[tr](http://www.manpagez.com/man/1/tr/)" com o parâmetro "**-s**" remove os espaços desnecessários. Perceba que o servidor está aceitando conexões apenas na interface de rede "localhost" (127.0.0.1). Há duas formas de contornar isto: a forma segura e a não tão segura. A segunda consiste em tornar disponíveis globalmente estes sockets abertos pelo SSH, adicionando a opção "GatewayPorts yes" no arquivo de configuração do servidor SSH (no Debian é o "/etc/ssh/sshd\_config") e em seguida reiniciando-o. Ao realizar novamente a conexão, veja como fica a porta aberta:
 
     [root@squeeze:~]# netstat -tap | grep 5901 | tr -s ' '
     tcp 0 0 *:5901 *:* LISTEN 2996/4
@@ -70,5 +70,5 @@ Pode não parecer tão prático, mas veja alguns dos problemas que resolvemos e 
 
 O processo pode não ser tão simples, a princípio, mas a segurança e flexibilidade trazidas podem valer muito mais a pena do que simplesmente "abrir uma porta no modem". A internet hoje é uma selva. Não deixe a segurança de lado apenas porque "nunca aconteceu com você".
 
-Fontes não citadas no texto:  
+Referências:  
 [Howto use SSH local and remote port forwarding](http://www.debianadmin.com/howto-use-ssh-local-and-remote-port-forwarding.html)

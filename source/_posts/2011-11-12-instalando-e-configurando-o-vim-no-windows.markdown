@@ -14,9 +14,9 @@ O [Vim](http://www.vim.org/) é um editor de textos mítico. Lembro que fiz de t
 
 A verdade é que embora o Vim seja assustador em um primeiro contato, em poucos minutos é possível aprender seus comandos básicos e começar a amansar a fera. A partir do "[Vim tutor](http://vimdoc.sourceforge.net/htmldoc/usr_01.html#tutor)" (se você estiver usando o Linux pode acessá-lo com o comando "vimtutor"; no Windows há um atalho no menu iniciar), você pode seguir as 7 lições básicas e começar a se acostumar com os comandos mais comuns. Este guia é simplesmente um arquivo texto aberto com o próprio Vim. Você pode lê-lo, estudá-lo e praticá-lo quantas vezes sentir necessidade. Para relembrar rapidamente um comando esquecido, basta consultar a tabela "[vi/vim graphical cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)". A curva de aprendizado é acentuada, mas a recompensa é inigualável.
 
-Depois de realizada a instalação (qual sugiro que seja desmarcada a opção "_Add an Edit-with-Vim context menu entry_" - logo mais você entenderá porque), crie um arquivo chamado "_vimrc" no seu diretório pessoal ("C:\Documents and Settings\Usuario" no Windows XP ou "C:\Users\Usuario" no Windows Vista/7). Este arquivo é responsável pelas configurações que tornam o uso do Vim mais agradável e é completamente personalizável de acordo com o gosto do freguês.
+Depois de realizada a instalação (qual sugiro que seja desmarcada a opção "_Add an Edit-with-Vim context menu entry_" - logo mais você entenderá porque), crie um arquivo chamado "\_vimrc" no seu diretório pessoal ("C:\Documents and Settings\Usuario" no Windows XP ou "C:\Users\Usuario" no Windows Vista/7). Este arquivo é responsável pelas configurações que tornam o uso do Vim mais agradável e é completamente personalizável de acordo com o gosto do freguês.
 
-O meu "_vimrc" ficou assim:
+O meu "\_vimrc" ficou assim:
 
     " Desabilitar o mouse:
     set mouse=

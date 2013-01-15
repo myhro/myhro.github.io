@@ -16,5 +16,5 @@ Programar é difícil, principalmente porque pensar logicamente é difícil. Com
 
 Se você programa, por hobby ou profissão, seja atencioso com seu código. Não deixe de tornar mais claro um trecho do mesmo por preguiça ou por orgulho (o clássico: "se foi difícil para escrevê-lo, que seja mais ainda para lê-lo"). Comentários, que são a forma mais primitiva de documentação, são chatos porém necessários (algo que eu mesmo ignoro às vezes e estou tentando mudar). Indentação não é firula, é um processo extremamente simples de se organizar blocos de código na cabeça de quem o lê. Para o computador pouco importa se você indentou corretamente seu código ou colocou tudo em uma linha só. Exceto se você estiver programando em Python.
 
-Fontes não citadas no texto:  
+Referências:  
 OUALLINE, Steve. [Practical C Programming](http://shop.oreilly.com/product/9781565923065.do), 3rd Edition. Cambridge, MA: O'Reilly Media, 1997.
