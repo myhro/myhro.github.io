@@ -95,8 +95,7 @@ Como havia sugerido, desmarcando a opção de chamar o Vim pelo menu de contexto
 
     REGEDIT4
     [HKEY_CLASSES_ROOT\*\Shell\Edit with &Vim\command]
-    @="\"C:\\Program Files (x86)\\Vim\\vim73\\gvim.exe\"
-    -p --remote-tab-silent \"%1\" \"%*\""
+    @="\"C:\\Program Files (x86)\\Vim\\vim73\\gvim.exe\" -p --remote-tab-silent \"%1\" \"%*\""
 
 Para ter acesso ao recuso "auto-complete", que como disse, se não configurá-lo para cada linguagem ele não vai ser perfeito (mesmo assim quebra um galho), basta baixar o plugin [SuperTab](http://www.vim.org/scripts/script.php?script_id=1643) e colocar o [arquivo ".vim"](https://github.com/ervandew/supertab/blob/master/plugin/supertab.vim) na pasta "C:\Program Files (x86)\Vim\vim73\plugin". Daí em diante o Vim passará a carregar o plugin automaticamente e você pode completar os nomes das funções utilizando a tecla "Tab". Só preste atenção no nome da pasta onde o Vim está instalado, pois pode não ser o mesmo se a versão do seu Windows não for 64 bits.
 
