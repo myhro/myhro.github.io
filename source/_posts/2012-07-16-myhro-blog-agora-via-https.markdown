@@ -1,7 +1,6 @@
 ---
 date: 2012-07-16 11:05:51
 layout: post
-slug: myhro-blog-agora-via-https
 title: Myhro Blog agora via HTTPS
 categories:
 - seguranca

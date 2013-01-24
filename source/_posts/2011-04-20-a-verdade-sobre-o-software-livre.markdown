@@ -1,7 +1,6 @@
 ---
 date: 2011-04-20 22:06:45
 layout: post
-slug: a-verdade-sobre-o-software-livre
 title: A verdade sobre o Software Livre
 categories:
 - foss

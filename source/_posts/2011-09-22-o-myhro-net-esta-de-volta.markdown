@@ -1,7 +1,6 @@
 ---
 date: 2011-09-22 13:37:36
 layout: post
-slug: o-myhro-net-esta-de-volta
 title: O Myhro.net está de volta!
 categories:
 - myhro.net

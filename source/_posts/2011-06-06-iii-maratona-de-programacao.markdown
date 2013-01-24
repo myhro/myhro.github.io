@@ -1,7 +1,6 @@
 ---
 date: 2011-06-06 11:09:21
 layout: post
-slug: iii-maratona-de-programacao
 title: III Maratona de Programação
 categories:
 - maratona

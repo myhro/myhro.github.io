@@ -1,7 +1,6 @@
 ---
 date: 2011-07-08 13:45:52
 layout: post
-slug: poo-parte-2-heranca-e-polimorfismo
 title: 'POO Parte 2: Herança e Polimorfismo'
 categories:
 - poo

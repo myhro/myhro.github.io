@@ -1,7 +1,6 @@
 ---
 date: 2012-09-21 19:14:41
 layout: post
-slug: problemas-recentes-com-o-myhro-net
 title: Problemas recentes com o Myhro.net
 categories:
 - myhro.net

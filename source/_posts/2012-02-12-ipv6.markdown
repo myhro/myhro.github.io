@@ -1,7 +1,6 @@
 ---
 date: 2012-02-12 10:31:35
 layout: post
-slug: ipv6
 title: IPv6
 categories:
 - ipv6

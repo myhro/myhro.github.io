@@ -1,7 +1,6 @@
 ---
 date: 2011-11-12 10:19:25
 layout: post
-slug: instalando-e-configurando-o-vim-no-windows
 title: Instalando e configurando o Vim no Windows
 categories:
 - vim

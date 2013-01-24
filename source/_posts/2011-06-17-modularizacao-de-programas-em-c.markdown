@@ -1,7 +1,6 @@
 ---
 date: 2011-06-17 19:07:17
 layout: post
-slug: modularizacao-de-programas-em-c
 title: Modularização de programas em C
 categories:
 - c

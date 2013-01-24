@@ -1,7 +1,6 @@
 ---
 date: 2011-07-03 14:39:24
 layout: post
-slug: dd-wrt
 title: DD-WRT
 categories:
 - dd-wrt

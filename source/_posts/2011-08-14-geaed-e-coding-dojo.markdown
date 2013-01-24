@@ -1,7 +1,6 @@
 ---
 date: 2011-08-14 11:37:43
 layout: post
-slug: geaed-e-coding-dojo
 title: GEAED e Coding Dojo
 categories:
 - programacao

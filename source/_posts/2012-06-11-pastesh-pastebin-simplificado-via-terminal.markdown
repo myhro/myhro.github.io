@@ -1,7 +1,6 @@
 ---
 date: 2012-06-11 09:49:00
 layout: post
-slug: pastesh-pastebin-simplificado-via-terminal
 title: 'PasteSH: pastebin simplificado, via terminal'
 categories:
 - pastebin

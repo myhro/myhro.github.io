@@ -1,7 +1,6 @@
 ---
 date: 2011-05-30 11:21:06
 layout: post
-slug: manifesto-sobre-a-educacao
 title: Manifesto sobre a educação
 categories:
 - educacao

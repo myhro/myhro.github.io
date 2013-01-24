@@ -1,7 +1,6 @@
 ---
 date: 2011-07-13 06:52:04
 layout: post
-slug: porque-um-sysadmin-tem-de-saber-programar
 title: Porque um sysadmin tem de saber "programar"
 categories:
 - linux

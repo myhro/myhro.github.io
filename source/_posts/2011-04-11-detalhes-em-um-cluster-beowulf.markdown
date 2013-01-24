@@ -1,7 +1,6 @@
 ---
 date: 2011-04-11 23:46:21
 layout: post
-slug: detalhes-em-um-cluster-beowulf
 title: Detalhes em um Cluster "Beowulf"
 categories:
 - cluster

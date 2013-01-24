@@ -1,7 +1,6 @@
 ---
 date: 2011-09-01 13:39:57
 layout: post
-slug: inscricoes-do-gitday
 title: 'Inscrições do #gitday'
 categories:
 - educacao

@@ -1,7 +1,6 @@
 ---
 date: 2012-06-20 22:31:03
 layout: post
-slug: automatizando-o-deploy-com-o-git
 title: Automatizando o deploy com o Git
 categories:
 - deploy

@@ -1,7 +1,6 @@
 ---
 date: 2011-05-08 21:42:18
 layout: post
-slug: dica-do-dia-screen
 title: 'Dica do dia: Screen'
 categories:
 - linux

@@ -1,7 +1,6 @@
 ---
 date: 2011-04-22 11:23:29
 layout: post
-slug: monitorando-sistemas-com-o-ganglia
 title: Monitorando sistemas com o Ganglia
 categories:
 - ganglia

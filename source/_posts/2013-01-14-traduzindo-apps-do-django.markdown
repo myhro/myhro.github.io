@@ -1,7 +1,6 @@
 ---
 date: 2013-01-14 13:40
 layout: post
-slug: 'traduzindo-apps-do-django'
 title: "Traduzindo apps do Django"
 categories: 
 - django

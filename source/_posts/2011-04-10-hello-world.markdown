@@ -1,7 +1,6 @@
 ---
 date: 2011-04-10 19:43:37
 layout: post
-slug: hello-world
 title: Hello World!
 categories:
 - primeiro-post

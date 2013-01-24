@@ -1,7 +1,6 @@
 ---
 date: 2012-07-27 13:57:47
 layout: post
-slug: encriptando-seus-dados-pessoais-no-dropbox
 title: Encriptando seus dados pessoais no Dropbox
 categories:
 - backup

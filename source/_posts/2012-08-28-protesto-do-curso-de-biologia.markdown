@@ -1,7 +1,6 @@
 ---
 date: 2012-08-28 14:30:09
 layout: post
-slug: protesto-do-curso-de-biologia
 title: Protesto do Curso de Biologia
 categories:
 - preocupacoes

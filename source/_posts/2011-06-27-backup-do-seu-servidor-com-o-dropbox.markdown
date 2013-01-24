@@ -1,7 +1,6 @@
 ---
 date: 2011-06-27 10:01:57
 layout: post
-slug: backup-do-seu-servidor-com-o-dropbox
 title: Backup do seu servidor com o Dropbox
 categories:
 - backup

@@ -1,7 +1,6 @@
 ---
 date: 2011-11-22 22:32:23
 layout: post
-slug: adminer
 title: Adminer
 categories:
 - bd

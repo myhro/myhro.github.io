@@ -1,7 +1,6 @@
 ---
 date: 2011-06-18 22:38:54
 layout: post
-slug: saldo-da-maratona
 title: Saldo da Maratona
 categories:
 - maratona

@@ -1,7 +1,6 @@
 ---
 date: 2011-08-20 10:37:17
 layout: post
-slug: git-para-principiantes
 title: Git para principiantes
 categories:
 - git

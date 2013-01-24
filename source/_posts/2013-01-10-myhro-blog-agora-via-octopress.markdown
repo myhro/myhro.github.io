@@ -1,7 +1,6 @@
 ---
 date: 2013-01-10 18:08
 layout: post
-slug: 'myhro-blog-agora-via-octopress'
 title: "Myhro Blog agora via Octopress"
 categories: 
 - octopress

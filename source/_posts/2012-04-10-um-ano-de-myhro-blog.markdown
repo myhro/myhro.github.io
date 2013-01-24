@@ -1,7 +1,6 @@
 ---
 date: 2012-04-10 23:59:22
 layout: post
-slug: um-ano-de-myhro-blog
 title: Um ano de Myhro Blog!
 categories:
 - aniversario

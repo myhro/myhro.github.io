@@ -1,7 +1,6 @@
 ---
 date: 2011-07-04 12:32:13
 layout: post
-slug: poo-parte-1-classes-e-objetos
 title: 'POO Parte 1: Classes e Objetos'
 categories:
 - poo

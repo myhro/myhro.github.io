@@ -1,7 +1,6 @@
 ---
 date: 2012-03-17 13:19:59
 layout: post
-slug: o-futuro-do-dcc-unimontes
 title: O Futuro do DCC Unimontes
 categories:
 - educacao

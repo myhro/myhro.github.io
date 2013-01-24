@@ -1,7 +1,6 @@
 ---
 date: 2011-12-06 17:45:02
 layout: post
-slug: caso-do-notebook-um-final-feliz
 title: 'Caso do notebook: um final feliz'
 categories:
 - seguranca

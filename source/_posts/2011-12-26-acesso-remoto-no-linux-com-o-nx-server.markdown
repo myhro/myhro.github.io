@@ -1,7 +1,6 @@
 ---
 date: 2011-12-26 11:00:50
 layout: post
-slug: acesso-remoto-no-linux-com-o-nx-server
 title: Acesso remoto no Linux com o NX Server
 categories:
 - linux

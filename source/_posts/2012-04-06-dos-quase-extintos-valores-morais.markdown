@@ -1,7 +1,6 @@
 ---
 date: 2012-04-06 11:36:13
 layout: post
-slug: dos-quase-extintos-valores-morais
 title: Dos quase extintos valores morais
 categories:
 - comportamento

@@ -1,7 +1,6 @@
 ---
 date: 2012-02-26 23:17:30
 layout: post
-slug: programacao-atencao
 title: Programação == Atenção
 categories:
 - c

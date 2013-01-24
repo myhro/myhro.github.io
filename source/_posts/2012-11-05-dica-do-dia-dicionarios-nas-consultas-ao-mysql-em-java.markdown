@@ -1,7 +1,6 @@
 ---
 date: 2012-11-05 20:08:34
 layout: post
-slug: dica-do-dia-dicionarios-nas-consultas-ao-mysql-em-java
 title: 'Dica do dia: dicionários nas consultas ao MySQL em Java'
 categories:
 - bd

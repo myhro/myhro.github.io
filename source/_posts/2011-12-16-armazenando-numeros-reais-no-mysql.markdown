@@ -1,7 +1,6 @@
 ---
 date: 2011-12-16 09:54:19
 layout: post
-slug: armazenando-numeros-reais-no-mysql
 title: Armazenando números reais no MySQL
 categories:
 - bd

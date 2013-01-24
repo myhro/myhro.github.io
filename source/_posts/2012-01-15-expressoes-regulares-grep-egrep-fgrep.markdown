@@ -1,7 +1,6 @@
 ---
 date: 2012-01-15 20:17:20
 layout: post
-slug: expressoes-regulares-grep-egrep-fgrep
 title: 'Expressões regulares: grep, egrep, fgrep'
 categories:
 - er

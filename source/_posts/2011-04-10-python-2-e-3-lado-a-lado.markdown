@@ -1,7 +1,6 @@
 ---
 date: 2011-04-10 23:14:33
 layout: post
-slug: python-2-e-3-lado-a-lado
 title: Python 2 e 3 lado a lado
 categories:
 - python

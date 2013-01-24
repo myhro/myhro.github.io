@@ -1,7 +1,6 @@
 ---
 date: 2011-10-26 17:08:19
 layout: post
-slug: carta-aberta-as-autoridades-servidores-professores-e-academicos-da-unimontes
 title: Carta aberta às autoridades, servidores, professores e acadêmicos da Unimontes
 categories:
 - carta-aberta

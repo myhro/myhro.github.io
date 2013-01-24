@@ -1,7 +1,6 @@
 ---
 date: 2011-09-15 23:50:51
 layout: post
-slug: saldo-do-gitday
 title: 'Saldo do #gitday'
 categories:
 - educacao

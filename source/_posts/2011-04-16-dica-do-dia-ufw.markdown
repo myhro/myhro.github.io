@@ -1,7 +1,6 @@
 ---
 date: 2011-04-16 16:21:37
 layout: post
-slug: dica-do-dia-ufw
 title: 'Dica do dia: UFW'
 categories:
 - firewall

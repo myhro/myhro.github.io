@@ -1,7 +1,6 @@
 ---
 date: 2011-07-21 21:33:30
 layout: post
-slug: hora-certa
 title: Hora certa
 categories:
 - ntp

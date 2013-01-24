@@ -1,7 +1,6 @@
 ---
 date: 2011-10-07 12:01:23
 layout: post
-slug: o-firewall-esta-bloqueando-seu-acesso-ao-github
 title: O firewall está bloqueando seu acesso ao GitHub?
 categories:
 - firewall

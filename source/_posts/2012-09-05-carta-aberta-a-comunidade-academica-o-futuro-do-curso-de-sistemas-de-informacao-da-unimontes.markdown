@@ -1,7 +1,6 @@
 ---
 date: 2012-09-05 09:19:33
 layout: post
-slug: carta-aberta-a-comunidade-academica-o-futuro-do-curso-de-sistemas-de-informacao-da-unimontes
 title: 'Carta Aberta à Comunidade Acadêmica: O Futuro do Curso de Sistemas de Informação da Unimontes'
 categories:
 - carta-aberta

@@ -1,7 +1,6 @@
 ---
 date: 2012-10-12 10:06:19
 layout: post
-slug: anatomia-de-um-golpe-no-mercado-livre
 title: Anatomia de um Golpe no Mercado Livre
 categories:
 - comportamento

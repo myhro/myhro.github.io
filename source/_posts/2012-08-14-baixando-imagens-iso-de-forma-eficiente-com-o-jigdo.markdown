@@ -1,7 +1,6 @@
 ---
 date: 2012-08-14 09:26:23
 layout: post
-slug: baixando-imagens-iso-de-forma-eficiente-com-o-jigdo
 title: Baixando imagens ISO de forma eficiente com o jigdo
 categories:
 - linux

@@ -1,7 +1,6 @@
 ---
 date: 2012-05-21 12:00:03
 layout: post
-slug: utilizando-o-pipe
 title: Utilizando o pipe
 categories:
 - linux

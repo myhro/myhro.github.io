@@ -1,7 +1,6 @@
 ---
 date: 2012-07-09 10:28:55
 layout: post
-slug: redirecionamento-de-portas-no-ssh
 title: Redirecionamento de portas no SSH
 categories:
 - seguranca

@@ -1,7 +1,6 @@
 ---
 date: 2012-08-25 10:52:18
 layout: post
-slug: backports-alternativo-para-o-debian-myhro-ports
 title: 'Backports alternativo para o Debian: Myhro Ports'
 categories:
 - debian

@@ -1,7 +1,6 @@
 ---
 date: 2011-08-01 09:34:41
 layout: post
-slug: as-maravilhas-das-telecomunicacoes
 title: As maravilhas das telecomunicações
 categories:
 - educacao

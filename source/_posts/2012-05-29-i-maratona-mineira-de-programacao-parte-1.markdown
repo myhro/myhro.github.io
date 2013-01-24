@@ -1,7 +1,6 @@
 ---
 date: 2012-05-29 11:08:42
 layout: post
-slug: i-maratona-mineira-de-programacao-parte-1
 title: I Maratona Mineira de Programação, Parte 1
 categories:
 - maratona

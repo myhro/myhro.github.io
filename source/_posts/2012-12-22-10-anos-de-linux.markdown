@@ -1,7 +1,6 @@
 ---
 date: 2012-12-22 13:21:10
 layout: post
-slug: 10-anos-de-linux
 title: 10 anos de Linux
 categories:
 - aniversario

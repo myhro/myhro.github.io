@@ -1,7 +1,6 @@
 ---
 date: 2011-05-15 23:59:30
 layout: post
-slug: coisas-que-todo-universitario-deveria-saber-latex
 title: 'Coisas que todo universitário deveria saber: LaTeX'
 categories:
 - educacao

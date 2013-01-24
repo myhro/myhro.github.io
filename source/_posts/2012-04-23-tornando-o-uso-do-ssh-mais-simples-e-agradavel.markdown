@@ -1,7 +1,6 @@
 ---
 date: 2012-04-23 07:48:09
 layout: post
-slug: tornando-o-uso-do-ssh-mais-simples-e-agradavel
 title: Tornando o uso do SSH mais simples e agradável
 categories:
 - linux

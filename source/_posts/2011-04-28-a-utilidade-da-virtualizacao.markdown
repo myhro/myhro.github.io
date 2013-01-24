@@ -1,7 +1,6 @@
 ---
 date: 2011-04-28 10:19:43
 layout: post
-slug: a-utilidade-da-virtualizacao
 title: A utilidade da virtualização
 categories:
 - virtualizacao
