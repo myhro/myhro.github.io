@@ -11,7 +11,6 @@ Até hoje, em quase um ano de blog, publiquei aqui apenas textos de minha autori
 
 Segue o texto, completamente inalterado, com sua devida permissão para publicação. Os destaques em negrito, inclusive, foram feitos pelo autor.
 
-> 
 > **O Futuro do Departamento de Ciências da Computação da Unimontes: Uma (Breve) Reflexão**
 > 
 > Prezados Colegas,
@@ -23,7 +22,7 @@ Segue o texto, completamente inalterado, com sua devida permissão para publica�
 >   * O que **você deseja** para o futuro do Departamento de Ciências da Computação da Unimontes?
 > 
 > Assumindo que **todos desejam um futuro promissor** para o Departamento de Ciências da Computação da Unimontes, peço que você agora reflita sobre a seguinte questão:
->
+> 
 >   * O que **você faz** para que o futuro do Departamento de Ciências da Computação da Unimontes seja promissor?
 > 
 > Acredito que todos devem estar pensando: ora, **eu dou aulas**! Sim, é verdade, nós “damos” aulas! Mas isso é **suficiente** para que o futuro do DCC seja **promissor**? Para além de **“dar” (boas) aulas**, a **contribuição mínima** que cada um de nós pode dar para o crescimento do nosso departamento é **empreender algum esforço para pelo menos estar presente nos eventos que ocorrem e/ou são organizados pelo próprio departamento**. Incomoda-me **intensamente** escutar muitos colegas **afirmando** que os acadêmicos precisam ser **menos passivos**, que cada acadêmico deve ser mais do que **“apenas um aluno”** e perceber que no cotidiano cada um desses colegas é **“apenas um professor”**. A Universidade deve ser edificada tendo como base **três elementos** que devem ser **indissociáveis: ensino, pesquisa e extensão**. Sendo assim, reflita sobre o que, **além de “dar aulas”** (e essa ação, **por si só**, não representa de fato uma **real contribuição para o ensino**), você faz para que o futuro do DCC seja promissor: você empreende esforços em **atividades de pesquisa e/ou em atividades de extensão**? É claro que questões como **remuneração** e **condições de trabalho** são salutares para essa discussão, mas, tal como já comentei, a **característica fundamental** é o **interesse**.
@@ -31,4 +30,3 @@ Segue o texto, completamente inalterado, com sua devida permissão para publica�
 > Ingressei na Unimontes como docente em 2005 e tenho percebido que o nosso departamento **progrediu pouco** desde então: atrevo-me a dizer que ele **ficou estagnado por grande parte do tempo que se passou entre 2005 e 2012**. Hoje, dormirei **triste**, **frustrado** e **preocupado**: ao sentir a **falta de interesse de meus colegas**, pergunto-me **quando a realidade de estagnação se transformará em decadência**... Felizmente, o que aconteceu hoje também **alimentou a minha esperança**: o evento foi uma **iniciativa dos acadêmicos**: pelo menos alguns deles estão **lutando contra a tentação de “ser apenas mais um”**...
 > 
 > **Renato Dourado Maia**
->

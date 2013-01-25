@@ -17,8 +17,6 @@ Na semana passada estive conversando com um colega a respeito da diferença (ine
 
 Tenho a impressão que cada vez mais as pessoas se importam menos com valores morais. O [caso recente](http://g1.globo.com/politica/noticia/2012/03/jn-mostra-novas-gravacoes-da-pf-sobre-o-caso-demostenes-torres.html) do Senador Demóstenes Torres é muito mais triste do que parece, por se tratar de uma pessoa que [por diversas vezes discursou a favor da moralidade e contra a corrupção](http://g1.globo.com/politica/noticia/2012/04/demostenes-ja-pediu-expulsao-sumaria-veja-frases.html). Esta [entrevista/desabafo com o Senador Pedro Simon](http://veja.abril.com.br/blog/ricardo-setti/politica-cia/entrevista-desabafo-do-senador-pedro-simon-a-grande-referencia-moral-do-congresso-os-bons-homens-ja-morreram-o-pt-apodreceu-mensalao-sera-o-maior-momento-da-historia-do-sup/), alguém com mais de 20 anos de Senado e outros mais de 50 de vida pública, retrata muito do momento em que estamos passando no nosso país. Cabe aqui uma frase do, já citado, ilustríssimo Rui Barbosa:
 
+> "De tanto ver triunfar as nulidades, de tanto ver prosperar a desonra, de tanto ver crescer a injustiça, de tanto ver agigantarem-se os poderes nas mãos dos maus, o homem chega a desanimar da virtude, a rir-se da honra, a ter vergonha de ser honesto... 
 > 
-> "De tanto ver triunfar as nulidades, de tanto ver prosperar a desonra, de tanto ver crescer a injustiça, de tanto ver agigantarem-se os poderes nas mãos dos maus, o homem chega a desanimar da virtude, a rir-se da honra, a ter vergonha de ser honesto..."
-> 
-
-(Senador Rui Barbosa, em seu discurso na sessão do dia 17 de dezembro de 1914 no Senado Federal.)
+> -- Senador Rui Barbosa, em seu discurso na sessão do dia 17 de dezembro de 1914 no Senado Federal.

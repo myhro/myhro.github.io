@@ -19,8 +19,6 @@ Isso sem falar nas ditas instituições privadas de ensino superior, que salvo p
 
 Dizem que um governo é o reflexo do seu povo. Vivemos em um país onde temos uma presidenta eleita apenas pela popularidade do seu antecessor (que tem [mostrado seus interesses](http://oglobo.globo.com/economia/miriam/posts/2011/05/29/turbulencia-no-voo-383032.asp) recentemente). Nosso excelentíssimo ex-presidente (ou seria atual?), embora seja uma das pouquíssimas pessoas bem sucedidas sem estudo, faz questão de [pregar a política da ignorância](http://g1.globo.com/politica/noticia/2011/04/fhc-desafia-lula-para-nova-disputa-e-diz-que-ele-esta-mamando-na-elite.html). Não é difícil de imaginar a qualidade da educação que seus eleitores receberam e irão continuar recebendo. Ao final, basta colher os frutos. Uma pena que apenas os poderosos os estejam colhendo. Nas urnas, a cada 2 ou 4 anos.
 
-> 
 > "Educação é a bala de prata. Educação é tudo. Não precisamos de pequenas mudanças, precisamos de mudanças gigantescas, mudanças monumentais. Escolas deveriam ser palácios. A competição pelos melhores professores deveria ser selvagem; eles deveriam ganhar salários de 6 dígitos. Escolas deveriam ser incrivelmente caras para o Governo e absolutamente gratuitas para os cidadãos, como a Defesa Nacional."
 > 
-
-(Frase do personagem [Sam Seaborn](http://westwing.bewarne.com/sam.html), interpretado por [Rob Lowe](http://www.imdb.com/name/nm0000507/) no seriado [The West Wing](http://www.imdb.com/title/tt0200276/). Embora dita pensando na realidade norte-americana, adapta-se perfeitamente a qualquer nação.)
+> -- Frase do personagem [Sam Seaborn](http://westwing.bewarne.com/sam.html), interpretado por [Rob Lowe](http://www.imdb.com/name/nm0000507/) no seriado [The West Wing](http://www.imdb.com/title/tt0200276/). Embora dita pensando na realidade norte-americana, adapta-se perfeitamente a qualquer nação.

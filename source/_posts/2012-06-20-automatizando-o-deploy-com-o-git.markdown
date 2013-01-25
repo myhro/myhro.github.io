@@ -16,11 +16,9 @@ A linguagem utilizada no script fica a critério do freguês, uma vez que o inte
 
 A única diferença é que, no primeiro caso, você faria diversos "pushes" ao longo do desenvolvimento de um projeto, mas nem sempre gostaria que este código mais recente fosse para a produção. Enquanto, no segundo, você só enviaria o código "pronto" (na verdade o código nunca está pronto - sempre cabe uma melhoria, mesmo que pequena) quando o único destino deste fosse a produção. Descreverei um possível workflow para a primeira opção, mas no fundo vocês verão que a ideia é basicamente a mesma: só vai para produção o que estiver no [branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging) "master".
 
-> 
 > **Workflow**
 > 
 > Um ou mais programadores trabalham no código, enviando os commits relevantes para o servidor. Ele(s) sabe(m) que o branch "master" é sagrado e por isto jamais deve(m) commitar as mudanças diretamente nele. Desta forma, um programador possui diversos branches paralelos, como "bugfix", "testing", "newfeature", etc. Muitas vezes, embora nem sempre, o código destes branches precisa ser compartilhado entre vários programadores. Para isto, basta enviar o código para o servidor com um push, como "git push origin bugfix". Quando o código está maduro, este é mesclado à árvore presente no "master" e o branch onde o mesmo foi criado é apagado. Com o "master" contendo sempre o código estável, é natural que apenas este vá para a produção. Quando o servidor recebe um push com alterações presentes no branch "master", o script de deploy é então executado.
-> 
 
 O primeiro script que utilizei para automatizar o deploy com o Git era baseado [neste do Abhijit Menon-Sen](http://toroid.org/ams/git-website-howto), mas a versão atual tem suas ideias oriundas da [versão criada pelo Jon Brisbin](http://jbrisbin.com/web2/articles/rails-application-deployment-with-git/). A diferença, na verdade, reside no fato dele ter sido simplificado para utilizar apenas um único arquivo e também verificar qual branch foi recebido. O script, como foi dito, deve ficar na pasta "hooks" do repositório remoto. Isto é muito importante, pois de nada adianta criar o arquivo em seu repositório local e esperar que ele venha a ser enviado no próximo push.
 

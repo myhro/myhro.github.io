@@ -13,8 +13,5 @@ Ao final do evento, criamos [um repositório](https://github.com/myhro/gitday) n
 
 Espero que o [#gitday](http://twitter.com/search/realtime/%23gitday) lhes tenha sido útil. 4 horas e 67 slides não são suficientes pra se dominar o Git, mas é um passo firme dado nesta ferramenta tão rica e de utilidade quase inenarrável. Lembrando o quote da camisa qual Herberth estava vestindo:
 
-> 
-> "Every thousand mile journey begins with a single step."
-> 
->(Confúcio, pensador e filósofo chinês (551 A.C. - 479 D.C.))
->
+> "Every thousand mile journey begins with a single step."  
+> -- Confúcio, pensador e filósofo chinês (551 A.C. - 479 D.C.)

@@ -26,8 +26,5 @@ Observações:
 
 Os códigos estão disponíveis, como sempre, no [nosso repositório do GitHub](https://github.com/myhro/GEAED). A implementação do algoritmo dos dígitos verificadores do CPF tem o código pré-refatoração comentado, deixando visível a mudança para um código bem mais "[pythônico](http://faassen.n--tree.net/blog/view/weblog/2005/08/06/0)". Como um famoso programador certa vez disse:
 
-> 
-> "Keep refactoring as Johnnie keep walking."
-([AMARAL, Herberth](http://herberthamaral.com/))
-> 
-> 
+> "Keep refactoring as Johnnie keep walking."  
+> -- [AMARAL, Herberth](http://herberthamaral.com/)
