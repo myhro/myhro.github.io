@@ -15,6 +15,6 @@ GitHub: [myhro](https://github.com/myhro)
 E-mail: [contato@myhro.info](mailto:contato@myhro.info)
 
 Todos os textos aqui publicados estão disponíveis sob licença:  
-[Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)](http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR)
+[Creative Commons Atribuição-NãoComercial 3.0 Não Adaptada (CC BY-NC 3.0)](http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR)
 
 [{% img center /images/ccbync.png %}](http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR)
