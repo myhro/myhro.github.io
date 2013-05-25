@@ -13,11 +13,11 @@ Entretanto, por mais agradável que esteja sendo minha experiência com o Debian
 
 Vale ressaltar que se estas versões citadas do Firefox/Iceweasel satisfazem suas necessidades de navegação, não há motivo para instalar uma versão mais nova que as presentes nos repositórios. Os desenvolvedores do Debian se preocupam muito com estabilidade e segurança (principal motivo de não se encontrar as últimas versões dos pacotes na distribuição), portando correções presentes nas versões mais novas para estas mais antigas, quando necessário. Um dos motivos que me levaram a atualizar para a versão 19, por exemplo, é o [suporte a leitura de PDFs embutido no navegador](http://www.h-online.com/open/news/item/Firefox-19-brings-PDF-viewer-and-4-critical-security-fixes-1806437.html), sem plugins externos.
 
-O primeiro passo é baixar o Firefox, seja a [última versão](http://www.mozilla.org/en-US/firefox/all/) ou a [versão de suporte extendido](http://www.mozilla.org/en-US/firefox/organizations/all.html). Se você utiliza a versão 64 bits do Debian, mais conhecida como [amd64](http://www.debian.org/ports/amd64/), é necessário efetuar o download direto do [FTP da Mozilla](https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/), escolhendo a versão "linux-x86\_64". É possível começar a utilizar o Firefox de imediato, apenas descompactando o arquivo baixado, mas é muito mais interessante integrá-lo corretamente ao sistema. Ao invés de descompactá-lo em sua pasta pessoal, é recomendável deixá-lo em uma pasta como a **/usr/local/** ou **/opt/**, de forma que outros usuários do sistema também possam utilizá-lo, se for o caso. Além disto, manter a instalação em uma pasta onde seu usuário não tenha permissão de escrita é uma nova camada de segurança, já que os arquivos lá seriam modificados apenas se você utilizasse o "root" explicitamente para isto. Descompactando o arquivo [bz2](https://en.wikipedia.org/wiki/Bzip2):
+O primeiro passo é baixar o Firefox, seja a [última versão](http://www.mozilla.org/en-US/firefox/all/) ou a [versão de suporte extendido](http://www.mozilla.org/en-US/firefox/organizations/all.html). Se você utiliza a versão 64 bits do Debian, mais conhecida como [amd64](http://www.debian.org/ports/amd64/), é necessário efetuar o download direto do [FTP da Mozilla](https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/), escolhendo a versão "linux-x86\_64". É possível começar a utilizar o Firefox de imediato, apenas descompactando o arquivo baixado, mas é muito mais interessante integrá-lo corretamente ao sistema. Ao invés de descompactá-lo em sua pasta pessoal, é recomendável deixá-lo em uma pasta como a `/usr/local/` ou `/opt/`, de forma que outros usuários do sistema também possam utilizá-lo, se for o caso. Além disto, manter a instalação em uma pasta onde seu usuário não tenha permissão de escrita é uma nova camada de segurança, já que os arquivos lá seriam modificados apenas se você utilizasse o "root" explicitamente para isto. Descompactando o arquivo [bz2](https://en.wikipedia.org/wiki/Bzip2):
 
-    [myhro@squeeze:~]$ sudo tar jxf firefox-19.0.tar.bz2 -C /usr/local/
+    [myhro@squeeze:~]$ sudo tar jxf firefox-19.0.tar.bz2 -C /opt/
 
-O próximo passo é criar um arquivo chamado "firefox.desktop" na pasta **/usr/share/applications/**, com o seguinte conteúdo:
+O próximo passo é criar um arquivo chamado `firefox.desktop` na pasta `/usr/share/applications/` com o seguinte conteúdo:
 
 ```
 [Desktop Entry]
@@ -26,15 +26,15 @@ Name=Mozilla Firefox
 Comment=Browse the World Wide Web
 Type=Application
 Terminal=false
-Exec=/usr/local/firefox/firefox %U
-Icon=/usr/local/firefox/icons/mozicon128.png
+Exec=/opt/firefox/firefox %U
+Icon=/opt/firefox/browser/icons/mozicon128.png
 StartupNotify=true
 Categories=Network;WebBrowser;
 ```
 
 Desta forma, um atalho do Firefox será criado nos menus do Gnome/LXDE (e provavelmente outros gerenciadores de janelas, sendo estes os que tenho contato). Com apenas estes passos você já terá um atalho funcional e poderá utilizá-lo normalmente, mas o fato dele não estar definido como navegador padrão fará com que qualquer link clicado em outro programa não seja aberto por ele. Para solucionar isto, utilizaremos o comando "[update-alternatives](http://www.debian-administration.org/articles/91)", adicionando o Firefox e escolhendo-o como navegador padrão do ambiente gráfico.
 
-    [myhro@squeeze:~]$ sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/local/firefox/firefox 50
+    [myhro@squeeze:~]$ sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /opt/firefox/firefox 50
     [myhro@squeeze:~]$ sudo update-alternatives --config x-www-browser 
     There are 3 choices for the alternative x-www-browser (providing /usr/bin/x-www-browser).
 
@@ -43,14 +43,14 @@ Desta forma, um atalho do Firefox será criado nos menus do Gnome/LXDE (e provav
     * 0            /usr/bin/google-chrome       200       auto mode
       1            /usr/bin/google-chrome       200       manual mode
       2            /usr/bin/iceweasel           70        manual mode
-      3            /usr/local/firefox/firefox   50        manual mode
+      3            /opt/firefox/firefox   50        manual mode
 
     Press enter to keep the current choice[*], or type selection number: 3
-    update-alternatives: using /usr/local/firefox/firefox to provide /usr/bin/x-www-browser (x-www-browser) in manual mode.
+    update-alternatives: using /opt/firefox/firefox to provide /usr/bin/x-www-browser (x-www-browser) in manual mode.
 
-No caso do Gnome, é necessário definir o Firefox como alternativa para o "gnome-www-browser" também. O comando é praticamente o mesmo, apenas substituindo "x-www-browser" por "gnome-www-browser":
+No caso do Gnome, é necessário definir o Firefox como alternativa para o `gnome-www-browser` também. O comando é praticamente o mesmo, apenas substituindo `x-www-browser` por `gnome-www-browser`:
 
-    [myhro@squeeze:~]$ sudo update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/local/firefox/firefox 50
+    [myhro@squeeze:~]$ sudo update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /opt/firefox/firefox 50
     [myhro@squeeze:~]$ sudo update-alternatives --config gnome-www-browser
     There are 3 choices for the alternative gnome-www-browser (providing /usr/bin/gnome-www-browser).
 
@@ -59,10 +59,10 @@ No caso do Gnome, é necessário definir o Firefox como alternativa para o "gnom
     * 0            /usr/bin/google-chrome       200       auto mode
       1            /usr/bin/google-chrome       200       manual mode
       2            /usr/bin/iceweasel           70        manual mode
-      3            /usr/local/firefox/firefox   50        manual mode
+      3            /opt/firefox/firefox   50        manual mode
 
     Press enter to keep the current choice[*], or type selection number: 3
-    update-alternatives: using /usr/local/firefox/firefox to provide /usr/bin/gnome-www-browser (gnome-www-browser) in manual mode.
+    update-alternatives: using /opt/firefox/firefox to provide /usr/bin/gnome-www-browser (gnome-www-browser) in manual mode.
 
 Para testar se o Firefox está realmente configurado como navegador padrão, você pode clicar em um link qualquer ou testá-lo diretamente com o comando "[xdg-open](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)":
 
