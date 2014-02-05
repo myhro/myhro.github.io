@@ -6,9 +6,9 @@ title: About
 
 ## Quem é Tiago "Myhro" Ilieve?
 
-Acadêmico do sétimo período do Curso de Sistemas de Informação, vinculado ao Departamento de Ciências da Computação ([DCC](http://www.dcc.unimontes.br/)) e Conselheiro Universitário pelo Centro de Ciências Exatas e Tecnológicas ([CCET](http://www.ccet.unimontes.br/joomla/)) da Universidade Estadual de Montes Claros ([Unimontes](http://www.unimontes.br/)).
+Acadêmico do oitavo período do Curso de Sistemas de Informação, vinculado ao Departamento de Ciências da Computação ([DCC](http://www.dcc.unimontes.br/)) da Universidade Estadual de Montes Claros ([Unimontes](http://www.unimontes.br/)).
 
-Atualmente faço estágio na [MinasSoft](http://www.minascurriculos.com.br), como desenvolvedor [Python](http://www.python.org/)/[Django](https://www.djangoproject.com/). Recentemente,  participei do Grupo de Estudos em Algoritmos e Estruturas de Dados ([GEAED](http://www.geaed.org/)) e do Grupo de Estudos em Segurança da Informação ([SiSafe](http://www.sisafe.org/)), todos vinculados à Unimontes. Também fiz estágio, ambos por um ano, como Administrador de Sistemas Linux na [Aptans](http://aptans.com/) e no Laboratório de Biologia Computacional ([LBC](http://www.ppgcb.unimontes.br/lbc/)), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB](http://www.ppgcb.unimontes.br/)) da mesma universidade.
+Atualmente, trabalho com Linux atuando como freelancer. Recentemente fiz estágio, cada um por um ano, como desenvolvedor [Python](http://www.python.org/)/[Django](https://www.djangoproject.com/) na [MinasSoft](http://www.minascurriculos.com.br), e como Administrador de Sistemas Linux, na [Aptans](http://aptans.com/) e no Laboratório de Biologia Computacional ([LBC](http://www.ppgcb.unimontes.br/lbc/)), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB](http://www.ppgcb.unimontes.br/)) da mesma Unimontes.
 
 Twitter: [@myhro](https://twitter.com/myhro)  
 GitHub: [myhro](https://github.com/myhro)  
