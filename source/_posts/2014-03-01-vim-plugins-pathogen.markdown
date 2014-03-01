@@ -7,7 +7,7 @@ categories:
 - vim
 ---
 
-A escolha de um editor decente e universal não é fácil. Antes de começar a utilizar o [Vim](http://www.vim.org/) corriqueiramente, passei por diversos outros, como:
+A escolha de um editor decente e universal não é fácil. Antes de começar a utilizar o [Vim](http://www.vim.org/) corriqueiramente, passei por diversos outros como:
 
 * Bloco de notas: Um editor sincero. Não espere nada além de realmente editar textos.
 * [Joe](http://joe-editor.sourceforge.net/): Muito bacana. Já havia decorado boa parte dos seus milhares de atalhos.
@@ -16,6 +16,7 @@ A escolha de um editor decente e universal não é fácil. Antes de começar a u
 
 Todos eles tinham pelo menos um ou vários desses problemas:
 
+* Não funcionava sem ambiente gráfico (modo texto).
 * Não possuía _syntax highlighting_.
 * Não sabia lidar com quebras de linha de diferentes sistemas operacionais (CR+LF vs. LF).
 * Não salvava em [UTF-8](http://www.utf8everywhere.org/).
@@ -23,11 +24,11 @@ Todos eles tinham pelo menos um ou vários desses problemas:
 
 E ainda havia o mais grave de todos: não estavam disponíveis em todas as máquinas quais utilizo. Foi somente a partir deste momento, que não deve ter acontecido há muito mais do que dois anos atrás, que decidi de vez por utilizar o Vim sempre que fosse necessário editar qualquer arquivo texto que fosse. Sempre que logo em uma máquina qual não estou familiarizado, tenho a certeza (se é que podemos ter certeza de algo nessa vida) de que pelo menos o comando `vi` (que na verdade faz parte do pacote [vim-tiny](http://packages.debian.org/sid/vim-tiny), sendo uma versão menor e simplificada do Vim) estará disponível.
 
-Acontece que utilizar apenas o editor puro nem sempre é o suficiente. Uma parte considerável das surpresas no estilo "_Wow! O vim faz isso?!_" é proporcionada pelos plugins desenvolvidos por terceiros. Entretanto, além de muitos deles possuem passos de instalação crípticos, é complicado manter todos devidamente atualizados. Foi neste a partir daí que passei a usar o [Tim Pope](http://tpo.pe/)'s [pathogen.vim](https://github.com/tpope/vim-pathogen), em um daqueles momentos onde sempre me pergunto: "_Por que é que não fiz isso antes?!_"
+Acontece que utilizar apenas o editor puro nem sempre é o suficiente. Uma parte considerável das surpresas no estilo "_Wow! O Vim faz isso?!_" é proporcionada pelos [plugins](http://www.vim.org/scripts/) desenvolvidos por terceiros. Entretanto, além de muitos deles possuírem passos de instalação crípticos, é complicado manter todos devidamente atualizados. Foi a partir daí que passei a usar o [Tim Pope](http://tpo.pe/)'s [pathogen.vim](https://github.com/tpope/vim-pathogen), em um daqueles momentos onde sempre me pergunto: "_Por que é que não fiz isso antes?!_".
 
-Após instalar o Pathogen, o que consiste basicamente em salvar o script em `~/.vim/autoload/pathogen.vim` e adicionar a linha `execute pathogen#infect()` ao seu `~/.vimrc`, basta criar o diretório `~/.vim/bundle/` e simplesmente clonar lá o repositório (muitos estão no [GitHub](https://github.com/)) do plugin qual deseja utilizar. A grande maioria dos plugins estará disponível a partir deste processo, mas alguns, mais complexos, podem exigir a adição de algumas informações no `~/.vimrc`.
+Após instalar o Pathogen, o que consiste basicamente em salvar o script em `~/.vim/autoload/pathogen.vim` e adicionar a linha `execute pathogen#infect()` ao seu `~/.vimrc`, basta criar o diretório `~/.vim/bundle/` e simplesmente clonar lá o repositório (muitos estão no [GitHub](https://github.com/)) do plugin qual deseja utilizar. A grande maioria dos plugins estará disponível a partir deste processo, mas alguns, mais complexos, podem exigir a adição de algumas informações no arquivo `~/.vimrc`.
 
-Por exemplo, para instalar o [Syntastic](https://github.com/scrooloose/syntastic), um plugin que verifica seu código a cada vez que o arquivo é salvo, indicando possíveis erros quais serão encontrados na complicação ou quando for interpretado, suportando dezenas de linguagens de programação:
+Por exemplo, para instalar o [Syntastic](https://github.com/scrooloose/syntastic), um plugin que verifica seu código a cada vez que o arquivo é salvo, indicando possíveis erros quais serão encontrados na compilação ou quando for interpretado, suportando dezenas de linguagens de programação, basta realizar os seguintes passos:
 
     [myhro@wheezy:~]$ cd ~/.vim/bundle/
     [myhro@wheezy:~/.vim/bundle]$ git clone https://github.com/scrooloose/syntastic.git
