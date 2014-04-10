@@ -14,3 +14,5 @@ A ideia surgiu a partir [desta postagem feita pelo meu prezado colega de curso J
 ~~Caso deseje se inscrever, por favor utilize este formulário do Google Drive~~. Estão previstas 22 (vinte e duas) vagas, para evitar que alguém fique sem computador caso ocorra algum problema com as máquinas durante o andamento do minicurso. O Google Drive não limita o número de inscrições, portanto, caso você consiga se inscrever, não quer dizer necessariamente que sua vaga está garantida. Farei o possível para encerrá-las assim que o limite for atingido, de forma a evitar que isto aconteça. As vagas serão distribuídas por ordem cronológica de inscrição e as mesmas serão posteriormente confirmadas via e-mail.
 
 **Atualização**: a última vaga foi preenchida às 21h17m do dia 26/03/2014 (quarta-feira) e com isto as inscrições foram encerradas.
+
+**Atualização**: estão disponíveis para download os [slides](/uploads/introducao-python-django.pdf) utilizados no minicurso e o [projeto de exemplo](/uploads/minicurso-python-django-blog.zip) gerado.
