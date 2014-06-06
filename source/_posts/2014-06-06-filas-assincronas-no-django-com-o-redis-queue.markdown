@@ -17,13 +17,13 @@ A instalação e utilização do Django-RQ está descrita de forma bem objetiva 
 
 O detalhe que me deixou verdadeiramente satisfeito e ao mesmo tempo completamente impressionado é muito simples, porém extremamente útil: se a execução de algum dos jobs (nome dado a cada um dos itens da fila) falhar, estes serão armazenados em uma fila separada, podendo ser re-enfileirados com apenas um botão na [interface de administração do Django][django-admin]. Desta forma, você pode corrigir o problema qual causou o erro para que estes possam ser devidamente processados em uma próxima oportunidade, sem que os dados sejam descartados pela ocorrência da falha.
 
-[django-rq]: https://github.com/ui/django-rq
-[herberthamaral]: https://twitter.com/herberthamaral
-[django]: https://www.djangoproject.com/
-[rq]: https://github.com/nvie/rq
-[solucoes-mundo-assincrono]: http://www.akitaonrails.com/2013/12/23/solucoes-para-um-mundo-assincrono-concorrente
 [celery]: http://www.celeryproject.org/
-[redis]: http://redis.io/
+[django-admin]: https://docs.djangoproject.com/en/1.6/ref/contrib/admin/
+[django-rq]: https://github.com/ui/django-rq
+[django]: https://www.djangoproject.com/
+[herberthamaral]: https://twitter.com/herberthamaral
 [nosql]: https://en.wikipedia.org/wiki/NoSQL
 [readme]: https://github.com/ui/django-rq/blob/master/README.rst#installation
-[django-admin]: https://docs.djangoproject.com/en/1.6/ref/contrib/admin/
+[redis]: http://redis.io/
+[rq]: https://github.com/nvie/rq
+[solucoes-mundo-assincrono]: http://www.akitaonrails.com/2013/12/23/solucoes-para-um-mundo-assincrono-concorrente
