@@ -39,7 +39,7 @@ No segundo caso, o sintoma mais comum é o fato dos comandos simplesmente não f
     #
     # For more information see the manual pages of crontab(5) and cron(8)
     #
-    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
     # m h  dom mon dow   command
     (...)
 
