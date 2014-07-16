@@ -14,16 +14,16 @@ O Cron é o agendador de tarefas padrão _de facto_ do mundo Unix. No Linux, a v
 
 O primeiro caso possui um facilitador não muito conhecido, qual só descobri quando me deparei com [este artigo no Linux Journal][linux-journal-cron] no mês passado: é possível utilizar atalhos, tornando a sintaxe muito mais legível:
 
-Atalho    | Significado
---------- | ----------------------------------------------------------
-@reboot   | Executar uma vez, na inicialização.
-@hourly   | Executar uma vez por hora, equivalente a `"0 * * * *"`.
-@daily    | Executar uma vez por dia, equivalente a `"0 0 * * *"`.
-@midnight | (O mesmo que `@daily`)
-@weekly   | Executar uma vez por semana, equivalente a, `"0 0 * * 0"`.
-@monthly  | Executar uma vez por mês, equivalente a `"0 0 1 * *"`.
-@yearly   | Executar uma vez por ano, equivalente a `"0 0 1 1 *"`.
-@annually | (O mesmo que `@yearly`)
+Atalho      | Significado
+----------- | ----------------------------------------------------------
+`@reboot`   | Executar uma vez, na inicialização.
+`@hourly`   | Executar uma vez por hora, equivalente a `"0 * * * *"`.
+`@daily`    | Executar uma vez por dia, equivalente a `"0 0 * * *"`.
+`@midnight` | (O mesmo que `@daily`)
+`@weekly`   | Executar uma vez por semana, equivalente a, `"0 0 * * 0"`.
+`@monthly`  | Executar uma vez por mês, equivalente a `"0 0 1 * *"`.
+`@yearly`   | Executar uma vez por ano, equivalente a `"0 0 1 1 *"`.
+`@annually` | (O mesmo que `@yearly`)
 
 Esta lista pode ser encontrada na [man page do crontab, seção 5][crontab-man].
 
