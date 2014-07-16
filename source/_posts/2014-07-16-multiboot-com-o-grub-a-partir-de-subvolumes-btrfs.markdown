@@ -253,22 +253,30 @@ A partir deste momento, você pode utilizar o sistema normalmente. O fato dele e
 
 Você poderia, também, utilizar uma configuração do `40_custom` nesta instalação que possibilitasse o encadamento de outro GRUB, mas o processo pode ficar confuso, já que a ordem do menu seria alterada dependendo de qual instalação sobrescreveu o GRUB por último. Mesmo assim, esta pode ser uma opção melhor do que simplesmente perder o acesso às outras instalações devido ao acontecimento de algum imprevisto.
 
-[debian-handbook]: http://debian-handbook.info/
-[lvm-cap]: http://debian-handbook.info/browse/stable/advanced-administration.html#sect.lvm
-[raphael]: http://raphaelhertzog.com/
-[roland]: http://www.gnurandal.com/
-[wheezy-luks]: /2013/05/primeiros-dias-com-o-debian-wheezy/
-[subvolumes]: https://btrfs.wiki.kernel.org/index.php/SysadminGuide#Subvolumes
-[quota]: https://btrfs.wiki.kernel.org/index.php/Quota_support
-[btrfs]: https://btrfs.wiki.kernel.org/
-[grub]: https://www.gnu.org/software/grub/
-[debian]: https://www.debian.org/
-[change-subvolume]: http://blog.kourim.net/installing-debian-on-btrfs-subvolume
-[grub-cfg]: http://askubuntu.com/a/400666
-[btrfs-experimental]: https://btrfs.wiki.kernel.org/index.php/FAQ#Is_btrfs_stable.3F
+Referências:
+
+1. [Make maintaining GRUB easier for multi-booters, a "How To."][grub-multiboot]
+2. [More BTRFS fun: Multibooting to subvolumes on the same partition.][btrfs-multiboot]
+
+
 [ars-btrfs]: http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/
+[btrfs-experimental]: https://btrfs.wiki.kernel.org/index.php/FAQ#Is_btrfs_stable.3F
+[btrfs-multiboot]: https://www.kubuntuforums.net/showthread.php?60321-More-BTRFS-fun-Multibooting-to-subvolumes-on-the-same-partition&s=09660f70358816958ff68192a50fe40e
+[btrfs]: https://btrfs.wiki.kernel.org/
+[change-subvolume]: http://blog.kourim.net/installing-debian-on-btrfs-subvolume
 [codinghorror-backup]: http://blog.codinghorror.com/international-backup-awareness-day/
 [debian-76]: https://www.debian.org/News/2014/20140712
-[lwn-btrfs]: http://lwn.net/Articles/579009/
+[debian-handbook]: http://debian-handbook.info/
+[debian]: https://www.debian.org/
+[grub-cfg]: http://askubuntu.com/a/400666
 [grub-chainload]: https://www.gnu.org/software/grub/manual/legacy/Chain_002dloading.html
+[grub-multiboot]: https://www.kubuntuforums.net/showthread.php?60180-Make-maintaining-GRUB-easier-for-multi-booters-a-quot-How-To-quot
 [grub-naming]: https://www.gnu.org/software/grub/manual/grub.html#Naming-convention
+[grub]: https://www.gnu.org/software/grub/
+[lvm-cap]: http://debian-handbook.info/browse/stable/advanced-administration.html#sect.lvm
+[lwn-btrfs]: http://lwn.net/Articles/579009/
+[quota]: https://btrfs.wiki.kernel.org/index.php/Quota_support
+[raphael]: http://raphaelhertzog.com/
+[roland]: http://www.gnurandal.com/
+[subvolumes]: https://btrfs.wiki.kernel.org/index.php/SysadminGuide#Subvolumes
+[wheezy-luks]: /2013/05/primeiros-dias-com-o-debian-wheezy/
