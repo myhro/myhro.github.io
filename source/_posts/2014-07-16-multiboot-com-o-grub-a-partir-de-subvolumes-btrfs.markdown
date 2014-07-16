@@ -7,7 +7,7 @@ categories:
 - grub
 ---
 
-Estava eu lendo o excelente (e gratuito) livro do [Raphaël Hertzog][raphael] e [Roland Mas][roland] [The Debian Administrator's Handbook: Debian Wheezy from Discovery to Mastery][debian-handbook], quando me deparei com o capítulo sobre [Logical Volume Manager (LVM)][lvm-cap]. LVM é um daqueles assuntos que sempre ouvia falar, mas deixava de fuçar por pura preguiça e comodismo, no estilo "_gosto dos meus discos particionados do jeito que estão_", sem compreender de fato os benefícios quais poderiam ser obtidos com um mínimo de esforço.
+Estava lendo o excelente (e gratuito) livro do [Raphaël Hertzog][raphael] e [Roland Mas][roland] [The Debian Administrator's Handbook: Debian Wheezy from Discovery to Mastery][debian-handbook], quando me deparei com o capítulo sobre [Logical Volume Manager (LVM)][lvm-cap]. LVM é um daqueles assuntos que sempre ouvia falar, mas deixava de fuçar por pura preguiça e comodismo, no estilo "_gosto dos meus discos particionados do jeito que estão_", sem compreender de fato os benefícios quais poderiam ser obtidos com um mínimo de esforço.
 
 A ideia de ter uma ou mais partições físicas no disco (_Physical Volume_ - PV) dividadas em volumes lógicos (_Logical Volumes_ - LV) me resolveria um problema qual venho tendo desde quando [passei utilizar o disco encriptado com LUKS/cm-crypt][wheezy-luks]: a impossibilidade de aumentar ou diminuir o tamanho das partições. Se eu estivesse utilizando LVM desde o começo, isto nunca teria me acontecido. Esta abordagem, entretanto, ainda possui uma limitação: embora volumes lógicos possam ser redimensionados, às vezes sem nem mesmo precisa desmontar o sistema de arquivos, estes ainda precisam ter um tamanho fixo definido.
 
@@ -126,6 +126,8 @@ UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /        btrfs    defaults,subvol=@
 UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /home    btrfs    defaults,subvol=@home      0    0
 (...)
 ```
+
+Obs.: Talvez a coluna `<pass>` esteja definida com outro valor maior que zero. Isto acontece pois em sistemas de arquivos tradicionais, o sistema precisa rodar `fsck` caso o sistema não tenha sido desmontado corretamente e seu log precise ser verificado antes de ser montado novamente. Isto [não é necessário no caso do Btrfs][btrfs-passno], por isso o `0`.
 
 Em seguida, basta sair do chroot e reiniciar o sistema normalmente:
 
@@ -262,6 +264,7 @@ Referências:
 [ars-btrfs]: http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/
 [btrfs-experimental]: https://btrfs.wiki.kernel.org/index.php/FAQ#Is_btrfs_stable.3F
 [btrfs-multiboot]: https://www.kubuntuforums.net/showthread.php?60321-More-BTRFS-fun-Multibooting-to-subvolumes-on-the-same-partition&s=09660f70358816958ff68192a50fe40e
+[btrfs-passno]: https://btrfs.wiki.kernel.org/index.php/FAQ#What.27s_the_difference_between_btrfsck_and_fsck.btrfs
 [btrfs]: https://btrfs.wiki.kernel.org/
 [change-subvolume]: http://blog.kourim.net/installing-debian-on-btrfs-subvolume
 [codinghorror-backup]: http://blog.codinghorror.com/international-backup-awareness-day/
