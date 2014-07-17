@@ -9,13 +9,13 @@ categories:
 
 Estava lendo o excelente (e gratuito) livro do [Raphaël Hertzog][raphael] e [Roland Mas][roland] [The Debian Administrator's Handbook: Debian Wheezy from Discovery to Mastery][debian-handbook], quando me deparei com o capítulo sobre [Logical Volume Manager (LVM)][lvm-cap]. LVM é um daqueles assuntos que sempre ouvia falar, mas deixava de fuçar por pura preguiça e comodismo, no estilo "_gosto dos meus discos particionados do jeito que estão_", sem compreender de fato os benefícios quais poderiam ser obtidos com um mínimo de esforço.
 
-A ideia de ter uma ou mais partições físicas no disco (_Physical Volume_ - PV) dividadas em volumes lógicos (_Logical Volumes_ - LV) me resolveria um problema qual venho tendo desde quando [passei utilizar o disco encriptado com LUKS/cm-crypt][wheezy-luks]: a impossibilidade de aumentar ou diminuir o tamanho das partições. Se eu estivesse utilizando LVM desde o começo, isto nunca teria me acontecido. Esta abordagem, entretanto, ainda possui uma limitação: embora volumes lógicos possam ser redimensionados, às vezes sem nem mesmo precisa desmontar o sistema de arquivos, estes ainda precisam ter um tamanho fixo definido.
+A ideia de ter uma ou mais partições físicas no disco (_Physical Volume_ - PV) divididas em volumes lógicos (_Logical Volumes_ - LV) me resolveria um problema qual venho tendo desde quando [passei utilizar o disco encriptado com LUKS/cm-crypt][wheezy-luks]: a impossibilidade de aumentar ou diminuir o tamanho das partições. Se eu estivesse utilizando LVM desde o começo, isto nunca teria me acontecido. Esta abordagem, entretanto, ainda possui uma limitação: embora volumes lógicos possam ser redimensionados, às vezes sem nem mesmo precisa desmontar o sistema de arquivos, estes ainda precisam ter um tamanho fixo definido.
 
-Seria possível conviver com esta limitação não-crucial perfeitamente, desde que uma solução mais flexível não existisse: os [subvolumes do Btrfs][subvolumes]. É claro que eles não são um substituto perfeito, pois não podem ser tratados como um dispositivo de bloco e particionados em um sistema de arquivos diferentes, como no caso dos volumes lógicos do LVM. Entretanto, como minha necessidade era a de apenas isolar volumes _como se fossem_ sistemas de arquivos separados (mas ainda do mesmo tipo), a solução se encaixaria perfeitamente. E no caso do [Btrfs][btrfs], a utilização de [quotas][quota] para limitar a utilização do subvolume é opcional.
+Seria possível conviver com esta limitação não-crucial perfeitamente, desde que uma solução mais flexível não existisse: os [subvolumes do Btrfs][subvolumes]. É claro que eles não são um substituto perfeito, pois não podem ser tratados como um dispositivo de bloco e particionados em um sistema de arquivos diferente, como no caso dos volumes lógicos do LVM. Entretanto, como minha necessidade era a de apenas isolar volumes _como se fossem_ sistemas de arquivos separados (mas ainda do mesmo tipo), a solução se encaixaria perfeitamente. E no caso do [Btrfs][btrfs], a utilização de [quotas][quota] para limitar a utilização do subvolume é opcional.
 
-A utilização de subvolumes no Btrfs é tão simples quanto criar um diretório. Um processo um pouco mais complicado, mas que ainda não é muito difícil de ser feito, é dar boot em uma instalação do Linux localizada em um subvolume. O complicador, neste caso, é instruir ao [GRUB][grub] como encontrar cada diretório `/boot` e impedir que uma instalação sobrescreva a configuração do GRUB da outra - ou pelo menos tentar, porque às vezes o comando `grub-install` é chamado inevitavelmente, como quando se atualiza entre diferentes versões do Debian (do `stable` pro `testing`, por exemplo).
+A utilização de subvolumes no Btrfs é tão simples quanto manipular um diretório. Um processo um pouco mais complicado, mas que ainda não é difícil de ser feito, é dar boot em uma instalação de uma distribuição Linux localizada em um subvolume. O complicador, neste caso, é instruir ao [GRUB][grub] como encontrar cada diretório `/boot` e impedir que uma instalação sobrescreva a configuração do GRUB da outra - ou pelo menos tentar, porque às vezes o comando `grub-install` é chamado inevitavelmente, como quando se atualiza entre diferentes versões do Debian (do `stable` pro `testing`, por exemplo).
 
-Como em tantas outros casos na computação, há diversas formas de se realizar este processo. O que será descrito aqui é apenas o mais simples que encontrei até o momento. Durante minha pesquisa, vi [instruirem a mudar o subvolume padrão][change-subvolume] ou [editar manualmente][grub-cfg] o `grub.cfg`, coisas que você não precisa ou não deve fazer de forma alguma. Vale ressaltar também que o [Btrfs é considerado experimental][btrfs-experimental] até o presente momento e que você não deve realizar nenhum dos passos descritos aqui sem o [devido backup dos seus dados][codinghorror-backup], a não ser que não se importe em perdê-los. Ao mesmo tempo, há pessoas [o utilizando há anos sem nenhum incidente sério e se deliciando com as possibilidades trazidas][ars-btrfs].
+Como em tantas outros casos na computação, há diversas formas de se realizar este processo. O que será descrito aqui é apenas o mais simples que encontrei até o momento. Durante minha pesquisa, vi [instruírem a mudar o subvolume padrão][change-subvolume] ou [editar manualmente][grub-cfg] o `grub.cfg`, coisas que você não precisa ou não deve fazer de forma alguma. Vale ressaltar também que o [Btrfs é considerado experimental][btrfs-experimental] até o presente momento e que você não deve realizar nenhum dos passos descritos aqui sem o [devido backup dos seus dados][codinghorror-backup], a não ser que não se importe em perdê-los. Ao mesmo tempo, há pessoas [o utilizando há anos sem nenhum incidente sério e se deliciando com as possibilidades trazidas][ars-btrfs].
 
 Todo o processo a seguir foi realizado a partir de uma instalação padrão do Debian Wheezy (mais especificamente a [versão 7.6][debian-76]) em uma única partição formatada como Btrfs.
 
@@ -51,7 +51,7 @@ Movendo a `/home` para o seu subvolume. O diretório criado dentro do subvolume 
     root@xubuntu:/mnt# rmdir home/
     root@xubuntu:/mnt# mkdir @stable/home
 
-Verificando o resultado, é possível notar que na utilização, os subvolumes não diferem muito de simples diretórios:
+Verificando o resultado, é possível notar que, conforme dito, na utilização os subvolumes não diferem muito de simples diretórios:
 
     root@xubuntu:/mnt# ls -lh
     total 0
@@ -127,7 +127,7 @@ UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /home    btrfs    defaults,subvol=@
 (...)
 ```
 
-Obs.: Talvez a coluna `<pass>` esteja definida com outro valor maior que zero. Isto acontece pois em sistemas de arquivos tradicionais, o sistema precisa rodar `fsck` caso o sistema não tenha sido desmontado corretamente e seu log precise ser verificado antes de ser montado novamente. Isto [não é necessário no caso do Btrfs][btrfs-passno], por isso o `0`.
+Obs.: Talvez a coluna `<pass>` esteja definida com outro valor maior que zero. Isto acontece pois em sistemas de arquivos tradicionais, o sistema precisa rodar `fsck` caso o sistema não tenha sido desmontado corretamente e seu log precise ser verificado antes de ser montado novamente. Isto [não é necessário no caso do Btrfs][btrfs-passno], por isso definimos o valor como `0`.
 
 Em seguida, basta sair do chroot e reiniciar o sistema normalmente:
 
@@ -157,7 +157,7 @@ Ao logar no sistema, podemos verificar que os subvolumes foram montados corretam
 
 ## Clonando o sistema em outro subvolume
 
-Até o presente momento, apenas movemos a instalação do Debian para um subvolume, criando outro para a `/home` e configuramos o sistema para dar boot na nova configuração. Isto não é muito diferente do que a instalação do Ubuntu faria por padrão. Mas é agora que as coisas começam a ficar interessantes: vamos clonar a instalação atual, realizando um snapshot do subvolume que possa ser atualizado para o Debian Jessie - sem influenciar em nada na instalação atual.
+Até o presente momento, apenas movemos a instalação do Debian para um subvolume, criando outro para a `/home` e configuramos o sistema para dar boot na nova configuração. Isto não é muito diferente do que a instalação do Ubuntu faria por padrão. Mas é agora que as coisas começam a ficar interessantes: vamos clonar a instalação atual, realizando um snapshot do subvolume que possa ser atualizado para o [Debian Jessie][debian-jessie] - sem influenciar em nada na instalação atual.
 
 Como estamos utilizando um subvolume como raíz, é necessário montar a partição sem especificar um dos subvolumes criados, para que possamos criar outros:
 
@@ -178,7 +178,7 @@ Como estamos utilizando um subvolume como raíz, é necessário montar a partiç
 
 É importante frisar: este processo de criação do snapshot é instantâneo e praticamente não consome espaço em disco. Devido a natureza [_Copy-on-write_ (COW)][lwn-btrfs] do Btrfs, este snapshot é apenas uma referência ao conteúdo atual do subvolume qual o snapshot foi realizado - os dados serão gravados a medida que o subvolume do snapshot for modificado.
 
-Realizaremos novamente o processo de chroot, desta vez no clone do subvolume, realizando as mesmas alterações no `/etc/fstab` e rodando o `update-grub`, com cuidado para não executar o `grub-install` pois não é isto o que queremos, pois do contrário não conseguiríamos mais inicializar no sistema atual.
+Realizaremos novamente o processo de chroot, desta vez no clone do subvolume, repetindo as alterações realizadas no `/etc/fstab` e rodando o `update-grub`, com cuidado para não executar o `grub-install` pois não é isto o que queremos, pois do contrário não conseguiríamos mais inicializar no sistema atual.
 
     root@stable:~# umount /mnt
     root@stable:~# mount -o subvol=@testing /dev/sda1 /mnt/
@@ -196,7 +196,7 @@ Vamos aproveitar também para alterar o hostname, de forma a identificar mais fa
     root@stable:/# sed -i s/stable/testing/ /etc/hostname
     root@stable:/# sed -i s/stable/testing/ /etc/hosts
 
-Saindo do chroot, é necessário alterar as configurações do GRUB do primeiro sistema, pois o que faremos é um [_chainload_ entre as instalações do GRUB][grub-chainload]. Este recurso normalmente é utilizado para que o GRUB passe o processo de instalação para o outro sistema operacional não suportado, como o Windows, mas aqui faremos com que exista uma opção no menu de inicialização que simplesmente carregue a configuração do GRUB de outro subvolume.
+Saindo do chroot, é necessário alterar as configurações do GRUB do primeiro sistema, pois o que faremos é um [_chainload_ entre as instalações do GRUB][grub-chainload]. Este recurso normalmente é utilizado para que o GRUB passe o processo de instalação para o outro sistema operacional não suportado, como o Windows, mas aqui faremos com que exista uma opção no menu de inicialização que simplesmente carregue a configuração do GRUB armazenada em outro subvolume.
 
     root@stable:/# exit
     root@stable:~# vi /etc/grub.d/40_custom
@@ -251,9 +251,9 @@ Após a inicialização, podemos conferir a montagem correta dos subvolumes, com
     total 0
     drwxr-xr-x 1 usuario usuario 54 Jul 16 11:22 usuario
 
-A partir deste momento, você pode utilizar o sistema normalmente. O fato dele estar em um subvolume, tendo sido inicializado a partir de um encadeamento de configurações do GRUB não influenciará em praticamente nada no seu fucionamento, com exceção de que você deve tomar cuidado para que o comando `grub-install` não sobrescreva a configuração atual. Se isto acontecer, será possível inicializar apenas este subvolume `@testing`, sendo necessário realizar novamente o processo de restauração do GRUB, montando o subvolume `@stable`, pastas especiais e executando o `grub-install` dentro do chroot.
+A partir deste momento, você pode utilizar o sistema normalmente. O fato dele estar em um subvolume, tendo sido inicializado a partir de um encadeamento de configurações do GRUB não influenciará em praticamente nada no seu fucionamento, com exceção de que você deve tomar cuidado para que o comando `grub-install` não sobrescreva a configuração atual. Se isto acontecer, será possível inicializar apenas este subvolume `@testing`, sendo necessário realizar novamente o processo de restauração do GRUB, montando o subvolume `@stable`, os diretórios especiais e executando o `grub-install` dentro do chroot.
 
-Você poderia, também, utilizar uma configuração do `40_custom` nesta instalação que possibilitasse o encadamento de outro GRUB, mas o processo pode ficar confuso, já que a ordem do menu seria alterada dependendo de qual instalação sobrescreveu o GRUB por último. Mesmo assim, esta pode ser uma opção melhor do que simplesmente perder o acesso às outras instalações devido ao acontecimento de algum imprevisto.
+Você poderia, também, utilizar uma configuração do `40_custom` nesta instalação que possibilitasse o encadeamento de outro GRUB, mas o processo pode ficar confuso, já que a ordem do menu seria alterada dependendo de qual instalação sobrescreveu o GRUB por último. Mesmo assim, esta pode ser uma opção melhor do que simplesmente perder o acesso às outras instalações devido ao acontecimento de algum imprevisto.
 
 Referências:
 
@@ -270,6 +270,7 @@ Referências:
 [codinghorror-backup]: http://blog.codinghorror.com/international-backup-awareness-day/
 [debian-76]: https://www.debian.org/News/2014/20140712
 [debian-handbook]: http://debian-handbook.info/
+[debian-jessie]: https://www.debian.org/releases/jessie/
 [debian]: https://www.debian.org/
 [grub-cfg]: http://askubuntu.com/a/400666
 [grub-chainload]: https://www.gnu.org/software/grub/manual/legacy/Chain_002dloading.html
