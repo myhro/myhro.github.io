@@ -9,7 +9,7 @@ categories:
 
 O paradigma da Programação Orientada à Objetos não é nenhum bicho de sete cabeças. Até mesmo para quem cursou um único semestre de um curso de computação, presumindo-se que tenha aprendido funções e registros (coleções de variáveis), apenas novos estilos e técnicas são apresentados. Primeiramente, vamos analisar a estruturação de um programa realmente simples (mais ainda por ter sido escrito em Python), que apenas adiciona pessoas em algo parecido com uma lista encadeada (só que sem a necessidade do encadeamento). Você pode perceber que não há tratamento de exceções e a única verificação feita é se a lista está vazia. É realmente apenas um exemplo.
 
-``` python
+{% highlight python %}
 class Lista():
     def __init__(self):
         self.lista = []
@@ -39,7 +39,7 @@ def main():
     inventario.imprime()
 
 if __name__ == "__main__": main()
-```
+{% endhighlight %}
 
 Saída do programa:
 

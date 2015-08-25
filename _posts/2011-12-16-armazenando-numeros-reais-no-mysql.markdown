@@ -15,20 +15,20 @@ A partir deste momento, fica a cargo do programador converter o número corretam
 
 Como realizar a conversão em C#:
 
-``` csharp
+{% highlight csharp %}
 // Adicionando a biblioteca responsável pela localização/globalização:
 using System.Globalization;
 
 // Convertendo a vírgula para o ponto. Como o resultado é uma string, é interessante já utilizar a conversão na hora de formatar a query SQL. O "N" informa que queremos o resultado como um número (poderia ser "C" para converter para moeda, já com o cifrão, por exemplo). O segundo parâmetro diz que ele deve ser formatado na notação americana, onde se utiliza ponto como separador de casas decimais:
 numero_real.ToString("N", new CultureInfo("en-US"));
-```
+{% endhighlight %}
 
 E como fazer a mesma coisa em PHP:
 
-``` php
+{% highlight php %}
 // O primeiro parâmetro é o número a ser convertido, o segundo número de casas decimais, o terceiro o separador das casas decimais e o quarto o separador das casas de milhar (uma string vazia, no caso, já que não queremos nada além do ponto). O retorno também é uma string e não um número:
 number_format($numero_real, 2, '.', '');
-```
+{% endhighlight %}
 
 Desta forma você não mais precisará se preocupar com seus números reais sendo armazenados incorretamente no banco de dados, nem relembrar como as coisas funcionavam há 30 ou 40 anos atrás.
 

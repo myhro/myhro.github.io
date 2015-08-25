@@ -19,18 +19,16 @@ O primeiro passo é baixar o Firefox, seja a [última versão](http://www.mozill
 
 O próximo passo é criar um arquivo chamado `firefox.desktop` na pasta `/usr/share/applications/` com o seguinte conteúdo:
 
-```
-[Desktop Entry]
-Encoding=UTF-8
-Name=Mozilla Firefox
-Comment=Browse the World Wide Web
-Type=Application
-Terminal=false
-Exec=/opt/firefox/firefox %U
-Icon=/opt/firefox/browser/icons/mozicon128.png
-StartupNotify=true
-Categories=Network;WebBrowser;
-```
+    [Desktop Entry]
+    Encoding=UTF-8
+    Name=Mozilla Firefox
+    Comment=Browse the World Wide Web
+    Type=Application
+    Terminal=false
+    Exec=/opt/firefox/firefox %U
+    Icon=/opt/firefox/browser/icons/mozicon128.png
+    StartupNotify=true
+    Categories=Network;WebBrowser;
 
 Desta forma, um atalho do Firefox será criado nos menus do Gnome/LXDE (e provavelmente outros gerenciadores de janelas, sendo estes os que tenho contato). Com apenas estes passos você já terá um atalho funcional e poderá utilizá-lo normalmente, mas o fato dele não estar definido como navegador padrão fará com que qualquer link clicado em outro programa não seja aberto por ele. Para solucionar isto, utilizaremos o comando "[update-alternatives](http://www.debian-administration.org/articles/91)", adicionando o Firefox e escolhendo-o como navegador padrão do ambiente gráfico.
 

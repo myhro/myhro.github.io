@@ -115,17 +115,15 @@ Estando tudo como esperado, é necessário executar a instalação do GRUB novam
 
 É preciso editar também o `/etc/fstab`, informando o ponto de montagem dos subvolumes. O resultado deve ser parecido com este:
 
-```
-# /etc/fstab: static file system information.
-#
-(...)
-#
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/sda1 during installation
-UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /        btrfs    defaults,subvol=@stable    0    0
-UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /home    btrfs    defaults,subvol=@home      0    0
-(...)
-```
+    # /etc/fstab: static file system information.
+    #
+    (...)
+    #
+    # <file system> <mount point>   <type>  <options>       <dump>  <pass>
+    # / was on /dev/sda1 during installation
+    UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /        btrfs    defaults,subvol=@stable    0    0
+    UUID=6ce02f0b-4fe0-447e-a418-a1c17f029233    /home    btrfs    defaults,subvol=@home      0    0
+    (...)
 
 Obs.: Talvez a coluna `<pass>` esteja definida com outro valor maior que zero. Isto acontece pois em sistemas de arquivos tradicionais, o sistema precisa rodar `fsck` caso o sistema não tenha sido desmontado corretamente e seu log precise ser verificado antes de ser montado novamente. Isto [não é necessário no caso do Btrfs][btrfs-passno], por isso definimos o valor como `0`.
 
@@ -203,7 +201,7 @@ Saindo do chroot, é necessário alterar as configurações do GRUB do primeiro 
 
 Adicionaremos uma entrada muito simples, consistindo em apenas quatro linhas. Seu arquivo `40_custom` deve ficar parecido com isto:
 
-```
+{% highlight bash %}
 #!/bin/sh
 exec tail -n +3 $0
 # This file provides an easy way to add custom menu entries.  Simply type the
@@ -213,7 +211,7 @@ menuentry 'Debian testing' {
     set root='(hd0,msdos1)'
     configfile /@testing/boot/grub/grub.cfg
 }
-```
+{% endhighlight %}
 
 A linha `set root=...` pode variar conforme sua configuração, de acordo com a [nomenclatura utilizada pelo GRUB][grub-naming]. Neste caso, `hd0` é o primeiro disco (`sda`) e `msdos1` é a primeira partição (`sda1`). Em seguida, basta rodar o `update-grub` e reiniciar a máquina para ter acesso a opção de inicialização no novo subvolume. É normal que neste ponto não apareça nada sobre a opção que foi adicionada ao `40_custom`, pois o `update-grub` exibe apenas os kerneis quais detectou automaticamente:
 

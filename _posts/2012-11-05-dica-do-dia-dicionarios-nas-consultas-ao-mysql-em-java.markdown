@@ -13,7 +13,7 @@ Em PHP, podemos facilmente converter o objeto retornado de uma consulta com a fu
 
 Segue o código devidamente comentado:
 
-``` java
+{% highlight java %}
 import java.sql.*;
 import java.util.*;
 import javax.swing.*;
@@ -67,7 +67,7 @@ public class CRUD {
         return busca;
     }
 }
-```
+{% endhighlight %}
 
 Muito mais cômodo do que ficar lidando com o ResultSet a todo momento, verificando se ainda há linhas no resultado com o método next(), etc. Com esta classe, simplesmente tem-se uma lista de dicionários. Caso a consulta não tenha gerado resultado algum, o valor retornado nada mais é do que "[null](https://en.wikipedia.org/wiki/Pointer_%28computer_programming%29#Null_pointer)". Simples e prático, não?
 

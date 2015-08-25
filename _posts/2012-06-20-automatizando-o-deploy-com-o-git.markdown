@@ -24,15 +24,15 @@ O primeiro script que utilizei para automatizar o deploy com o Git era baseado [
 
 Antes de adicionar o script ao diretório "hooks", é importante que se edite o arquivo "/etc/sudoers", adicionando a seguinte linha:
 
-``` bash
+{% highlight bash %}
 git ALL=(www-data) NOPASSWD: /bin/tar, /usr/bin/git
-```
+{% endhighlight %}
 
 Para que o usuário "git", normalmente responsável pelos repositórios gerenciados pelo Gitosis, possa usar o "sudo" sem senha e executar os comandos "tar" e "git" como o usuário "www-data".
 
 Como você pode presumir, esta configuração se faz necessária apenas se você estiver realizando o deploy de sites/aplicações web e deseja que os arquivos movidos sejam de propriedade do usuário "www-data". Caso não seja este o caso, basta remover o "sudo" (e seus parâmetros) do script a seguir, assim como adaptar a ação de acordo com suas necessidades (como compilar o projeto, ao invés de apenas mover os arquivos, por exemplo). Vamos ao script em si:
 
-``` bash
+{% highlight bash %}
 #!/bin/sh
 
 DEPLOY="/var/www/"
@@ -43,7 +43,7 @@ if [ $REFNAME = "refs/heads/master" ]; then
     sudo -u www-data git archive --format=tar HEAD | sudo -u www-data tar -C $DEPLOY -xf -
     echo "Done."
 fi
-```
+{% endhighlight %}
 
 A variável "$DEPLOY" corresponde ao diretório de destino. Como os hashs das revisões, assim como o nome do branch, são recebidos pela entrada padrão (e não passados por parâmetro), é necessário utilizar o comando "read" para armazená-los em variáveis. Em seguida, há apenas uma condição: se o branch recebido via push for o "master", faça o deploy. O comando "git archive" gera um arquivo tar com o conteúdo da working tree, que em seguida é descompactado na pasta especificada no início do script. Os comandos "echo" tem sua saída enviada ao usuário que realizou o push, para que este seja informado se houve ou não o deploy.
 

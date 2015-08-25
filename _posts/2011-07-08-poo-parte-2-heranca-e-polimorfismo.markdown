@@ -11,7 +11,7 @@ Um dos principais objetivos da Programação Orientada à Objetos é facilitar a
 
 Podemos ver como isto é facilmente realizado em Python:
 
-``` python
+{% highlight python %}
 class Time():
     def campeonato(self):
         print 'Campeonato Brasileiro de Futebol'
@@ -43,7 +43,7 @@ def main():
     cru.tradicao()
 
 if __name__ == "__main__": main()
-```
+{% endhighlight %}
 
 Existe uma classe "_Time_", bem genérica, que diz qual campeonato o time participa, assim como seu nome e sua tradição. A classe "_Atletico_" herda o método "_campeonato()_", mas modifica os métodos "_nome()_" e "_tradicao()_". A classe "_Cruzeiro_", por sua vez, modifica apenas o método "_nome()_" e herda os outros dois. Veja como é a saída deste programa:
 

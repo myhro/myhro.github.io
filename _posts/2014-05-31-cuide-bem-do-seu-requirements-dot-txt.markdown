@@ -17,44 +17,38 @@ Um recurso muito bacana é a possibilidade de se especificar uma [lista de depen
 
 Embora a própria documentação oficial recomende esta prática, por favor não faça isto. O motivo para evitar isso é muito simples: pacotes Python tem informações sobre suas próprias dependências, o que torna desnecessário especificá-las individualmente. Veja o seguinte exemplo, na instalação do [Fabric][fabric]:
 
-```
-(projetoenv)[myhro@wheezy:~/projeto]$ pip install fabric
-Downloading/unpacking fabric
-[...]
-Successfully installed fabric paramiko pycrypto ecdsa
-Cleaning up...
-(projetoenv)[myhro@wheezy:~/projeto]$ pip freeze > requirements.txt
-(projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
-Fabric==1.8.3
-argparse==1.2.1
-distribute==0.6.24
-ecdsa==0.11
-paramiko==1.12.4
-pycrypto==2.6.1
-wsgiref==0.1.2
-```
+    (projetoenv)[myhro@wheezy:~/projeto]$ pip install fabric
+    Downloading/unpacking fabric
+    [...]
+    Successfully installed fabric paramiko pycrypto ecdsa
+    Cleaning up...
+    (projetoenv)[myhro@wheezy:~/projeto]$ pip freeze > requirements.txt
+    (projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
+    Fabric==1.8.3
+    argparse==1.2.1
+    distribute==0.6.24
+    ecdsa==0.11
+    paramiko==1.12.4
+    pycrypto==2.6.1
+    wsgiref==0.1.2
 
 Veja que, além das próprias dependências do Fabric, foram adicionados até mesmo os pacotes instalados durante a criação do virtualenv. Em contrapartida, o `requirements.txt` ficaria muito mais simples e legível se criado com o auxílio do comando [grep][grep]:
 
-```
-(projetoenv)[myhro@wheezy:~/projeto]$ pip freeze | grep -i fabric > requirements.txt
-(projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
-Fabric==1.8.3
-```
+    (projetoenv)[myhro@wheezy:~/projeto]$ pip freeze | grep -i fabric > requirements.txt
+    (projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
+    Fabric==1.8.3
 
 A partir daí, novas dependências seriam concatenadas ao final do arquivo com a utilização do redirecionador `>>`:
 
-```
-(projetoenv)[myhro@wheezy:~/projeto]$ pip install django
-Downloading/unpacking django
-[...]
-Successfully installed django
-Cleaning up...
-(projetoenv)[myhro@wheezy:~/projeto]$ pip freeze | grep -i django >> requirements.txt
-(projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
-Fabric==1.8.3
-Django==1.6.5
-```
+    (projetoenv)[myhro@wheezy:~/projeto]$ pip install django
+    Downloading/unpacking django
+    [...]
+    Successfully installed django
+    Cleaning up...
+    (projetoenv)[myhro@wheezy:~/projeto]$ pip freeze | grep -i django >> requirements.txt
+    (projetoenv)[myhro@wheezy:~/projeto]$ cat requirements.txt
+    Fabric==1.8.3
+    Django==1.6.5
 
 Mantê-lo ordenado em ordem alfabética produz um resultado melhor ainda. A busca por uma forma de automatizar esta etapa fica como exercício para o leitor.
 
@@ -70,11 +64,9 @@ Esta dica é bem óbvia, mas é algo que muitas vezes passa batido: a lista de d
 
 Pra que instalar o [IPython][ipython] no servidor de produção? Ou pra que instalar o [Gunicorn][gunicorn] na sua máquina, se localmente você só usa o [servidor de desenvolvimento do Django][django-server]? Como cada linha do arquivo com a lista de dependências é executada em um comando `pip install`, você pode simplesmente adicionar uma entrada `-r <arquivo.txt>`, para instalar as dependências presentes em outra lista.
 
-```
-(projetoenv)[myhro@wheezy:~/projeto]$ cat development.txt
--r requirements.txt
-ipython==2.1.0
-```
+    (projetoenv)[myhro@wheezy:~/projeto]$ cat development.txt
+    -r requirements.txt
+    ipython==2.1.0
 
 Desta forma, o comando `pip install -r development.txt` instalaria todas as dependências contidas no arquivo `requirements.txt` e também o IPython.
 

@@ -13,7 +13,9 @@ Além disso, a obrigatoriedade de se criar projetos no CodeBlocks (dica: nunca u
 
 Vou exemplificar a modularização de uma lista encadeada onde hipoteticamente se cadastra uma pessoa e um bilhete. Aqui temos o código em um arquivo só:
 
-``` c main.c
+> main.c
+
+{% highlight c linenos %}
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -196,11 +198,13 @@ int main() {
 
 	return 0;
 }
-```
+{% endhighlight %}
 
 E aqui temos o mesmo modularizado:
 
-``` c main.c
+> main.c
+
+{% highlight c linenos %}
 #include <conio.h>
 #include <stdio.h>
 #include "lista.h"
@@ -273,9 +277,11 @@ int main() {
 
 	return 0;
 }
-```
+{% endhighlight %}
 
-``` c lista.h
+> lista.h
+
+{% highlight c linenos %}
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -309,9 +315,11 @@ void libera_cabeca(TipoLista *Lista);
 void retira(TipoLista *Lista, int n);
 
 int testa(TipoLista Lista);
-```
+{% endhighlight %}
 
-``` c lista.c
+> lista.c
+
+{% highlight c linenos %}
 #include "lista.h"
 
 void imprime(TipoLista Lista) {
@@ -404,7 +412,7 @@ void retira(TipoLista *Lista, int n) {
 int testa(TipoLista Lista) {
 	return(Lista.Primeiro == Lista.Ultimo);
 }
-```
+{% endhighlight %}
 
 Resumindo:
 

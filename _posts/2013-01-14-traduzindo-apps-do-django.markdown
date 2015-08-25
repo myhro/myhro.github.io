@@ -38,7 +38,7 @@ Esta estrutura é importante para que o Django reconheça corretamente os arquiv
 
 O parâmetro "**-a**" executa este processo para todos os diretórios de línguas previamente criadas, o que no nosso caso foi apenas o português brasileiro. Caso você esteja lidando com mais de um idioma, pode gerar para apenas um deles, mais especificamente, com o parâmetro "**-l [código_da_língua]**", como em "**-l pt_BR**". Em seguida, abra o arquivo gerado, cujo nome é "*django.po*", e você encontrará, além do cabeçalho, linhas como:
 
-```
+{% highlight po %}
 (...)
 #: admin.py:26
 msgid "Groups"
@@ -52,11 +52,11 @@ msgstr ""
 msgid "You do not have permission to access the admin."
 msgstr ""
 (...)
-```
+{% endhighlight %}
 
 E a única coisa que você precisa fazer é traduzir cada uma das "*msgid*" em sua respectiva "*msgstr*", por exemplo:
 
-```
+{% highlight po %}
 (...)
 #: admin.py:26
 msgid "Groups"
@@ -70,7 +70,7 @@ msgstr "Por favor digite corretamente o email e a senha."
 msgid "You do not have permission to access the admin."
 msgstr "Você não tem permissão para acessar a área administrativa."
 (...)
-```
+{% endhighlight %}
 
 Extremamente simples, não? Só tome cuidado para salvar o arquivo como [UTF-8](https://en.wikipedia.org/wiki/UTF-8) (o que [deve ser feito em qualquer situação](http://www.utf8everywhere.org/)), de forma a evitar possíveis problemas com a acentuação. Agora só falta a última parte, que é efetivamente compilar as traduções efetuadas, para que assim elas possam ser utilizadas pelo Django:
 

@@ -17,7 +17,7 @@ Quanto a confiabilidade, desde que se escolha uma senha segura, você pode cript
 
 Abaixo há um pequeno script-exemplo com os comandos necessários para se realizar o backup, encriptar o arquivo e depois enviá-lo ao Dropbox (basta colocar na pasta que ela será sincronizada automaticamente). Todos os poucos passos estão devidamente comentados.
 
-``` bash
+{% highlight bash %}
 #!/bin/sh
 
 # A senha. Aqui estou usando uma longa sequência de caracteres alfanuméricos.
@@ -41,7 +41,7 @@ openssl enc -e -aes256 -in home-$DATA.tar.gz -out home-$DATA.tar.gz.aes -pass pa
 # Depois, basta mover o arquivo encriptado para a pasta do Dropbox (ou qualquer
 # outra subpasta dentro dela, de forma a organizar melhor os backups).
 mv home-$DATA.tar.gz.aes ~/Dropbox/
-```
+{% endhighlight %}
 
 O contra, como você deve ter percebido, é que a senha tem de ser armazenada em texto plano (poderia ser em outro arquivo diferente do script, mas ela ainda estaria em sua forma "pura"). Se você precisasse digitá-la toda vez, o backup não seria automático. Mas antes de tudo, você tem de garantir a segurança do seu servidor (até porque se alguém chegar a invadí-lo, os dados lá presentes provavelmente não estarão encriptados). Caso hajam mais usuários cadastrados no sistema (além do root), um [chmod 700](http://www.hardware.com.br/artigos/permissoes-arquivos/) pode ajudar bastante.
 
