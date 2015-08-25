@@ -21,7 +21,7 @@ Neste exemplo estamos utilizando a mesma porta em ambos os lados da conexão, ma
 
 No Putty a configuração é tão simples quanto a utilização do cliente SSH via terminal, basta ir em "_Connection -> SSH -> Tunnels_", especificar a porta local (5901) no campo "_Source port_" e o restante (localhost:5901) no campo "_Destination_", em seguida marcando a opção "_Local_" logo abaixo. Ao clicar no botão "_Add_", a porta especificada é adicionada à lista "_Forwarded ports_".
 
-[{% img center /images/2012/putty-local-forward.png 233 224 %}](/images/2012/putty-local-forward.png)
+![](/images/2012/putty-local-forward.png)
 
 Esta é a ideia de se redirecionar uma porta local para outra qual o servidor tenha acesso. Acontece que esta porta não precisa ser necessariamente uma porta do servidor, pode ser outra da rede interna, por exemplo. Se o conceito ficar confuso, recomendo a leitura do [post já citado](http://blog.myhro.info/2012/04/tornando-o-uso-do-ssh-mais-simples-e-agradavel/) onde explico como utilizar o conceito para tunelar uma conexão da área de trabalho remota do Windows. A ideia é que o "localhost" especificado poderia ser qualquer outro endereço que o servidor possa se comunicar, além dele mesmo, incluindo um host disponível na internet, uma vez que o objetivo é acessar um outro servidor, passando pelo túnel criado pelo SSH.
 
@@ -33,7 +33,7 @@ Nem sempre é possível utilizar a abordagem de se conectar a um servidor e em s
 
 Como você pode ver, só muda o parâmetro, que agora passa a ser "-R". No Putty, a mudança é equivalente, bastando escolher a opção "Remote":
 
-[{% img center /images/2012/putty-remote-forward.png 233 224 %}](/images/2012/putty-remote-forward.png)
+![](/images/2012/putty-remote-forward.png)
 
 A partir de agora, qualquer conexão realizada no servidor na porta 5901 passará a redirecionar para a porta 5901 do cliente, enquanto o túnel permanecer ativo. É muito importante salientar que, neste caso, a situação se inverte, pois o "localhost" aqui corresponde ao cliente qual se conectou ao servidor. Isto significa duas coisas diferentes: o servidor não necessariamente estará ouvindo a porta 5901 apenas na interface de rede local, conforme explicarei adiante, e o serviço qual se deseja acessar no cliente não precisa estar disponível na rede interna, muito menos na internet, uma vez que o túnel se refere a sua interface local (127.0.0.1). Leia novamente este parágrafo caso a situação ainda não esteja clara - isto pode lhe poupar muitas dores de cabeça, futuramente, ao se perguntar porque o túnel não está funcionando como deveria.
 

@@ -88,7 +88,7 @@ Os parâmetros estão separados por seções. Sendo assim, vou explicar o propó
 Ao final, a aparência do seu editor deve estar mais ou menos assim:
 
 
-{% img center /images/2011/vim-slate.png %}
+![](/images/2011/vim-slate.png)
 
 Como havia sugerido, desmarcando a opção de chamar o Vim pelo menu de contexto, você acaba perdendo o atalho extremamente prático de editar qualquer arquivo com um clique do botão direito. O problema é que a extensão do shell que acompanha o Vim para Windows não cria abas ao se editar vários arquivos. Felizmente isto pode ser facilmente resolvido com uma simples adição no registro do Windows. Basta salvar um arquivo ".reg" com o seguinte conteúdo (ou editar manualmente o registro) e executá-lo em seguida (o comando é uma linha só do "@" até as últimas aspas):
 

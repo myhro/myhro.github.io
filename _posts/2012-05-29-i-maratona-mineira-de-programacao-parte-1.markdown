@@ -13,11 +13,11 @@ O deslocamento até Uberlândia foi ofertado sem custo algum pelo setor de trans
 
 Superadas as dificuldades de acomodação iniciais e o barulho irritante das caixas de isopor, que levavam água e refrigerante para serem consumidos no caminho (cortesia do [Prof. Heveraldo](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4758727J6)), partimos para a rodovia. O estado de conservação da estrada me surpreendeu, exceto por um pequeno trecho completamente esburacado, que corresponde por uma pequena fração do percurso (algo em torno de meia hora). Como era de se esperar, sentimos calor no caminho e o motorista da van ligou o ar-condicionado. Estaria tudo bem se não fosse o fato de alguns integrantes (não é querendo acusar ninguém, viu Juliana e Lucas?) da equipe do curso de Engenharia de Sistemas terem bloqueado o exaustor com cobertores e travesseiros, o que fez com que o condicionador de ar mais parecesse um ventilador estragado.
 
-[{% img center /images/2012/ufu-campus-educacao-fisica.jpg 300 400 %}](/images/2012/ufu-campus-educacao-fisica.jpg)
+![](/images/2012/ufu-campus-educacao-fisica.jpg)
 
 Chegamos ao [Campus Educação Física](http://www.ufu.br/pagina/campus-educa%C3%A7%C3%A3o-f%C3%ADsica) por volta das 17h da última sexta-feira, após trafegarmos por alguns minutos pela avenida que possui a maior quantidade de concessionárias por metro quadrado já vista neste estado. Ao adentrar o campus, que por mais que não tenha uma estrutura muito nova é bem bonito e mais se assemelha a um clube (tem até campo de basebol), nos deparamos com a seguinte faixa:
 
-[{% img center /images/2012/ufu-faixa-greve.jpg 400 300 %}](/images/2012/ufu-faixa-greve.jpg)
+![](/images/2012/ufu-faixa-greve.jpg)
 
 E o governo federal ainda tem a coragem de veicular propagandas na maior rede de televisão do país elogiando os investimentos na educação... De qualquer forma, a greve dos professores não impediu a realização da maratona e me pareceu que os demais servidores da universidade continuaram trabalhando. Pode ser que fossem apenas os terceirizados, o que inclui o pessoal da limpeza, segurança e responsáveis pelo restaurante universitário.
 

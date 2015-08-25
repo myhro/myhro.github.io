@@ -56,11 +56,7 @@ Em seguida, basta colocar a máquina pra rodar com o comando `vagrant up`:
     [default] Mounting shared folders...
     [default] -- /vagrant
 
-{% blockquote %}
-
-Caso neste momento a máquina virtual não seja inicializada e apareça uma mensagem de erro dizendo que a mesma entrou no estado "gurumeditation", pode ser que as instruções de virtualização do processador da máquina física estejam desabilitadas, ou mesmo não estejam disponíveis. É interessante verificar no setup da BIOS/UEFI se é possível habilitá-las.
-
-{% endblockquote %}
+> Caso neste momento a máquina virtual não seja inicializada e apareça uma mensagem de erro dizendo que a mesma entrou no estado "gurumeditation", pode ser que as instruções de virtualização do processador da máquina física estejam desabilitadas, ou mesmo não estejam disponíveis. É interessante verificar no setup da BIOS/UEFI se é possível habilitá-las.
 
 A partir daí, é possível, por exemplo, logar na máquina com o comando `vagrant ssh` e instalar/configurar/executar o que for necessário. Os exemplos contidos no arquivo `VagrantFile` ensinam como redirecionar outras portas, fazendo com que um servidor web rodando na máquina virtual se torne acessível a partir do browser na máquina físical qual a está rodando.
 

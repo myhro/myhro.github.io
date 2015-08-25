@@ -230,11 +230,11 @@ A linha `set root=...` pode variar conforme sua configuração, de acordo com a 
 
 Podemos ver a opção do chainload "Debian testing":
 
-{% img center /images/2014/grub.png %}
+![](/images/2014/grub.png)
 
 E escolhendo-a, somos apresentados a tela do GRUB do volume `@testing`, qual só possui seus próprios kerneis, acompanhada da opção de voltar pra tela anterior com a tecla `ESC`:
 
-{% img center /images/2014/grub-chainload.png %}
+![](/images/2014/grub-chainload.png)
 
 Após a inicialização, podemos conferir a montagem correta dos subvolumes, com o `@home` compartilhado entre ambas as instalações `stable` e `testing`:
 

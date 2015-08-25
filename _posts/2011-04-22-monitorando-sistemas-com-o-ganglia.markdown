@@ -11,11 +11,11 @@ O [Ganglia](http://ganglia.sourceforge.net/) é uma maravilhosa ferramenta de mo
 
 Seu funcionamento se divide em dois módulos: o "Ganglia Monitoring Daemon" (gmond) e o "Ganglia Meta Daemon" (gmetad). O gmond reside em cada um dos nós a serem monitorados, gerando os dados relacionados ao uso de CPU, memória, rede e disco. O gmetad normalmente fica no servidor web, agrupando os dados provenientes dos nós. Seu esquema de funcionamento está representado no diagrama a seguir:
 
-{% img center /images/2011/ganglia-single.gif %}
+![](/images/2011/ganglia-single.gif)
 
 É possível monitorar vários clusters em uma só página dividindo-os em sub-grupos de acordo a tarefa desempenhada, como você pode ver no [Wikimedia Cloud Report](http://ganglia.wikimedia.org/). O próximo diagrama representa sua utilização em um grupo de clusters:
 
-{% img center /images/2011/ganglia-cluster.gif %}
+![](/images/2011/ganglia-cluster.gif)
 
 A configuração do Ganglia não é muito difícil, mas pode ser um tanto quanto confusa em um primeiro momento. Em uma instalação do Debian "Squeeze", por exemplo, você instalaria apenas o pacote "ganglia-monitor" em cada um dos nós e os pacotes "ganglia-monitor", "gmetad" e "ganglia-webfrontend" (que por sua vez instalaria o Apache, o PHP e o RRDtool como dependências) no servidor qual disponibilizaria a página com os dados de monitoramento referentes ao cluster. Para a interface web se tornar acessível a partir da URL http://servidor/ganglia/, basta adicionar a linha "Alias /ganglia /usr/share/ganglia-webfrontend" na configuração do seu VirtualHost (o default, se for o caso) ou copiar o arquivo de configuração (que contém apenas esta mesma linha) para a pasta de configurações do Apache e em seguida recarregar as configurações do serviço.
 

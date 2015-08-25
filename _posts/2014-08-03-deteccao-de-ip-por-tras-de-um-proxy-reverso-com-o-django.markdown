@@ -18,25 +18,25 @@ Quando o proxy reverso recebe uma requisição do cliente e a encaminha para o s
 
 Procurando sobre como detectar o IP por trás de um proxy reverso com o Django no Google, você poderia se deparar com [este trecho de código][get_addr-snippet], qual executa uma simples verificação retorna o IP detectado. A fim de simplificar a explicação do problema, vamos utilizar uma versão reduzida do mesmo como exemplo, qual basicamente verifica se o cabeçalho está presente e extrai o primeiro IP do campo. Caso contrário, retorna apenas o `REMOTE_ADDR`:
 
-{% codeblock lang:python %}
+{% highlight python %}
 def get_client_ip(request):
     ip = request.META.get('HTTP_X_FORWARDED_FOR')
     if ip:
         return ip.split(', ')[0]
     else:
         return request.META['REMOTE_ADDR']
-{% endcodeblock %}
+{% endhighlight %}
 
 Imediatamente, podemos levantar a seguinte pergunta: _como assim o **primeiro** IP?!_
 
 Isto acontece pois caso já exista uma entrada `X-Forwarded-For` no cabeçalho, ao encaminhar a requisição o nginx irá concatenar o IP detectado do cliente **ao final** da string deste campo, resultando em dois IPs ao invés de um só. Portanto, o correto é pegar o último endereço extraído e não o primeiro, pois do contrário o cliente poderia facilmente forjar seu IP:
 
-{% codeblock lang:python %}
-    (...)
-    if ip:
-        return ip.split(', ')[-1]
-    (...)
-{% endcodeblock %}
+{% highlight python %}
+(...)
+if ip:
+    return ip.split(', ')[-1]
+(...)
+{% endhighlight %}
 
 
 [gunicorn]: http://gunicorn.org/
