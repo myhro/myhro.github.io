@@ -1,5 +1,6 @@
 # Site settings
 title: "Myhro Blog"
+author: "Tiago Ilieve"
 email: ""
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
