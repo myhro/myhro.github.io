@@ -22,20 +22,26 @@ layout: default
     {% endfor %}
   </ul>
 
-  <div class="footer-col-wrapper">
-    <div class="footer-col footer-col-1">
+  <div>
+
+    <div style="width: 50%; float: left;">
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">&laquo; Older</a>
+        <p><a href="{{ paginator.next_page_path }}" class="next">&laquo; Older</a></p>
       {% endif %}
     </div>
-    <div class="footer-col footer-col-2">
-    </div>
-    <div class="footer-col footer-col-3" style="text-align: right">
+
+    <div style="width: 50%; float: right;">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Newer &raquo;</a>
+        <p style="text-align: right;">
+          <a href="{{ paginator.previous_page_path }}" class="previous">Newer &raquo;</a>
+        </p>
       {% endif %}
     </div>
+
   </div>
 
+  <div style="clear: both"></div>
+
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
