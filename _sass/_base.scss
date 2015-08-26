@@ -45,6 +45,8 @@ ul, ol, dl, figure,
  * Images
  */
 img {
+    display: block;
+    margin: auto auto;
     max-width: 100%;
     vertical-align: middle;
 }
