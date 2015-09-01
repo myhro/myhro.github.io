@@ -10,9 +10,10 @@ Graduado pelo Curso de Bacharelado em Sistemas de Informação, vinculado ao Dep
 
 Atualmente, trabalha com Administração e Desenvolvimento de Sistemas na [Sisqualis][sisqualis]. Durante a graduação fez estágio, cada um por um ano, como desenvolvedor Python/Django na [MinasSoft][minassoft] e como Administrador de Sistemas Linux, na [Aptans][aptans] e no Laboratório de Biologia Computacional ([LBC][lbc]), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB][ppgcb]) da Unimontes.
 
-Twitter: [@myhro](https://twitter.com/myhro)  
-GitHub: [myhro](https://github.com/myhro)  
-E-mail: [contato@myhro.info](mailto:contato@myhro.info)
+E-mail: [contato@myhro.info][email]  
+GitHub: [myhro][github]  
+LinkedIn: [myhro][linkedin]  
+Twitter: [@myhro][twitter]
 
 Todos os textos aqui publicados estão disponíveis sob licença:  
 [Creative Commons Atribuição-NãoComercial 3.0 Não Adaptada (CC BY-NC 3.0)][cc-by-nc3]
@@ -22,8 +23,12 @@ Todos os textos aqui publicados estão disponíveis sob licença:
 [aptans]: http://www.aptans.com/
 [cc-by-nc3]: http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR
 [dcc]: http://www.dcc.unimontes.br/
+[email]: mailto:contato@myhro.info
+[github]: https://github.com/myhro
 [lbc]: http://www.ppgcb.unimontes.br/lbc/
+[linkedin]: https://br.linkedin.com/in/myhro
 [minassoft]: http://www.minascurriculos.com.br/
 [ppgcb]: http://www.ppgcb.unimontes.br/
 [sisqualis]: http://www.sisqualis.com.br/
+[twitter]: https://twitter.com/myhro
 [unimontes]: http://www.unimontes.br/
