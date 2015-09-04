@@ -13,7 +13,7 @@ Buscando por "[ssl test][google-ssl-test]" no Google, os dois primeiros resultad
 
 As informações estão dispostas de forma bem didática, mas ainda vale a pena comentar sobre cada item:
 
-* **ssl.myhro.net resolves to 52.2.85.74**: primeiro teste, informando o IP resolvido a partir da requisição de DNS;
+* **ssl.myhro.net resolves to 52.2.85.74**: primeiro teste, exibindo o IP resolvido. Esta informação é importante para termos certeza que o teste está sendo realizado no servidor correto, o que poderia não acontecer no caso de uma entrada DNS alterada recentemente que ainda estivesse em cache;
 * **Server Type: nginx/1.4.6 (Ubuntu)**: informações sobre o servidor, que no caso é o [nginx][nginx] 1.4.6, [versão presente no Ubuntu 14.04][nginx-trusty];
 * **The certificate should be trusted by all major web browsers (all the correct intermediate certificates are installed)**: destaca a importância do encadeamento correto dos certificados, com a presença dos certificados intermediários, também citada no [post sobre a StartSSL][post-startssl];
 * **The certificate was issued by StartCom**: entidade certificadora responsável por emitir e assinar o certificado;
@@ -30,7 +30,7 @@ Dois problemas comprometeram a nota do teste: a qualidade da troca de chaves uti
 
 ## Diffie-Hellman
 
-O [guia de implantação do Diffie-Hellman para TLS][dh-guide] traz uma descrição detalhada e até um pouco paranóica (especificando todas as cifras suportadas, o que não é necessário) sobre como reforçar a segurança da troca de chaves. Resumidamente, é preciso realizar dois passos. O primeiro é gerar um grupo de parâmetros com tamanho de 2048 bits:
+O [guia de implantação do Diffie-Hellman para TLS][dh-guide] traz uma descrição detalhada e até um pouco paranóica (especificando todas as cifras suportadas, o que não é necessário) sobre como reforçar a segurança da troca de chaves. Resumidamente, é preciso realizar dois passos. O primeiro é gerar um grupo de parâmetros DH com tamanho de 2048 bits:
 
     openssl dhparam -out dhparams.pem 2048
 
@@ -51,7 +51,7 @@ Resolver a questão do POODLE é mais fácil ainda, já que basta desabilitar o 
 
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
 
-Esta configuração força o nginx a suportar apenas protocolo [TLS (_Transport Layer Security_)][tls] (e não [SSL (_Secure Sockets Layer_)][ssl]), em suas versões de 1.0 a 1.2. Agora, a classificação do teste passa a ser `A` e a nota do "_Protocol Support_" atinge `95`:
+Esta linha força o nginx a suportar apenas protocolo [TLS (_Transport Layer Security_)][tls] (e não [SSL (_Secure Sockets Layer_)][ssl]), em suas versões de 1.0 a 1.2. Agora, a classificação do teste passa a ser `A` e a nota do "_Protocol Support_" atinge `95`:
 
 ![](/images/2015/ssl-test-3.png)
 
