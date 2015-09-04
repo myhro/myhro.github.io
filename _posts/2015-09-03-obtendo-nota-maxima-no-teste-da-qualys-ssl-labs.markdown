@@ -59,7 +59,7 @@ Mesmo assim, ainda há uma pequena melhoria a ser realizada.
 
 ## HSTS
 
-O HSTS (_HTTP Strict Transport Security_) é um _header_ adicionado à resposta de uma requisição HTTP que informa ao cliente que todas as conexões a este servidor, dali em diante, devem ser realizadas via HTTPS. O processo para habilitá-lo no nginx consiste em adicionar a seguinte linha ao seu arquivo de configuração:
+O HSTS (_HTTP Strict Transport Security_) é um _header_ adicionado à resposta de uma requisição HTTP que informa ao cliente que todas as conexões a este servidor, dali em diante, devem ser realizadas via HTTPS. O [processo para habilitá-lo no nginx][nginx-hsts] consiste em adicionar a seguinte linha ao seu arquivo de configuração:
 
     add_header Strict-Transport-Security "max-age=31536000; includeSubdomains";
 
@@ -109,6 +109,7 @@ Vale ressaltar que foi adicionado o redirecionamento `HTTP -> HTTPS`, um comport
 [dh-guide]: https://weakdh.org/sysadmin.html
 [dh]: http://mathworld.wolfram.com/Diffie-HellmanProtocol.html
 [google-ssl-test]: https://www.google.com/search?q=ssl+test
+[nginx-hsts]: https://scotthelme.co.uk/setting-up-hsts-in-nginx/
 [nginx-trusty]: http://packages.ubuntu.com/trusty/nginx
 [nginx]: http://nginx.org/
 [poodle]: https://en.wikipedia.org/wiki/POODLE
