@@ -13,8 +13,9 @@ Com o lançamento do Debian Squeeze (6.0), no começo de 2011, me recordo que um
 
 Como tudo na vida tem um porém, este processo não é indolor para o pobre pendrive. Por ser necessário reescrever o setor de boot, não é possível copiar a ISO para uma partição, somente para o dispositivo inteiro. O que acontece é que, devido a um processo tão drástico, quando é necessário formatar o pendrive para utilizá-lo novamente como mídia de armazenamento removível, não basta recriar a tabela de partições e formatar com o sistema de arquivos desejado. Desta forma o label dele (o nome que aparece no gerenciador de arquivos) continuará sendo o da última ISO que foi copiada.
 
-Passei literalmente anos convivendo com isto, sendo indagado corriqueiramente por alguns curiosos sobre o porque do meu pendrive levar o nome do Debian ou do Xubuntu. Até que um dia, em um artigo que infelizmente não lembro o nome para poder linkar aqui, conheci o [wipefs][wipefs]. Sua principal funcionalidade, como o próprio nome sugere, é apagar assinaturas de sistemas de arquivos em um dispositivo de armazenamento. Desde então, com um simples `wipefs -a /dev/sdX`, um incômodo de tanto tempo pôde ser resolvido.
+Passei literalmente anos convivendo com isto, sendo indagado corriqueiramente por alguns curiosos sobre o porque do meu pendrive levar o nome do Debian ou do Xubuntu. Até que um dia, <s>em um artigo que infelizmente não lembro o nome para poder linkar aqui</s> no artigo [bcache and/vs. LVM cache][bcache-lvm-cache], conheci o [wipefs][wipefs]. Sua principal funcionalidade, como o próprio nome sugere, é apagar assinaturas de sistemas de arquivos em um dispositivo de armazenamento. Desde então, com um simples `wipefs -a /dev/sdX`, um incômodo de tanto tempo pôde ser resolvido.
 
+[bcache-lvm-cache]: http://blog-vpodzime.rhcloud.com/?p=45
 [hybrid-iso]: http://joeyh.name/blog/entry/Debian_USB_install_from_hybrid_iso/
 [pendrive-linux]: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 [unetbootin]: http://unetbootin.github.io
