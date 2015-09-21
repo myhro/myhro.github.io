@@ -61,7 +61,7 @@ Mesmo assim, ainda há uma pequena melhoria a ser realizada.
 
 O HSTS (_HTTP Strict Transport Security_) é um _header_ adicionado à resposta de uma requisição HTTP que informa ao cliente que todas as conexões a este servidor, dali em diante, devem ser realizadas via HTTPS. O [processo para habilitá-lo no nginx][nginx-hsts] consiste em adicionar a seguinte linha ao seu arquivo de configuração:
 
-    add_header Strict-Transport-Security "max-age=31536000; includeSubdomains";
+    add_header Strict-Transport-Security "max-age=31536000";
 
 E com isto a classificação sobe para `A+`, ainda que as notas individuais de cada quesito não mudem:
 
@@ -84,7 +84,7 @@ O arquivo de configuração do _virtual host_ do nginx resultante das modificaç
     server {
         listen 443 ssl;
         server_name ssl.myhro.net;
-        add_header Strict-Transport-Security "max-age=31536000; includeSubdomains";
+        add_header Strict-Transport-Security "max-age=31536000";
 
         root /usr/share/nginx/html;
         index index.html index.htm;
