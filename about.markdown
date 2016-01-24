@@ -8,7 +8,9 @@ title: About
 
 Graduado pelo Curso de Bacharelado em Sistemas de Informação, vinculado ao Departamento de Ciências da Computação ([DCC][dcc]) da Universidade Estadual de Montes Claros ([Unimontes][unimontes]).
 
-Atualmente, trabalha com Administração e Desenvolvimento de Sistemas na [Sisqualis][sisqualis]. Durante a graduação fez estágio, cada um por um ano, como desenvolvedor Python/Django na [MinasSoft][minassoft] e como Administrador de Sistemas Linux, na [Aptans][aptans] e no Laboratório de Biologia Computacional ([LBC][lbc]), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB][ppgcb]) da Unimontes.
+Recentemente, trabalhou com Administração e Desenvolvimento de Sistemas na [Sisqualis][sisqualis]. Durante a graduação fez estágio, cada um por um ano, como desenvolvedor Python/Django na [MinasSoft][minassoft] e como Administrador de Sistemas Linux, na [Aptans][aptans] e no Laboratório de Biologia Computacional ([LBC][lbc]), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB][ppgcb]) da Unimontes.
+
+No seu tempo livre, é colaborador do [bootstrap-vz][bootstrap-vz] e membro do [Debian Cloud Team][debian-cloud-team]. Aspirante a Desenvolvedor Debian, utiliza o mesmo sistema no desktop e servidores quais administra, por vezes realizando tarefas relacionadas a empacotamento de software.
 
 E-mail: [contato@myhro.info][email]  
 GitHub: [myhro][github]  
@@ -21,8 +23,10 @@ Todos os textos aqui publicados estão disponíveis sob licença:
 [![](/images/ccbync.png)][cc-by-nc3]
 
 [aptans]: http://www.aptans.com/
+[bootstrap-vz]: http://bootstrap-vz.readthedocs.org/
 [cc-by-nc3]: http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR
 [dcc]: http://www.dcc.unimontes.br/
+[debian-cloud-team]: https://wiki.debian.org/Teams/Cloud
 [email]: mailto:contato@myhro.info
 [github]: https://github.com/myhro
 [lbc]: http://www.ppgcb.unimontes.br/lbc/
