@@ -18,13 +18,13 @@ LinkedIn: [myhro][linkedin]
 Twitter: [@myhro][twitter]
 
 Todos os textos aqui publicados estão disponíveis sob licença:  
-[Creative Commons Atribuição-NãoComercial 3.0 Não Adaptada (CC BY-NC 3.0)][cc-by-nc3]
+[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)][cc-by-4]
 
-[![](/images/ccbync.png)][cc-by-nc3]
+[![](/images/cc-by.png)][cc-by-4]
 
 [aptans]: http://www.aptans.com/
 [bootstrap-vz]: http://bootstrap-vz.readthedocs.org/
-[cc-by-nc3]: http://creativecommons.org/licenses/by-nc/3.0/deed.pt_BR
+[cc-by-4]: https://creativecommons.org/licenses/by/4.0/deed.pt_BR
 [dcc]: http://www.dcc.unimontes.br/
 [debian-cloud-team]: https://wiki.debian.org/Teams/Cloud
 [email]: mailto:contato@myhro.info
