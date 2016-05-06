@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5.3'
-gem 'therubyracer', '~> 0.12.2'
+gem 'jekyll', '~> 3.1'
+gem 'jekyll-paginate', '~> 1.1'
