@@ -2,10 +2,7 @@
 date: 2011-11-22 22:32:23
 layout: post
 title: Adminer
-categories:
-- bd
-- php
----
+...
 
 Passei algum tempo utilizando o [phpMyAdmin](http://www.phpmyadmin.net/) para administração de bancos de dados MySQL. Não enfrentei nenhum problema com o mesmo (muito pelo contrário), mas sentia que ele era um tanto quanto "pesado" para uma tarefa que em teoria não deveria consumir tantos recursos do sistema. Por mais que hoje tenhamos grandes quantidades de memória e ciclos de processamento disponíveis, isto não significa que nossa obrigação é fazer de tudo para desperdiçá-los (embora muitas pessoas - principalmente "programadores" - se esqueçam disto). É perceptível o tempo gasto pelo phpMyAdmin para ser aberto pela primeira vez (quando ainda não está cacheado), mesmo se utilizado localmente (em conjunto com o [WampServer](http://www.wampserver.com/en/), por exemplo), por conta das suas centenas (literalmente) de arquivos.
 

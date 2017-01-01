@@ -2,10 +2,7 @@
 date: 2011-06-18 22:38:54
 layout: post
 title: Saldo da Maratona
-categories:
-- maratona
-- programacao
----
+...
 
 Conforme [os informei há poucos dias](http://blog.myhro.info/2011/06/iii-maratona-de-programacao/), neste sábado foi realizada a III Maratona de Programação do Norte de Minas. Não é querendo ser spoiler, mas gostaria de adiantar que o [Grupo de Estudos em Algoritmos e Estruturas de Dados](https://github.com/myhro/GEAED) ([GEAED](https://github.com/myhro/GEAED) - hoje representado por Fernando Lucas, Pedro Henrique e eu, Tiago Ilieve) [foi o campeão](http://www.dcc.unimontes.br/maratona/), quebrando a hegemonia dos antigos bi-campeões da [FGP](http://www.fasa.edu.br/novoportal/index.php?option=com_content&task=view&id=479&itemid=122) (representantes norte-mineiros, pela [FASA](http://www.fasa.edu.br/), em maratonas nacionais passadas).
 

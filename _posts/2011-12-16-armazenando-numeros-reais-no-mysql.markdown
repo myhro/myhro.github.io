@@ -2,10 +2,7 @@
 date: 2011-12-16 09:54:19
 layout: post
 title: Armazenando números reais no MySQL
-categories:
-- bd
-- programacao
----
+...
 
 Neste semestre letivo que se encerrou na segunda semana de dezembro, nós acadêmicos do então terceiro período do Curso de Sistemas de Informação da Unimontes, passamos praticamente o semestre inteiro fazendo um mesmo trabalho de Linguagens e Técnicas de Programação I. Embora tenha sido extremamente cansativo em alguns momentos (adentrar as madrugadas programando chegaram a ser regra e não exceção), seu desenvolvimento nos trouxe uma experiência considerável em C# e serviu de introdução ao mundo dos bancos de dados. Uma introdução tortuosa, cheia de percalços e feita não da melhor forma possível, mas serviu.
 

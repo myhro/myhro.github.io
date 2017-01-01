@@ -2,10 +2,7 @@
 date: 2014-04-06 14:55
 layout: post
 title: "Carregando um kernel manualmente com o kexec"
-categories: 
-- kernel
-- linux
----
+...
 
 Conheci o [kexec](https://wiki.archlinux.org/index.php/kexec) por um acaso. É o tipo de ferramenta que, se alguém tivesse me mostrado sem exemplificar com um caso de uso específico, não enxergaria a menor utilidade. A ideia é muito simples, como seu próprio nome sugere: executar (carregar) um kernel. Você pode se perguntar porque alguém precisaria de uma ferramenta para realizar um processo que normalmente é executado por um gerenciador de boot, como o [GRUB](https://www.gnu.org/software/grub/). Uma das respostas possíveis é: nem sempre você tem a possibilidade de alterar as configurações de inicialização da máquina.
 

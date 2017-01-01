@@ -2,10 +2,7 @@
 date: 2012-12-22 13:21:10
 layout: post
 title: 10 anos de Linux
-categories:
-- aniversario
-- linux
----
+...
 
 Meu primeiro contato com o maravilhoso mundo dos computadores foi em 1996. Naquele ano, meu tio havia comprado um computador, que nem se eu quisesse me lembraria das configurações - embora devesse ser algo parecido com um Pentium 100 Mhz com 16 ou 32 MB de RAM, e me convidou para ir até seu apartamento ver a novidade. Lembro-me perfeitamente do ano pois minha mãe perguntou pra ele se o computador era novo, visto que o Windows que o acompanhava era o [95](https://en.wikipedia.org/wiki/Windows_95). Ah, a ignorância é realmente uma benção...
 

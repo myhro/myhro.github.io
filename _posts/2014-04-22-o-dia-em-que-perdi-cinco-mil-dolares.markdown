@@ -2,9 +2,7 @@
 date: 2014-04-22 11:55
 layout: post
 title: "O dia em que perdi cinco mil dólares"
-categories: 
-- gsoc
----
+...
 
 No final de fevereiro foi [aberta a chamada no Projeto Debian](http://bits.debian.org/2014/02/call-for-students-gsoc-2014.html) para os interessados em participar da [edição de 2014](https://www.google-melange.com/gsoc/homepage/google/gsoc2014) do [Google Summer of Code](https://developers.google.com/open-source/soc/). Pra quem não conhece o GSOC, trata-se de um programa do Google, qual [existe desde 2005](http://www.linux.com/articles/48232), que consiste basicamente em fornecer bolsas de estudo para alunos interessados em contribuir com projetos de Software Livre, durante os 2-3 meses das férias de verão na América do Norte e Europa, quais ocorrem no meio do ano. Conheço o programa há algum tempo, mas somente neste ano me senti maduro o suficiente para participar.
 

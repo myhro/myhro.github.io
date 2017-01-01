@@ -2,10 +2,7 @@
 date: 2011-07-08 13:45:52
 layout: post
 title: 'POO Parte 2: Herança e Polimorfismo'
-categories:
-- poo
-- python
----
+...
 
 Um dos principais objetivos da Programação Orientada à Objetos é facilitar a reutilização de código. Para isto temos duas técnicas básicas que são a Herança e o Polimorfismo. Uma classe pode herdar métodos de outra classe. Se ela apenas os herda e os utiliza sem nenhuma modificação, isto é conhecido como Herança. Se ela os herda e os modifica, ou seja, o mesmo método se comporta de formas diferentes em classes diferentes, isto é conhecido como Polimorfismo.
 

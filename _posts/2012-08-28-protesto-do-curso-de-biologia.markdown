@@ -2,10 +2,7 @@
 date: 2012-08-28 14:30:09
 layout: post
 title: Protesto do Curso de Biologia
-categories:
-- preocupacoes
-- unimontes
----
+...
 
 Acompanhei durante praticamente toda a manhã de ontem, segunda-feira, a manifestação dos acadêmicos do [Curso de Biologia](http://www.biologia.unimontes.br/) (tanto licenciatura quanto bacharelado) da [Unimontes](http://www.unimontes.br/). Com apitos, narizes de palhaço e barracas, sugerindo a possibilidade de acamparem em frente a reitoria até que suas reinvindicações fossem atendidas, o principal motivo de reclamação era a falta de salas de aula. Por mais que eu não entenda como pode ser possível que uma instituição de ensino (em qualquer nível) deixe a situação chegar a tal ponto, o mais calamitoso é o fato de nada disso ser novidade.
 

@@ -2,10 +2,7 @@
 date: 2013-01-24 00:51
 layout: post
 title: "Mini Review do Kobo Mini"
-categories: 
-- kobo
-- review
----
+...
 
 Quem lê o Myhro Blog há mais tempo sabe que nestes quase dois anos nunca apareceu por aqui um "review" de qualquer dispositivo - até porque textos do tipo é o que mais se encontra na imensidão da internet. Porém, dada a novidade que é o [Kobo Mini](http://www.kobo.com/kobomini), o menor e mais novo e-reader do Brasil, lançado oficialmente por aqui nesta semana (e também devido a algumas frustrações quais me deparei durante a configuração inicial do aparelho), sinto que esta é uma boa oportunidade de fazê-lo. Sendo assim, este é (possivelmente) o primeiro review brasileiro sobre o Kobo Mini.
 

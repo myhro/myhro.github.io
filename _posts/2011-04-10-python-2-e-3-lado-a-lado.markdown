@@ -2,10 +2,7 @@
 date: 2011-04-10 23:14:33
 layout: post
 title: Python 2 e 3 lado a lado
-categories:
-- python
-- windows
----
+...
 
 Embora eu esteja cursando nove disciplinas (seriam dez se não tivesse deixado Cálculo Diferencial e Integral I de lado por enquanto), fazendo estágio e participando de dois grupos de estudos (possivelmente três, em breve), tenho estudado Python no meu tempo livre. Na verdade minha relação com o Python se estende por dois ou três anos. O problema é que nunca estudei esta linguagem de programação semanas a fio, pois sempre começava e logo depois parava.
 

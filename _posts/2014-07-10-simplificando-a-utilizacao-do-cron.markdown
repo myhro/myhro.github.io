@@ -2,10 +2,7 @@
 date: 2014-07-10 15:49
 layout: post
 title: "Simplificando a utilização do Cron"
-categories:
-- cron
-- linux
----
+...
 
 O Cron é o agendador de tarefas padrão _de facto_ do mundo Unix. No Linux, a versão mais difundida é o Vixie Cron, desenvolvido originalmente por Paul Vixie em 1987 (é incrível perceber como os [utilitários do Unix][unix-utils] são atemporais). Além de poder simplesmente adicionar scripts para serem executados nas pastas `/etc/cron.{hourly,daily,weekly,monthly}`, é possível utilizar um arquivo `crontab`, para obter maior flexibilidade no agendamento de tarefas. Esta abordagem, entretanto, apresenta duas complicações principais:
 

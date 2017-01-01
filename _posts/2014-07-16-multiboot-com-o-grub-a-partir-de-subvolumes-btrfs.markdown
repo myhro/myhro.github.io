@@ -2,10 +2,7 @@
 date: 2014-07-16 10:53
 layout: post
 title: "Multiboot com o GRUB a partir de subvolumes Btrfs"
-categories:
-- btrfs
-- grub
----
+...
 
 Estava lendo o excelente (e gratuito) livro do [Raphaël Hertzog][raphael] e [Roland Mas][roland] [The Debian Administrator's Handbook: Debian Wheezy from Discovery to Mastery][debian-handbook], quando me deparei com o capítulo sobre [Logical Volume Manager (LVM)][lvm-cap]. LVM é um daqueles assuntos que sempre ouvia falar, mas deixava de fuçar por pura preguiça e comodismo, no estilo "_gosto dos meus discos particionados do jeito que estão_", sem compreender de fato os benefícios quais poderiam ser obtidos com um mínimo de esforço.
 

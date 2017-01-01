@@ -2,10 +2,7 @@
 date: 2014-06-06 19:20
 layout: post
 title: "Filas assíncronas no Django com o Redis Queue"
-categories:
-- django
-- redis
----
+...
 
 Tenho duas grandes paixões nesta vida: mulheres bonitas e cheirosas e softwares que resolvem um problema de forma magistral, embora excepcionalmente simples. Como exemplares da primeira opção andam escassos em meu cotidiano, falarei hoje sobre o [Django-RQ][django-rq]. Este, como o próprio nome sugere, facilita a integração do [Django][django] com o [RQ (Redis Queue)][rq], e foi recentemente apresentado a mim por [Herberth Amaral][herberthamaral] (indivíduo que mesmo trabalhando 20h por dia ainda tem tempo para descobrir coisas novas).
 

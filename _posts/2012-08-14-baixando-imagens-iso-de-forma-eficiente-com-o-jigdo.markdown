@@ -2,10 +2,7 @@
 date: 2012-08-14 09:26:23
 layout: post
 title: Baixando imagens ISO de forma eficiente com o jigdo
-categories:
-- linux
-- redes
----
+...
 
 Ter a disposição as imagens mais recentes da distribuição Linux que você usa nem sempre é fácil. Ainda pior do que não ter a ISO que você precisa, é encontrar uma versão mais antiga do que o esperado mofando em algum lugar do HD, sendo necessário aguardar horas até uma nova imagem seja baixada. Distribuições como o [Debian](http://www.debian.org/), por exemplo, liberam novas imagens, com atualizações de segurança da versão estável, [a cada 3-4 meses](http://wiki.debian.org/DebianSqueeze#Release_and_updates), mas você sabia que é possível agilizar o processo de baixar estas novas ISOs?
 

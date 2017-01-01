@@ -2,10 +2,7 @@
 date: 2012-06-04 11:18:35
 layout: post
 title: I Maratona Mineira de Programação, Parte 2
-categories:
-- maratona
-- programacao
----
+...
 
 Superadas as dificuldades do trajeto, chegamos à sede da [UniAlgar](http://www.unialgar.com.br/) e enfrentamos uma pequena fila para a obtenção dos crachás. Imaginei que não teríamos tempo de tomar o café da manhã que é tradicionalmente servido antes do aquecimento da maratona, mas ainda tivemos uns 15 minutos disponíveis para isto. Dentre as opções, haviam pequenos sanduíches de queijo/presunto/alface, assim como pães de queijo e uma salada de frutas, além de diversos sabores de sucos naturais, embora não me lembre se havia café disponível (o que seria uma heresia, diante dos 150 programadores que lá estavam presentes).
 

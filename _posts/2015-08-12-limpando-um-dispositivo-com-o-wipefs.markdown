@@ -2,10 +2,7 @@
 date: 2015-08-12 23:43
 layout: post
 title: "Limpando um dispositivo com o wipefs"
-categories: 
-- dispositivos
-- linux
----
+...
 
 Havia um tempo em que copiar a instalação de um sistema operacional para um pendrive não era uma tarefa trivial. No caso do Windows era necessário [recriar as partições e reescrever o setor de boot][windows-manual-usb] do dispositivo USB manualmente - algo que só foi facilitado com o lançamento do [Windows USB/DVD Download Tool][windows-usb-tool]. No mundo Linux, os utilitários [UNetbootin][unetbootin] e [Universal USB Installer][pendrive-linux] faziam este papel.
 

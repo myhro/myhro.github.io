@@ -2,10 +2,7 @@
 date: 2011-04-11 23:46:21
 layout: post
 title: Detalhes em um Cluster "Beowulf"
-categories:
-- cluster
-- linux
----
+...
 
 Um dos principais objetivos do [Laboratório de Biologia Computacional](http://www.ppgcb.unimontes.br/course/view.php?id=27), antes mesmo da sua criação, foi utilizá-lo como um centro de computação distribuída. Muitos projetos do Mestrado em Ciências Biológicas envolvem estatística e análise de dados, utilizando para isto a [linguagem de programação R](http://en.wikipedia.org/wiki/R_%28programming_language%29). Felizmente a tarefa de realizar a implementação do cluster foi destinada à mim.
 

@@ -2,10 +2,7 @@
 date: 2012-02-26 23:17:30
 layout: post
 title: Programação == Atenção
-categories:
-- c
-- programacao
----
+...
 
 Quando ainda engatinhava no vasto mundo dos algoritmos e das linguagens de programação, um dos primeiros materiais que li a respeito (não me lembro exatamente qual) fazia um alerta quanto a necessidade de atenção por parte do programador. Achei curioso, por mais que hoje me pareça óbvio. Lendo outros livros já voltados a programadores mais experientes, continuei encontrando citações parecidas, embora não com as mesmas palavras. Sempre ficava me perguntando se alguém pode se aventurar como programador sem estar ciente de que sua maior virtude teria de ser a atenção; se realmente havia a necessidade de lembrá-lo que este jamais deveria parar de se preocupar com detalhes.
 

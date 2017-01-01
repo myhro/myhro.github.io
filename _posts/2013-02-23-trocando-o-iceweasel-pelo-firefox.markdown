@@ -2,10 +2,7 @@
 date: 2013-02-23 10:57
 layout: post
 title: "Trocando o Iceweasel pelo Firefox"
-categories: 
-- debian
-- firefox
----
+...
 
 Desde que troquei o Windows pelo [Debian](http://www.debian.org/) há pouco mais de seis meses, estive cada dia mais satisfeito com sua utilização. Por mais que o Windows 7 seja provavelmente a sua melhor versão, eu simplesmente não podia mais viver sem um terminal [Unix-like](https://en.wikipedia.org/wiki/Unix-like) de verdade. Não consigo me imaginar trabalhando sem ter utilitários como [find e grep](http://blog.sanctum.geek.nz/unix-as-ide-files/) a um comando de distância. Claro que eu poderia utilizar as versões dos mesmos portadas para Windows, seja com os utilitários que acompanham o [Git for Windows](http://msysgit.github.com/) ou mesmo o [Cygwin](http://www.cygwin.com/), mas estas não são nem de longe tão ágeis, me tomando alguns irritantes segundos cada vez que as executo.
 

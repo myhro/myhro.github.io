@@ -2,10 +2,7 @@
 date: 2011-10-07 12:01:23
 layout: post
 title: O firewall está bloqueando seu acesso ao GitHub?
-categories:
-- firewall
-- github
----
+...
 
 Uma das formas mais simples e seguras de se transmitir dados via internet é utilizando o SSH. Embora seu objetivo primário seja oferecer acesso ao shell de um servidor remoto, o SSH oferece, [dentre as suas mais diversas funcionalidades](http://en.wikipedia.org/wiki/Secure_Shell#Uses), suporte à transferência de arquivos. Como o Git é extremamente versátil quanto à utilização de repositórios remotos, estes podem ser desde um diretório qualquer no seu computador, um servidor de arquivos em uma máquina Windows e até uma pasta compartilhada via Dropbox. A partir disto, nada mais intuitivo do que utilizar o SSH para lidar com repositórios remotos, que é exatamente que o GitHub faz por padrão.
 

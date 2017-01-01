@@ -2,10 +2,7 @@
 date: 2012-03-17 13:19:59
 layout: post
 title: O Futuro do DCC Unimontes
-categories:
-- educacao
-- unimontes
----
+...
 
 Até hoje, em quase um ano de blog, publiquei aqui apenas textos de minha autoria. Porém, na segunda metade desta semana, chegou até mim um texto que merece ser publicado na íntegra, cujo autor é o [Prof. Renato Dourado](http://www.cpdee.ufmg.br/~rdmaia/). Pra quem o conhece, não preciso comentar nada a respeito. Pra quem ainda não teve a oportunidade de conhecê-lo, digo apenas que lamento sua infelicidade em não ter contato com um professor de verdade, que realmente honra a camisa que veste.
 

@@ -2,10 +2,7 @@
 date: 2012-04-23 07:48:09
 layout: post
 title: Tornando o uso do SSH mais simples e agradável
-categories:
-- linux
-- ssh
----
+...
 
 Há pouco mais de seis meses eu falei aqui sobre [como acessar o GitHub caso a rede onde você se encontra conectado bloqueie acessos à porta 22](http://blog.myhro.info/2011/10/o-firewall-esta-bloqueando-seu-acesso-ao-github/) em servidores externos. A ideia por trás de tal façanha é [utilizar o arquivo "config" do SSH para setar alguns parâmetros padrões](http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/) (os mais importantes no caso eram a porta e o hostname) que serão aplicados toda vez que você se conectar a um host pré-definido.
 

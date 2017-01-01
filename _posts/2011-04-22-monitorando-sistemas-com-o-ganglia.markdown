@@ -2,10 +2,7 @@
 date: 2011-04-22 11:23:29
 layout: post
 title: Monitorando sistemas com o Ganglia
-categories:
-- ganglia
-- linux
----
+...
 
 O [Ganglia](http://ganglia.sourceforge.net/) é uma maravilhosa ferramenta de monitoramento que serve tanto para clusters de milhares de máquinas quanto para um só computador. Ele possui uma interface web com gráficos gerados pelo [RRDtool](http://www.mrtg.org/rrdtool/), criado por [Tobias "Tobi" Oetiker](http://tobi.oetiker.ch/vita.html).
 

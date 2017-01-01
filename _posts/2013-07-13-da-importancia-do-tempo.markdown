@@ -2,10 +2,7 @@
 date: 2013-07-13 19:21
 layout: post
 title: "Da importância do tempo"
-categories: 
-- comportamento
-- tempo
----
+...
 
 Ultimamente tenho pensado muito no quão crucial é o papel do tempo em minha vida e em como isto afeta as pessoas ao meu redor. Quando eu era pré-adolescente, há muitos anos atrás, não dava a mínima importância pro tempo. Se não tivesse nada pra fazer, ficava esperando pacientemente o tempo passar, sem me importar muito com o tempo "perdido". E passar o tempo, naquela época, era algo bem difícil. As coisas só ficaram um pouco mais fáceis quando tive acesso a computadores e vídeo-games, aparelhos perfeitamente capazes de entreter uma pessoa ociosa.
 

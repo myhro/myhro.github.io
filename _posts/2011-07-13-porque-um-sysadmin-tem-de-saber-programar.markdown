@@ -2,10 +2,7 @@
 date: 2011-07-13 06:52:04
 layout: post
 title: Porque um sysadmin tem de saber "programar"
-categories:
-- linux
-- programacao
----
+...
 
 Conforme lhes disse no post [Detalhes em um Cluster "Beowulf"](http://blog.myhro.info/2011/04/detalhes-em-um-cluster-beowulf/), no [LBC](http://www.ppgcb.unimontes.br/lbc/) todos os alunos cadastrados tem um perfil móvel, podendo se logar em qualquer computador com todos os seus arquivos disponíveis. Como tudo é centralizado, fica muito mais fácil gerenciar o uso de espaço em disco. Apenas analisando a partição "/home" do servidor posso ver quais usuários atingiram o limite de suas quotas ou estão perto de fazê-lo. O engraçado é que o maior vilão nesta história não são os próprios usuários baixando tudo que vêem pela frente, mas sim programas que criam muitos arquivos temporários, como o cache do navegador ou as thumbnails do gerenciador de arquivos.
 

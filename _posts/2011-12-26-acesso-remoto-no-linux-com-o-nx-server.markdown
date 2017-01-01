@@ -2,10 +2,7 @@
 date: 2011-12-26 11:00:50
 layout: post
 title: Acesso remoto no Linux com o NX Server
-categories:
-- linux
-- redes
----
+...
 
 Não é surpresa alguma que o padrão [de-facto](http://en.wikipedia.org/wiki/De_facto) de acesso remoto à qualquer sistema Linux (e Unix em geral) é o [SSH](http://en.wikipedia.org/wiki/Secure_Shell). Sua ideia fundamentalmente simples reside em fornecer um terminal remoto onde é realizada a entrada e saída de dados puramente em modo texto. Como tudo que você precisa para administrar adequadamente um servidor Linux é a linha de comandos, o SSH é mais do que suficiente. Digo isto pois o SSH é útil em uma [gama enorme de propósitos](http://br-linux.org/2010/be-a-ba-do-ssh-parte-1/), desde transferir arquivos a fornecer uma VPN temporária. Mas o que acontece quando você precisa acessar não apenas o modo texto, mas também a interface gráfica?
 

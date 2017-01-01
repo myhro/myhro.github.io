@@ -2,10 +2,7 @@
 date: 2012-11-05 20:08:34
 layout: post
 title: 'Dica do dia: dicionários nas consultas ao MySQL em Java'
-categories:
-- bd
-- programacao
----
+...
 
 Escrever sobre qualquer coisa relacionada ao Java não é necessariamente algo que alguém teria como objetivo em sua carreira, mas a técnica que descreverei logo mais facilita muito a vida de quem é obrigado (não acredito que alguém faria isso por vontade própria) a programar nesta linguagem. A inspiração partiu da forma como outra linguagem também não tão nobre porém largamente utilizada, o PHP, trabalha com consultas a bancos de dados.
 

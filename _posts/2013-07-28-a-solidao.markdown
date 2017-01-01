@@ -2,10 +2,7 @@
 date: 2013-07-28 21:20
 layout: post
 title: "A Solidão"
-categories: 
-- comportamento
-- solidao
----
+...
 
 Conheço um professor que hoje tem por volta de 40 anos e está no terceiro casamento. Nunca entendi porque alguém que pensasse por mais de dois minutos no assunto poderia acabar se casando, quanto mais cometer o mesmo erro repetidas vezes. Quando tive a oportunidade de perguntá-lo a respeito, sua resposta foi mais ou menos assim:
 

@@ -2,10 +2,7 @@
 date: 2013-04-15 10:30
 layout: post
 title: "Das complicações da vida contemporânea"
-categories: 
-- comportamento
-- vida
----
+...
 
 Sou cliente da [Oi](http://www.oi.com.br/) (ou pelo menos era) há mais de cinco anos. O que me atraiu para a mesma, na época em que abandonei a extinta [Telemig Celular](http://pt.wikipedia.org/wiki/Telemig_Celular), foram principalmente as promoções de SMS grátis (dentro do bônus diário) e a possibilidade de receber [SMS direto do site](http://www.oi.com.br/oi/oi-pra-voce/oi-torpedo-web/). Em 2007, em uma época onde não existia [WhatsApp](http://www.whatsapp.com/) e quem utilizava internet no celular era rico, louco ou ambos, já que nem 3G "existia" (ao menos não era nada popular), poder se comunicar através de mensagens sem gastar rios de dinheiro (até onde me lembro, cada SMS enviada custava R$ 0,39 - hoje são R$ 0,42) era meu principal objetivo ao utilizar os serviços de uma operadora de telefonia móvel.
 

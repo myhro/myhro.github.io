@@ -2,9 +2,7 @@
 date: 2011-04-28 10:19:43
 layout: post
 title: A utilidade da virtualização
-categories:
-- virtualizacao
----
+...
 
 Não nos surpreendemos ao ouvir alguém dizendo que determinada tecnologia "é o futuro" (embora estas previsões quase sempre não se concretizem). É natural, temos o hábito de tentar prever acontecimentos. Pois este não é o caso da Virtualização: ela é o presente.
 

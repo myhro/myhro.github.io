@@ -2,10 +2,7 @@
 date: 2012-08-25 10:52:18
 layout: post
 title: 'Backports alternativo para o Debian: Myhro Ports'
-categories:
-- debian
-- ports
----
+...
 
 Há algumas semanas, depois de anos de tentativas, passei a usar o Linux no meu notebook. Desta vez foi diferente, pois não o instalei em dual-boot com o Windows: o desktop qual utilizo todos os dias é apenas o [Debian](http://www.debian.org/). É uma experiência interessante, pois como muitos de vocês sabem, [sempre me posicionei contra o uso do Linux no desktop](http://blog.myhro.info/2011/04/a-verdade-sobre-o-software-livre/), embora o utilize corriqueiramente nos servidores quais administro (que correspondem pelo menos a uma meia dúzia). Porém, minha vontade de abandonar todo e qualquer software pirata (e também evitar de pagar pelas suas versões originais) falou mais alto.
 

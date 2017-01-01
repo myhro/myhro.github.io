@@ -2,10 +2,7 @@
 date: 2011-05-08 21:42:18
 layout: post
 title: 'Dica do dia: Screen'
-categories:
-- linux
-- screen
----
+...
 
 O Linux oferece terminais virtuais desde os primórdios de sua existência, mesmo em modo texto. Um simples Ctrl+Alt+Fx (F1 ao F6 são terminais, F7 é o modo gráfico) lhe dá a oportunidade de usar um terminal livre sempre que o primeiro estiver ocupado por conta de algum comando. Você pode até mesmo deixar algum sistema de monitoramento rodando, como o [htop](http://htop.sourceforge.net/), e retornar ao terminal anterior sempre que necessário.
 

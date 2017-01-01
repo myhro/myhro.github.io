@@ -2,10 +2,7 @@
 date: 2011-06-27 10:01:57
 layout: post
 title: Backup do seu servidor com o Dropbox
-categories:
-- backup
-- servidor
----
+...
 
 Minha atual política de backup é bem simples: diariamente faço cópias de arquivos importantes e bancos de dados automaticamente durante a madrugada. Escolher a madrugada para se realizar cópias de segurança é comum pois é bem provável que não estarão alterando os arquivos por ser um horário de pouquíssima atividade (mesmo sendo possível fazer [backup do MySQL sem parar o serviço](http://www.hardware.com.br/dicas/backup-mysql.html)). Todo domingo faço uma cópia destes arquivos, salvando-os em um arquivo maior contendo o backup semanal, também de forma automática. Quando os arquivos vão ficando "velhos" (com mais de dois, três ou seis meses, por exemplo), deleto-os manualmente.
 

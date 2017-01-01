@@ -2,10 +2,7 @@
 date: 2014-05-31 22:05
 layout: post
 title: "Cuide bem do seu requirements.txt"
-categories:
-- python
-- requirements
----
+...
 
 Uma das coisas que considero mais úteis, e ao mesmo tempo incrivelmente simples, em ambientes de desenvolvimento modernos é o [gerenciamento de dependências externas][dependencies]. Se for preciso, por exemplo, utilizar uma biblioteca de acesso a API de um serviço externo, como Twitter ou Facebook, você não precisa commitar o código da mesma junto com seu repositório. Nestes casos, basta apenas declará-la no formato do seu gerenciador de dependências, e esta poderá ser facilmente instalável e mantida em qualquer outro ambiente além da sua própria máquina de desenvolvimento, como o computador de outro programador ou o servidor de produção.
 

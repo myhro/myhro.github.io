@@ -2,10 +2,7 @@
 date: 2011-05-15 23:59:30
 layout: post
 title: 'Coisas que todo universitário deveria saber: LaTeX'
-categories:
-- educacao
-- latex
----
+...
 
 Antes de ingressar no curso de Sistemas de Informação da Unimontes, cursei Matemática por dois semestres na mesma universidade. Não posso dizer que saí de lá com as características de um bom matemático, mas este primeiro ano me serviu de muito aprendizado como um todo. Tive a sorte de ser aluno do [Prof. Dr. Rosivaldo](http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4705634J5), que embora muitos alunos (principalmente calouros) não aprovem sua metodologia, é um dos melhores professores que já tive.
 

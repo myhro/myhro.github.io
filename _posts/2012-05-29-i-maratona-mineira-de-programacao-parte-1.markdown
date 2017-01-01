@@ -2,10 +2,7 @@
 date: 2012-05-29 11:08:42
 layout: post
 title: I Maratona Mineira de Programação, Parte 1
-categories:
-- maratona
-- programacao
----
+...
 
 Neste fim de semana participei, juntamente com meus colegas Fernando Lucas e Pedro Henrique (os mesmos que [me acompanham há quase um ano nestas competições](http://blog.myhro.info/2011/06/saldo-da-maratona/)), da [I Maratona Mineira de Programação](http://wiki.facom.ufu.br/maratonamineira/tiki-index.php?page=Maratona+Mineira+de+Programa%C3%A7%C3%A3o), sediada na cidade de Uberlândia e organizada pela [UFU](http://www.ufu.br/) em parceria com o [Grupo Algar](http://www.algar.com.br/). O evento em si foi impecável, os organizadores pensaram em tudo, literalmente. Até as garrafinhas de água mineral que estavam disponíveis em cada mesa foram substituídas por terem esquentado no decorrer da prova. Mas antes de falar sobre a maratona em si, gostaria de lhes contar como foi a viagem como um todo.
 
@@ -26,6 +23,7 @@ Por falar no RU, cabem aqui algumas observações e comparações. Por mais que 
 Voltando ao ginásio onde iriamos dormir, tivemos a primeira surpresa desagradável da viagem. Nos foi dito que lá haveriam diversos colchonetes, destes pequenos utilizados em alongamentos e exercícios, que poderíamos utilizar para dormir, assim como um tatame. Bom, a parte do tatame era verdade. Só não nos contaram que o mesmo era mais duro que o chão. Os colchonetes eram pouquíssimos, não sendo suficientes nem para 10 pessoas das mais de 50 que lá passaram a noite. O pior é que muitos, assim como eu, não levaram colchões (e nem teria como, se este não fosse inflável, porque não caberia na van). Minha sorte foi que [Carlão](https://twitter.com/carlosmr12), meu prezado veterano colega de curso, já havia pegado dois colchões tamanho gigante, destes utilizados em prática de salto em altura, e caridosamente disponibilizou um para minha equipe.
 
 Um dos momentos mais divertidos foi a hora do banho. No campus existem piscinas aquecidas e era de se esperar que pelo menos alguns chuveiros também o fossem, mas não foi isso que realmente aconteceu. Apenas o banheiro feminino e um banheiro masculino coletivo, desses "de cadeia" onde não há divisórias e todo mundo toma banho junto, possuem alguns poucos chuveiros com água quente. Como mesmo assim não consegui encontrar água nem que fosse morna para que pudesse banhar, resolvi encarar o chuveiro frio (leia-se gelado). Não me dou muito bem com banhos frios, mas como não havia escapatória, lá fui eu. Sabe aquela cena do filme [Rambo II](http://www.imdb.com/title/tt0089880/) em que dão um banho de mangueira de bombeiro nele? Pois então, me senti o Rambo naquele momento. Nunca havia tomado banho com uma pressão da água tão forte.
+...
 
 Pouco antes de dormir, presenciei uma das cenas mais inusitadas que já vi em toda a minha vida. Eu realmente achava que conseguia dormir de qualquer jeito em qualquer lugar. Já dormi até mesmo no chão de uma garagem, trajando apenas uma blusa de frio e nada mais. Mas não, eu não sei fazer isso. Quem sabe mesmo é [Lucas Tamoios](http://www.heterosapiens.com.br/). Ele não levou colchonete, nem travesseiro, nem cobertor. Apenas uma colcha um pouco mais grossa que um forro de cama. E o que ele fez? Caminhou até o centro do tatame, jogou a colcha pra cima, se enrolou completamente a ponto de parecer uma múmia e dormiu desse jeito no frio da madrugada de Uberlândia, como se fosse a coisa mais natural do mundo. Pra completar, no sábado de manhã, quando estou voltando do banheiro por volta das 6h da manhã, o vejo correndo em direção ao chuveiro citado anteriormente exclamando: "Banho frio! Banho Frio! Banho frio..."
 

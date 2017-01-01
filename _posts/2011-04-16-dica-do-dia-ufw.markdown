@@ -2,10 +2,7 @@
 date: 2011-04-16 16:21:37
 layout: post
 title: 'Dica do dia: UFW'
-categories:
-- firewall
-- linux
----
+...
 
 Estava marcado para o mês passado na universidade qual estudo um mini-curso (de 8 horas) sobre IPTables que acabou não sendo realizado. Alguns colegas me perguntaram se eu não tinha interesse em participar e eu disse que não. Perguntaram se eu "já sabia IPTables" e eu disse que sim. O mais curioso não foi a minha recusa e sim a cara de espanto que fizeram ao ouvirem esta afirmação.
 

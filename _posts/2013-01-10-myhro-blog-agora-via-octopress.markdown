@@ -2,10 +2,7 @@
 date: 2013-01-10 18:08
 layout: post
 title: "Myhro Blog agora via Octopress"
-categories: 
-- octopress
-- wordpress
----
+...
 
 Há algum tempo o [Wordpress](http://wordpress.org/) vinha me desanimando. Ele não costumava ser exageradamente lento ou pesado, ainda mais com a utilização do [nginx](http://nginx.org/) + [WP Super Cache](http://wordpress.org/extend/plugins/wp-super-cache/), mas no mês passado as coisas começaram a mudar. A diminuição de SPAM [obtida com a mudança para HTTPS](http://blog.myhro.info/2012/07/myhro-blog-agora-via-https/) não estava mais sendo notada e estes comentários infelizes estavam simplesmente afogando o Wordpress. Não sei dizer exatamente o porque, mas me parece que o [Askimet](http://akismet.com/), que provavelmente é a melhor ferramenta anti-SPAM da atualidade, parou de funcionar. Navegar pelo painel de administração, até mesmo para apagar estes comentários, se tornou completamente inviável.
 

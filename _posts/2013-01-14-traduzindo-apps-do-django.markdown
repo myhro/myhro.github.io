@@ -2,10 +2,7 @@
 date: 2013-01-14 13:40
 layout: post
 title: "Traduzindo apps do Django"
-categories: 
-- django
-- traducao
----
+...
 
 No final do ano passado, depois de mais de um ano, decidi por encerrar meu estágio na [Aptans](http://aptans.com/). Foi um período muito bacana da minha carreira como [SysAdmin](http://xkcd.com/705/) (eu realmente gosto muito de trabalhar com Linux), mas optei por sair de lá para adquirir experiência como programador. Após alguns poucos meses apenas estudando e auxiliando os calouros de Engenharia Civil na monitoria da disciplina de [Introdução à Computação](http://www.cpdee.ufmg.br/~rdmaia/IntroComp.htm), passei a trabalhar na [MinasSoft](http://www.minascurriculos.com.br/) como desenvolvedor [Python](http://www.python.org/)/[Django](https://www.djangoproject.com/).
 

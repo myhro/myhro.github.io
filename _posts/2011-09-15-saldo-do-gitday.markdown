@@ -2,10 +2,7 @@
 date: 2011-09-15 23:50:51
 layout: post
 title: 'Saldo do #gitday'
-categories:
-- educacao
-- git
----
+...
 
 O mini-curso sobre "Controle de Versões com o Git" foi realizado no sábado passado, dia 10/09. Creio que consegui passar uma introdução legal para o pessoal sobre o que é versionamento de código, seus benefícios e porque utilizar o Git para isto. Infelizmente só tivemos fotos tiradas ao final do evento, quando quase todo mundo já tinha ido embora, então os únicos documentos do dia são a lista de presença e os [slides disponibilizados aqui](/uploads/controle-de-versoes-com-git.pdf).
 

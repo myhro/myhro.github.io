@@ -2,10 +2,7 @@
 date: 2012-01-15 20:17:20
 layout: post
 title: 'Expressões regulares: grep, egrep, fgrep'
-categories:
-- er
-- linux
----
+...
 
 A ideia deste post não é falar unicamente sobre expressões regulares, também conhecidas como "regex" (do inglês, _regular expressions_), até por ser um assunto extenso com diversos livros dedicados ao tema. Mas como no meu dia a dia percebo que o "grep" é uma das ferramentas que mais utilizo, convém falar um pouquinho dele e seus primos "egrep" e "fgrep". Sendo assim, acaba sendo difícil não citar esta ferramenta incrível que são as expressões regulares. Resumidamente, uma ER é um método formal de se especificar um padrão de texto. A descrição ajuda um pouco, mas é na prática que fica mais fácil de entender sua utilidade.
 

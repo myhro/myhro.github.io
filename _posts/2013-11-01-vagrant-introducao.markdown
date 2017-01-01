@@ -2,10 +2,7 @@
 date: 2013-11-01 14:19
 layout: post
 title: "Vagrant: Introdução"
-categories: 
-- devops
-- vagrant
----
+...
 
 O Vagrant é uma ferramenta criada originalmente para o VirtualBox, mas que hoje suporta uma grande variedade de sistemas de virtualização, qual fornece uma fina camada para facilitar a criação, gerenciamento e utilização de ambientes de desenvolvimento virtuais. O velho problema conhecido como "na minha máquina funciona" é sanado pela raiz, visto que através de pouquíssimos passos, todos os desenvolvedores tem acesso a um ambiente praticamente idêntico, onde as únicas diferenças residem na versão do VirtualBox instalada ou nas modificações realizadas no sistema operacional da máquina virtual utilizada.
 

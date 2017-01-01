@@ -2,10 +2,7 @@
 date: 2014-09-09 22:38
 layout: post
 title: "Perdido no tempo"
-categories: 
-- comportamento
-- tempo
----
+...
 
 Quase cochilando em sua cadeira, no meio de uma tarde de trabalho, resolveu se levantar para não acabar dormindo. Se perguntava se beber até as 3h da manhã de uma terça-feira era um indício de alcoolismo, ou um tapa na cara da sociedade que se mata de trabalhar durante o dia e só se diverte aos finais de semana. Estava um pouco preocupado por ter mandado uma mensagem para o seu último _affair_ quando chegou em casa, mesmo se tratando apenas de uma brincadeira (com fundo de verdade). Celulares realmente não devem ficar próximos de pessoas quais não estão dotadas de suas plenas faculdades mentais.
 

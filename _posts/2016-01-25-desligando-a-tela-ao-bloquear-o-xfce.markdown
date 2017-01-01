@@ -2,10 +2,7 @@
 date: 2016-01-25 01:34:23
 layout: post
 title: "Desligando a tela ao bloquear o Xfce"
-categories:
-- usabilidade
-- xfce
----
+...
 
 Como quem acompanha o blog sabe, utilizo exclusivamente Linux no desktop [há quase quatro anos][myhro-ports]. Optei por muito tempo pelas versão estáveis do Debian (Squeeze/Wheezy na época) no notebook, passando a utilizar o Xubuntu (versões LTS, 12.04 e 14.04, com suporte extendido, mas de apenas três anos invés de cinco, diferente do Ubuntu) no computador de trabalho. Considerando a usabilidade do Xubuntu maior do que a do Debian com Xfce, foi natural que passasse a utilizar o primeiro também no meu notebook pessoal.
 

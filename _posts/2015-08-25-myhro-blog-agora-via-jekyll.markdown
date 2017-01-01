@@ -2,10 +2,7 @@
 date: 2015-08-25 20:58:43
 layout: post
 title: "Myhro Blog agora via Jekyll"
-categories:
-- jekyll
-- octopress
----
+...
 
 Há pouco mais de dois anos e meio, em Janeiro de 2013, o Myhro Blog [havia sido migrado][post-word-octo] do [Wordpress][wordpress] para o [Octopress][octopress]. Fiquei bastante satisfeito com a migração e empolgado com a ideia de não mais depender de um banco de dados para armazenar todas as postagens, utilizando [Git][post-git] para versionar o conteúdo. Com a própria mudança no processo, ficou muito mais natural escrever e publicar tudo a partir do terminal, sem precisar acessar uma interface web para isto. Entretanto, paraiva sobre mim uma preocupação: o Octopress era uma bomba-relógio.
 

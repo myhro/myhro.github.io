@@ -2,10 +2,7 @@
 date: 2011-08-14 11:37:43
 layout: post
 title: GEAED e Coding Dojo
-categories:
-- programacao
-- python
----
+...
 
 Ontem o GEAED fez sua primeira reunião no estilo "[Coding Dojo](http://pet.inf.ufsc.br/dojo/o-que-eh-dojo/)", embora ainda não obedecendo o formato fielmente. Utilizamos [pair programming](http://xp.edugraf.ufsc.br/bin/view/XP/PairProgramming) e uma parte do tempo exclusivamente para [refatoração do código](http://www.inf.ufsc.br/~herb/disc/engenharia_de_software/). Só faltou mesmo o [TDD](http://www.franciscosouza.com.br/2009/07/26/pyunit-test-drive-development-tdd-na-pratica/), que não foi utilizado de imediato por não termos prática nesta técnica. Desta forma, poderíamos acabar consumindo mais tempo da nossa única reunião semanal (atualmente) com os testes, ao invés de nos concentrarmos na resolução dos problemas.
 

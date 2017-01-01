@@ -2,10 +2,7 @@
 date: 2011-07-21 21:33:30
 layout: post
 title: Hora certa
-categories:
-- ntp
-- python
----
+...
 
 Sempre gostei de sincronizar meus relógios. Ainda criança, costumava esperar o relógio da secretaria da escola terminar uma volta completa só para ter certeza que até os segundos do meu relógio estariam em sincronia com o mesmo. Quando descobri o serviço "130 - Hora Certa", gastei muitos pulsos telefônicos (naquela época a tarifação ainda não era baseada em minutos) com o mesmo intuito. Algum tempo depois descobri que era possível fazer isto de graça utilizando sites como o "[Hora certa!](http://www.horacerta.com.br/)" ou o "[Hora Legal Brasileira](http://pcdsh01.on.br/HoraLegalBrasileira.asp)", embora continuasse sendo um trabalho manual.
 

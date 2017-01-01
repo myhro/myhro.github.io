@@ -2,9 +2,7 @@
 date: 2012-04-10 23:59:22
 layout: post
 title: Um ano de Myhro Blog!
-categories:
-- aniversario
----
+...
 
 Há exatamente [um ano atrás surgia o Myhro Blog](http://blog.myhro.info/2011/04/hello-world/)!
 

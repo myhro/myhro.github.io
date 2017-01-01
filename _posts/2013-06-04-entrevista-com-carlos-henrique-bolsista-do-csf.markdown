@@ -2,10 +2,7 @@
 date: 2013-06-04 09:16
 layout: post
 title: "Entrevista com Carlos Henrique, bolsista do Ciência Sem Fronteiras"
-categories: 
-- entrevista
-- unimontes
----
+...
 
 Hoje estou postando uma entrevista exclusiva com Carlos Henrique Miranda Rodrigues, o "Carlão", que atualmente está no Canadá realizando intercâmbio através do programa [Ciência Sem Fronteiras](http://www.cienciasemfronteiras.gov.br/), do [Governo Federal](http://www.brasil.gov.br/). Antes de mais nada, gostaria de agradecer a ele por ter disponibilizado um tempinho em sua apertada agenda para responder a estas dez perguntas. A entrevista foi realizada por e-mail há alguns meses atrás e respondida no tempo livre que ele obteve com a chegada das férias de verão.
 

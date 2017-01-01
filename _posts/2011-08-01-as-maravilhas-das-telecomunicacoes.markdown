@@ -2,10 +2,7 @@
 date: 2011-08-01 09:34:41
 layout: post
 title: As maravilhas das telecomunicações
-categories:
-- educacao
-- telecomunicacoes
----
+...
 
 Neste segundo semestre de 2011 alguns participantes do [GEAED](https://github.com/myhro/GEAED) não poderão comparecer a todas as reuniões. Alguns tem compromissos marcados pra mesma hora e outros, como eu, tem de pagar suas dependências (principalmente em Cálculo Diferencial e Integral). Chegamos à uma situação onde muitas vezes não seria possível reunir todos os integrantes após a aula (quando as reuniões normalmente acontecem). Em um primeiro momento a saída seria o afastamento temporário do grupo de estudos ou a postergação do cumprimento de algumas disciplinas em regime de dependência. Mas será que estas eram as melhores ou mesmo as únicas saídas?
 

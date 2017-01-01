@@ -2,10 +2,7 @@
 date: 2013-05-16 10:55
 layout: post
 title: "Primeiros dias com o Debian Wheezy"
-categories: 
-- debian
-- linux
----
+...
 
 Após muita espectativa, no primeiro final de semana deste mês de maio o [Debian Wheezy (7.0) foi finalmente lançado](http://www.debian.org/News/2013/20130504). Não pude testá-lo de imediato, [embora esta fosse minha vontade](http://devopsreactions.tumblr.com/post/49640679398/debian-wheezy-released), devido a falta de tempo e um pouco de preguiça, mas dediquei boa parte do meu último fim de semana à instalação do mesmo. Como sempre acontece com mudanças entre versões de um mesmo sistema operacional, o processo foi pautado por diversas coisas boas, mas também por algumas ruins.
 

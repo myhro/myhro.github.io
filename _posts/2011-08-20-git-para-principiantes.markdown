@@ -2,10 +2,7 @@
 date: 2011-08-20 10:37:17
 layout: post
 title: Git para principiantes
-categories:
-- git
-- programacao
----
+...
 
 No início do próximo mês de setembro, [@Flaudisio](http://twitter.com/Flaudisio), [@HerberthAmaral](http://twitter.com/HerberthAmaral), [@mbodock](http://twitter.com/mbodock) e claro, [eu](http://twitter.com/myhro), realizaremos o [#gitday](http://twitter.com/search/realtime/%23gitday) na Unimontes. O propósito é reunir os interessados, principalmente os calouros que ainda estão no primeiro ano de curso, e apresentar esta maravilhosa ferramenta de controle de versões que é o [Git](http://git-scm.com/). Contando com a colaboração do [Prof. Renato Cota](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4742948Z3), os trabalhos das disciplinas de Algoritmos e Estruturas de Dados I e II incluirão pontos extras para quem realizá-los versionando-os corretamente com o Git, de forma a incentivar sua utilização desde os primeiros passos no mundo da programação.
 

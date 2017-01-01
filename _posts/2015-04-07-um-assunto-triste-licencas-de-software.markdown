@@ -2,10 +2,7 @@
 date: 2015-04-07 23:03
 layout: post
 title: "Um assunto triste: licenças de software"
-categories:
-- licencas
-- software
----
+...
 
 Um tema bastante delicado, triste e por vezes quase incompreensível no mundo do software são suas licenças. Se trata de um assunto tão complexo, que nem mesmo as próprias licenças de software livre resolvem isso de maneira simplificada. É possível que [duas licenças de software livre não sejam compatíveis entre si][free-license-compatibility] e, pasmem, nem mesmo entre duas versões dela mesma. Isto é tão absurdo que a própria [Free Software Foundation][fsf] destaca na [descrição da GPLv3][gnu-gpl]:
 
@@ -33,6 +30,7 @@ Algumas licenças são tão restritivas que praticamente impossibilitam o uso de
 [github]: https://github.com/
 [gnu-gpl]: https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
 [human-centiped]: http://www.imdb.com/title/tt1467304/
+...
 [humancentipad]: https://en.wikipedia.org/wiki/HumancentiPad
 [jeff-atwood]: http://blog.codinghorror.com/about-me/
 [mongodb-licensing]: https://www.mongodb.org/about/licensing/

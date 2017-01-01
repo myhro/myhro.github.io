@@ -2,10 +2,7 @@
 date: 2012-05-21 12:00:03
 layout: post
 title: Utilizando o pipe
-categories:
-- linux
-- terminal
----
+...
 
 Uma das maiores facilidades presentes em um terminal Linux (ou qualquer sistema Unix-like) é [o pipe](http://workaround.org/linuxtip/pipes), representado pelo caractere '**|**' e dos redirecionadores de entrada e saída, disponíveis através dos símbolos menor '**<**' e maior '**>**'. A grande jogada dos mesmos, que a primeira vista pode não parecer tão extraordinário assim mas é algo extremamente útil, é redirecionar os fluxos [stdin](http://www.cplusplus.com/reference/clibrary/cstdio/stdin/) e [stdout](http://www.cplusplus.com/reference/clibrary/cstdio/stdout/) para arquivos e vice-versa. Falarei aqui primeiramente sobre a utilização do pipe, a partir do exemplo já citado no post "[Expressões regulares: grep, egrep, fgrep](http://blog.myhro.info/2012/01/expressoes-regulares-grep-egrep-fgrep/)", que é bem simples de entender:
 

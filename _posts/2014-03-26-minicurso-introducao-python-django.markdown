@@ -2,10 +2,7 @@
 date: 2014-03-26 10:10
 layout: post
 title: "Minicurso: Introdução ao Python/Django"
-categories: 
-- django
-- educacao
----
+...
 
 Estarei ministrando um minicurso de Introdução ao Python/Django nos dias 02 (quarta-feira) e 04 (sexta-feira) de Abril, com possibilidade de mais uma aula no dia 09 (quarta-feira) de Abril de 2014, dependendo de como as coisas fluirem. O local de realização do mesmo será o Laboratório II (o primeiro à direita do corredor) do Centro de Ciências Exatas e Tecnológicas, prédio 03, do Campus Universitário Prof. Darcy Ribeiro da Unimontes, localizado na cidade de Montes Claros. O horário previsto é das 19h às 22h30m.
 

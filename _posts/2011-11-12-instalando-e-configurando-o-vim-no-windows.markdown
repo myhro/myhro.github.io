@@ -2,10 +2,7 @@
 date: 2011-11-12 10:19:25
 layout: post
 title: Instalando e configurando o Vim no Windows
-categories:
-- vim
-- windows
----
+...
 
 Após passar alguns dias procurando um bom tutorial de instalação do [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) (de configuração na verdade, já que [instalar não é nem de longe a parte mais difícil](http://www.thegeekstuff.com/2009/12/vim-editor-for-windows/)) e não encontrar, resolvi colocar a mão na massa. Após algumas horas (em torno de seis, na verdade), consegui deixar este maravilhoso editor do jeito que queria. Ou pelo menos algo bem próximo disso. Ficou faltando um auto-completar mais abrangente, com as funções nativas da linguagem qual se está programando (e não apenas as quais escrevo). [Não é impossível fazê-lo](http://vim.wikia.com/wiki/C%2B%2B_code_completion), mas achei um tanto quanto desnecessário ter de realizar um [procedimento diferente](http://www.mohdshakir.net/2007/12/27/enable-vim-code-python-auto-complete) para cada linguagem qual se pretenda utilizar.
 

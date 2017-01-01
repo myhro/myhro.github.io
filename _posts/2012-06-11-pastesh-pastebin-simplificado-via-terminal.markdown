@@ -2,10 +2,7 @@
 date: 2012-06-11 09:49:00
 layout: post
 title: 'PasteSH: pastebin simplificado, via terminal'
-categories:
-- pastebin
-- terminal
----
+...
 
 O formato dos diversos [pastebins](http://en.wikipedia.org/wiki/Pastebin) espalhados pela internet é bem conhecido. Trata-se de uma forma muito simples de se compartilhar trechos de código ou arquivos-texto, principalmente em lugares onde seu tamanho é limitado, como em mensageiros instantâneos e no [Twitter](https://twitter.com/). Com diversas opções como a visibilidade da postagem, tempo de expiração e syntax highlighting, a forma mais comum de se postar em um pastebin é simplesmente abrir o site, mudar algumas destas opções se necessário, colar o texto e enviar. Mas e se você quiser algo mais simples ainda? Ou que facilite mais ainda o processo de postagem?
 

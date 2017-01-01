@@ -2,10 +2,7 @@
 date: 2011-10-26 17:08:19
 layout: post
 title: Carta aberta às autoridades, servidores, professores e acadêmicos da Unimontes
-categories:
-- carta-aberta
-- unimontes
----
+...
 
 Na terça-feira, dia 25 de outubro de 2011, um incidente lamentável ocorreu nas dependências da Unimontes. Por volta do meio-dia, uma aluna do 3º Período do Curso de Sistemas de Informação, que havia acabado de sair do trabalho, teve seu notebook roubado dentro de uma sala de aula. Não foi um roubo como os que infelizmente tem acontecido corriqueiramente por aqui, como o furto de projetores, bolsas e outros notebooks na ausência de seus donos. O meliante adentrou o Prédio 3, Centro de Ciências Exatas e Tecnológicas, portando uma arma de fogo na cintura e dirigiu-se à sala de aula onde a aluna estudava sozinha. Após tomar seu computador pessoal à força, mediante ameaça contra sua integridade física, o assaltante rapidamente evadiu o local sem ser impedido por ninguém.
 

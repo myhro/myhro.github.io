@@ -2,10 +2,7 @@
 date: 2012-10-12 10:06:19
 layout: post
 title: Anatomia de um Golpe no Mercado Livre
-categories:
-- comportamento
-- seguranca
----
+...
 
 Há algumas semanas impedi que minha amicíssima amiga [Dayany Matos](https://twitter.com/dayanymatos) levasse um calote de muitas centenas de reais no Mercado Livre. A dica para evitá-lo é fundamentalmente simples: basta verificar se o pagamento recebido foi aprovado antes de enviar o produto e ter um pouquinho de malícia para identificar o golpe antes de se tornar a próxima vítima. Tudo começou com o anúncio de uma câmera fotográfica qual recebeu uma oferta em pouquíssimo tempo, sem nenhum contato prévio do "comprador". Até aí tudo bem, uma vez que isso seria perfeitamente possível. O estranho foi quando os contatos via e-mail foram estabelecidos.
 

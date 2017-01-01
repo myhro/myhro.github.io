@@ -2,10 +2,7 @@
 date: 2011-09-22 13:37:36
 layout: post
 title: O Myhro.net está de volta!
-categories:
-- myhro.net
-- php
----
+...
 
 Após quase um mês indisponível, o [Myhro.net](http://myhro.net/) voltou à ativa hoje pela manhã. O motivo pelo qual ele havia sido tirado do ar é muito simples: o sistema anterior utilizado para encurtar as urls, o [Open URL Shortener](http://rodrigopolo.com/about/open-url-shortener), não funciona corretamente em outro servidor web além do Apache (mesmo reescrevendo as regras do mod\_rewrite). Como no mês de agosto migrei todos os sites quais administro para o Lighttpd, só tinha duas opções: adaptar seu o funcionamento para o novo servidor ou deixar de usá-lo. Até cogitei a primeira opção, mas pelo fato do código do mesmo não ser lá muito bem escrito ou documentado, preferi abandoná-lo e adotar uma solução própria.
 

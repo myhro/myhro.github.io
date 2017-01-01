@@ -2,10 +2,7 @@
 date: 2016-06-01 05:26:33
 layout: post
 title: "Contribuições com Software Livre em Maio de 2016"
-categories:
-- foss
-- relatorio
----
+...
 
 Uma prática muito comum que observo há algum tempo em comunidades de software livre são relatórios mensais sobre suas próprias contribuições. A ideia é informar sobre o que foi feito recentemente, assim como atrair pessoas que possam se interessar em projetos nas mesmas áreas para trabalharem comigo. Sendo assim, seguem minhas contribuições no mês de Maio de 2016.
 

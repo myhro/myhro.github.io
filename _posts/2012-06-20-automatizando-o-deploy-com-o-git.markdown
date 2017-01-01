@@ -2,10 +2,7 @@
 date: 2012-06-20 22:31:03
 layout: post
 title: Automatizando o deploy com o Git
-categories:
-- deploy
-- git
----
+...
 
 Já falei sobre o Git [há algum tempo por aqui](http://blog.myhro.info/2011/08/git-para-principiantes/), mas nunca citei o quão simples é sua utilização como ferramenta de deploy. Todo repositório [Git](http://git-scm.com/) tem uma pasta chamada "hooks", onde estão disponíveis scripts que serão chamados de acordo com determinadas ações. O "post-receive", em especial, é executado assim que um repositório remoto recebe todos os dados de um push. A partir daí, basta escrever um pequeno script que copie estes arquivos para a pasta de produção (como o diretório qual o [Apache](http://httpd.apache.org/) serve um site).
 

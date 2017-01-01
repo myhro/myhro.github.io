@@ -2,10 +2,7 @@
 date: 2011-05-30 11:21:06
 layout: post
 title: Manifesto sobre a educação
-categories:
-- educacao
-- manifesto
----
+...
 
 Ando muito preocupado com a educação no Brasil. Embora o descaso dos poderes públicos não seja novidade, não tem se passado uma semana sem uma notícia completamente triste e decepcionante relacionada à educação, muitas vezes vinda do seu próprio Ministério. O excelente texto "[Sobre burros e veados](http://www.onorte.net/noticias.php?id=33134)" do Helder Caldeira, retrata o caso do meio milhão de livros (pagos por mim e por você) quais defendem a [não existência do "certo e errado" na língua portuguesa](http://oglobo.globo.com/educacao/mat/2011/05/14/mec-distribui-livro-que-aceita-erros-de-portugues-924464625.asp). Quinhentas mil crianças sujeitas a engolir tamanha barbárie. Será se isso realmente não tem importância?
 
@@ -22,3 +19,4 @@ Dizem que um governo é o reflexo do seu povo. Vivemos em um país onde temos um
 > "Educação é a bala de prata. Educação é tudo. Não precisamos de pequenas mudanças, precisamos de mudanças gigantescas, mudanças monumentais. Escolas deveriam ser palácios. A competição pelos melhores professores deveria ser selvagem; eles deveriam ganhar salários de 6 dígitos. Escolas deveriam ser incrivelmente caras para o Governo e absolutamente gratuitas para os cidadãos, como a Defesa Nacional."
 > 
 > -- Frase do personagem [Sam Seaborn](http://westwing.bewarne.com/sam.html), interpretado por [Rob Lowe](http://www.imdb.com/name/nm0000507/) no seriado [The West Wing](http://www.imdb.com/title/tt0200276/). Embora dita pensando na realidade norte-americana, adapta-se perfeitamente a qualquer nação.
+...

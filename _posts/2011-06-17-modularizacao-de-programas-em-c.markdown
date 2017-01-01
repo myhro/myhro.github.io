@@ -2,10 +2,7 @@
 date: 2011-06-17 19:07:17
 layout: post
 title: Modularização de programas em C
-categories:
-- c
-- programacao
----
+...
 
 Ainda não sei porque não se ensinam em cursos de tecnologia coisas tão básicas quanto modularização de programas ou controle de versões. É de se esperar que no ensino superior não se receba tudo mastigado, mas duas técnicas tão simples e úteis não deveriam simplesmente passar batidas. A distribuição de funções em arquivos separados (headers, os famosos ".h") facilita não só a manutenção e leitura do código, como a sua capacidade de reutilização (um dos propósitos primordiais das mesmas) e até mesmo velocidade de compilação (algo crucial em grandes projetos).
 

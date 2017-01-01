@@ -2,10 +2,7 @@
 date: 2012-02-12 10:31:35
 layout: post
 title: IPv6
-categories:
-- ipv6
-- redes
----
+...
 
 Falar do IPv6 se tornou recorrente nos últimos anos em virtude da iminência do esgotamento dos endereços IPv4 atuais. Embora os quatro octetos e seus 32 bits possibilitem mais de 4 bilhões de combinações, a enorme quantidade de [faixas IPv4 reservadas](http://en.wikipedia.org/wiki/Reserved_IP_addresses#Reserved_IPv4_addresses) reduzem bastante este número. Alie isto à quantidade sempre crescente de pessoas e dispositivos (pense em quantos aparelhos você possui com acesso à internet) conectados à rede mundial e computadores e chegaremos a um ponto onde simplesmente não haverá IPs disponíveis para todos. Mesmo medidas paliativas como a introdução do [NAT](http://www.juliobattisti.com.br/artigos/windows/tcpip_p20.asp) e do [CIDR](http://www.hardware.com.br/livros/redes/cidr-mascaras-tamanho-variavel.html) não são suficientes para resolver o problema definitivamente.
 

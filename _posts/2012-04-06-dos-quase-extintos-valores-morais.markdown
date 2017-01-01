@@ -2,10 +2,7 @@
 date: 2012-04-06 11:36:13
 layout: post
 title: Dos quase extintos valores morais
-categories:
-- comportamento
-- preocupacoes
----
+...
 
 Em maio do ano passado eu expressei aqui minhas [preocupações com o presente e futuro da educação e do país como tudo](http://blog.myhro.info/2011/05/manifesto-sobre-a-educacao/). O mais triste é voltar aqui muitos meses depois e perceber que se as coisas mudaram, foi pra pior. O que está aqui descrito não é nenhuma novidade. O próprio escritor e senador Rui Barbosa [nos alertou sobre os tópicos seguintes há quase 100 anos](http://www.casaruibarbosa.gov.br/dados/DOC/artigos/rui_barbosa/FCRB_RuiBarbosa_Requerimento_de_informacoes_sobre_o_caso_do_Satelite-II.pdf). Um século é um tempo razoável para grandes e profundas mudanças, mas pelo visto preferimos desperdiçar este tempo nos preocupando com coisas menos importantes.
 

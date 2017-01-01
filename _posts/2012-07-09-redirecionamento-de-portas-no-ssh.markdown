@@ -2,10 +2,7 @@
 date: 2012-07-09 10:28:55
 layout: post
 title: Redirecionamento de portas no SSH
-categories:
-- seguranca
-- ssh
----
+...
 
 Há poucos meses falei aqui sobre [algumas das facilidades do SSH](http://blog.myhro.info/2012/04/tornando-o-uso-do-ssh-mais-simples-e-agradavel/), citando a possibilidade de se utilizar o recurso de redirecionamento de portas locais para se acessar indiretamente um computador na rede interna, sem deixar esta porta aberta publicamente na internet. Também falei sobre como o [VNC é inseguro e que o NX Server era melhor por rodar em cima do SSH](http://blog.myhro.info/2011/12/acesso-remoto-no-linux-com-o-nx-server/). Porém, aliando alguns destes recursos de tunelamento e redirecionamento de portas do SSH com a simplicidade do VNC, podemos criar uma solução muito interessante para acesso remoto, além de segura, multi-plataforma e muito flexível.
 

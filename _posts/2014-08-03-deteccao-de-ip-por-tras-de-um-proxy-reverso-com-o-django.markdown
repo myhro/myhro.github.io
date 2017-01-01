@@ -2,10 +2,7 @@
 date: 2014-08-03 11:02
 layout: post
 title: "Detecção de IP por trás de um proxy reverso com o Django"
-categories:
-- django
-- nginx
----
+...
 
 A pilha de serviços mais comum em um ambiente de produção de uma aplicação Django hoje consiste basicamente em:
 

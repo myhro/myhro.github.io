@@ -2,10 +2,7 @@
 date: 2015-08-29 08:36:32
 layout: post
 title: "StartSSL: certificados gratuitos e suas peculiaridades"
-categories:
-- seguranca
-- startssl
----
+...
 
 A [StartCom][startcom] é uma empresa israelense, fundada em 1999 e sediada em [Eilat][eilat], que dentre suas atividades trabalha com certificados SSL/TLS sob a marca [StartSSL][startssl]. Ela não seria muito diferente de qualquer outra empresa que comercializa produtos parecidos se não tivesse um diferencial: seu certificado SSL "Class 1" é oferecido gratuitamente, desde que sua finalidade seja voltada para uso pessoal. Não é necessário nada mais além de validar seu e-mail, ao criar uma conta com eles, e seu domínio (o que também é feito por e-mail), ao emitir um certificado. O primeiro passo, especificamente, é feito de uma maneira não muito convencional.
 

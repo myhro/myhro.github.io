@@ -2,10 +2,7 @@
 date: 2011-12-06 17:45:02
 layout: post
 title: 'Caso do notebook: um final feliz'
-categories:
-- seguranca
-- unimontes
----
+...
 
 Como alguns de vocês sabem, houve um trágico acontecimento na penúltima de semana de outubro, onde uma colega teve seu [notebook roubado dentro da sala de aula](http://blog.myhro.info/2011/10/carta-aberta-as-autoridades-servidores-professores-e-academicos-da-unimontes/). Fernando Lucas e eu começamos uma "vaquinha" com o intuito de arrecadar R$ 1500,00, para que fosse possível comprar outro computador pessoal para a nossa colega. Não atingimos o objetivo estipulado, mas com algum esforço e graças ao desconto de cem reais que a Dell fornece no pagamento via boleto, pudemos efetuar a compra. Hoje a tarde, logo no começo da aula, o notebook foi entregue e está nas mãos de quem nunca deveria ter saído.
 

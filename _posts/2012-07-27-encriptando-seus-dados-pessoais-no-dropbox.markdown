@@ -2,10 +2,7 @@
 date: 2012-07-27 13:57:47
 layout: post
 title: Encriptando seus dados pessoais no Dropbox
-categories:
-- backup
-- seguranca
----
+...
 
 Por mais cuidadoso que eu seja com meus backups (já perdi dados mais uma vez por conta de backups mal-feitos ou inexistentes), percebi que a abordagem qual estive utilizando nos últimos anos apresentava algumas falhas. A prática consistia basicamente em sincronizar as pastas de documentos entre o meu notebook e o computador-desktop diariamente, realizando backups dos dados mais importantes semanalmente no [Google Docs](https://docs.google.com/) e no [Windows Live Skydrive](https://skydrive.live.com/). O problema estava justamente neste backup semanal.
 

@@ -2,10 +2,7 @@
 date: 2011-07-03 14:39:24
 layout: post
 title: DD-WRT
-categories:
-- dd-wrt
-- redes
----
+...
 
 Estava pensando em escrever sobre algumas das utilidades do [DD-WRT](http://www.dd-wrt.com/) (já que hoje em dia não consigo utilizar um routeador sem ele) mas o [Morimoto](http://www.hardware.com.br/) fez isto antes de mim (mais precisamente na semana passada). Sendo assim, estou deixando aqui os links para quem quiser conhecer a respeito. Resumidamente, o DD-WRT é um firmware alternativo que pode ser instalado em uma gama enorme de routeadores e pontos de acesso, adicionando funcionalidades como QoS, SSH, VPN, Wake-On-Lan, dentre muitas (muitas mesmo!) outras.
 

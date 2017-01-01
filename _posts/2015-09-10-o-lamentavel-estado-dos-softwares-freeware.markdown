@@ -2,10 +2,7 @@
 date: 2015-09-10 22:07:40
 layout: post
 title: "O lamentável estado dos softwares Freeware"
-categories:
-- freeware
-- preocupacoes
----
+...
 
 Sempre fui aficionado em conhecer e experimentar softwares novos. Ainda criança, um dos meus passatempos preferidos era passar o fim de semana (em uma conexão discada de 14.4 Kbps) navegando entre as seções, principalmente de [Rede e Internet][sd-rede-internet] e [Utilitários][sd-utilitarios], do [Superdownloads][superdownloads] - que pasmem, [existe desde 1998][sd-empresa]. Não demorou para que eu descobrisse em quais condições os softwares eram ali distribuídos: havia versões de demonstração (_Demo_), assim como as pagas porém gratuitas para testar por tempo limitado (_Shareware_). Destas, a categoria que mais me atraia era a dos gratuitos sem limitação de tempo ou funcionalidade: os _Freeware_.
 

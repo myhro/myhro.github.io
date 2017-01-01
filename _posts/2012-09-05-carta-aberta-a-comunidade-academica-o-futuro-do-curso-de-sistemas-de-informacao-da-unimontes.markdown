@@ -2,10 +2,7 @@
 date: 2012-09-05 09:19:33
 layout: post
 title: 'Carta Aberta à Comunidade Acadêmica: O Futuro do Curso de Sistemas de Informação da Unimontes'
-categories:
-- carta-aberta
-- unimontes
----
+...
 
 Alguns acontecimentos recentes têm evidenciado algumas coisas que provavelmente ocorrem em diversos cursos da Unimontes, mas tem se tornado mais aparentes no contexto qual vivencio diariamente, que é o do Departamento de Ciências da Computação, mais precisamente do Curso de Sistemas de Informação. A sensação atual é que estamos sendo abandonados, enquanto alunos, e não temos ninguém para nos amparar além de nós mesmos.
 

@@ -2,10 +2,7 @@
 date: 2011-06-06 11:09:21
 layout: post
 title: III Maratona de Programação
-categories:
-- maratona
-- programacao
----
+...
 
 No dia 18 de junho, sábado, será realizada na [Unimontes](http://www.unimontes.br/) a [III Maratona de Programação do Norte de Minas](http://www.dcc.unimontes.br/maratona/). O propósito do evento é oferecer um ambiente criativo e competitivo onde os participantes possam buscar soluções de problemas diversos envolvendo matemática e programação. O valor da inscrição é de R$ 30,00 (por equipe de três pessoas) e haverá premiação (troféus e medalhas). Quem sair de lá com um desejo de "quero mais" poderá participar da [Maratona Brasileira de Programação](http://maratona.ime.usp.br/) que será realizada entre os meses de setembro e novembro.
 

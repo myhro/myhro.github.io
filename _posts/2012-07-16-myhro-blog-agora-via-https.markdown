@@ -2,10 +2,7 @@
 date: 2012-07-16 11:05:51
 layout: post
 title: Myhro Blog agora via HTTPS
-categories:
-- seguranca
-- servidor
----
+...
 
 Desde o dia 11 deste mês, uma quarta-feira, o Myhro Blog está disponível apenas via HTTPS. Minha intenção, na verdade, era ter feito isso há alguns meses, mas o bendito processo de certificação da [StartSSL](https://www.startssl.com/), que fornece [certificados SSL gratuitamente para uso pessoal](https://www.startssl.com/?app=1), nem sempre funciona. Tive de tentar diversas vezes, inclusive correndo o risco de ser banido pra sempre por duplicidade de cadastro, até conseguir. A parte mais interessante do processo é que não há a criação ou utilização de senhas: você recebe um certificado que é instalado no seu navegador, autenticando seu endereço de e-mail, e o utiliza para logar no painel de controle do site.
 

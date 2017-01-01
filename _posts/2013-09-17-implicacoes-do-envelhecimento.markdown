@@ -2,10 +2,7 @@
 date: 2013-09-17 21:13
 layout: post
 title: "Implicações do Envelhecimento"
-categories: 
-- comportamento
-- envelhecimento
----
+...
 
 Acredito que não seja algo assim tão recente, mas ultimamente, mais do que nunca, tenho me sentido velho. Alguns poderiam dizer que estou novo pra isso, visto que ainda me encontro na faixa dos "vinte e poucos anos", mas este é o sentimento que me acomete. Passei a notar isto quando percebi que estava me tornando cada vez mais impaciente, principalmente ao lidar com pessoas, sem necessariamente destacar um grupo específico. Este fato se torna ainda mais curioso quando lembro que, quando criança, minha avó dizia que uma das coisas que mais admirava em mim era a paciência.
 

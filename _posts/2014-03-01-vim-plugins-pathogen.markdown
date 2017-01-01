@@ -2,10 +2,7 @@
 date: 2014-03-01 16:17
 layout: post
 title: "Vim + Plugins = Pathogen"
-categories: 
-- pathogen
-- vim
----
+...
 
 A escolha de um editor decente e universal não é fácil. Antes de começar a utilizar o [Vim](http://www.vim.org/) corriqueiramente, passei por diversos outros como:
 

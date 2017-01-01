@@ -2,10 +2,7 @@
 date: 2012-09-21 19:14:41
 layout: post
 title: Problemas recentes com o Myhro.net
-categories:
-- myhro.net
-- php
----
+...
 
 Talvez você não tenha conseguido acessar o [Myhro.net](http://myhro.net/) nos últimos dias, pois além do tempo necessário para propagação das entradas DNS após a mudança de servidor, houve uma espécie de ataque sendo realizado contra o mesmo. URLs indesejadas sempre foram encurtadas lá e por conta disso, por diversas vezes no decorrer da semana costumo dar uma olhada nos últimos endereços adicionados. Isso nunca tinha chegado a ser um problema... Até essa semana.
 

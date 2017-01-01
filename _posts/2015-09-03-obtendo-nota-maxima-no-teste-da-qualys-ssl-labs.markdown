@@ -2,10 +2,7 @@
 date: 2015-09-03 21:32:20
 layout: post
 title: "Obtendo nota máxima no teste da Qualys SSL Labs"
-categories:
-- seguranca
-- ssl
----
+...
 
 Buscando por "[ssl test][google-ssl-test]" no Google, os dois primeiros resultados encontrados correspondem a duas ferramentas muito úteis. Uma, o [SSL Checker][ssl-checker] da [SSL Shopper][ssl-shopper], fornece informações básicas sobre o certificado. Um certificado da [StartSSL][startssl] que tenha sido gerado com as [dicas do último post][post-startssl] resulta em uma saída parecida com esta:
 
