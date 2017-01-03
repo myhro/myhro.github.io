@@ -153,7 +153,7 @@ Second terminal:
 
 The Unix socket implementation can send and receive more than twice the number of messages, over the course of a second, when compared to the IP one. During multiple runs, this proportion is consistent, varying around 10% for more or less on both of them. Now that we figured their performance differences, let's find out why Unix sockets are so much faster.
 
-It's important to notice that both IP and Unix socket implementations are using TCP (`socket.SOCK_STREAM`), so the answer isn't related to how TCP performs in comparison to another transport protocol like UDP, for instance. What happens is that when Unix sockets are used, the entire IP stack from the operating system will be bypassed. There will be no headers being added, checksums being calculated, encapsulation and decapsulation of packets being done nor routing being performed. Although those tasks are performed really fast by the OS, there is still a visible difference when doing benchmarks like this one.
+~~It's important to notice that both IP and Unix socket implementations are using TCP (`socket.SOCK_STREAM`), so the answer isn't related to how TCP performs in comparison to another transport protocol like UDP, for instance~~ (see update 1). What happens is that when Unix sockets are used, the entire IP stack from the operating system will be bypassed. There will be no headers being added, checksums being calculated (see update 2), encapsulation and decapsulation of packets being done nor routing being performed. Although those tasks are performed really fast by the OS, there is still a visible difference when doing benchmarks like this one.
 
 There's so much room for real-world comparisons besides this synthetic measurement demonstrated here. What will be the throughput differences when a reverse proxy like nginx is communicating to a Gunicorn backend server using IP or Unix sockets? Will it impact on latency as well? What about transfering big chunks of data, like huge binary files, instead of small messages? Can Unix sockets be used to avoid Docker network overhead when forwarding ports from the host to a container?
 
@@ -165,7 +165,15 @@ References:
 * [unix domain sockets vs. internet sockets (Robert Watson)][rwatson-unix-sock]
 * [What exactly does SO_REUSEADDR do? (Hermelito Go)][so-reuseaddr]
 
+Updates:
+
+1. [John-Mark Gurney][encthenet] and [Justin Cormack][justincormack-1] pointed out that `SOCK_STREAM` doesn't mean TCP under Unix domain sockets. This makes sense, but I couldn't find any reference affirming nor denying it.
+2. [Justin Cormack][justincormack-2] also told me that there's no checksumming on local interfaces by default. This contradicts the [message sent by Robert Watson on FreeBSD mainling lists][rwatson-unix-sock], where the absense of checksums in comparison to IP sockets is mentioned.
+
 [beej-unix-sock]: https://beej.us/guide/bgipc/output/html/multipage/unixsock.html
+[encthenet]: https://twitter.com/encthenet/status/816350833281372160
+[justincormack-1]: https://twitter.com/justincormack/status/816382943408967685
+[justincormack-2]: https://twitter.com/justincormack/status/816382500905910273
 [pymotw-unix-sock]: https://pymotw.com/2/socket/uds.html
 [rwatson-unix-sock]: https://lists.freebsd.org/pipermail/freebsd-performance/2005-February/001143.html
 [so-reuseaddr]: http://www.unixguide.net/network/socketfaq/4.5.shtml
