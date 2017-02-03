@@ -39,7 +39,7 @@ The same can be said when you need, for instance, a network protocol. Using raw 
 
 I could list a few more things about this subject, but it's better if we keep this post short. Unfortunately, I've experienced some of the mentioned problems more than once in the last couple months. I'm not an expert in managing people, but one of the causes seems to be closely related to ego reasons. Sometimes I think that this may be naivety, when the person in question can't see the broader picture of the problem they are facing. At the same time, this is funny because it also happens with multiple-year experienced individuals.
 
-If you are a developer who identified with at least part of this list, you don't really need to list to me. Think about yourself, as a professional in our area, and what you can do to write software that is easy and robust to be executed in different environments. Always remember that your responsibility doesn't end when you push code in commits to a repository. You are at least responsible as I am for running your code in production. In the end, it's your creation, right?
+If you are a developer who identified with at least part of this list, you don't really need to listen to me. Think about yourself, as a professional in our area, and what you can do to write software that is easy and robust to be executed in different environments. Always remember that your responsibility doesn't end when you push code in commits to a repository. You are at least responsible as I am for running your code in production. In the end, it's your creation, right?
 
 [12f-config]: https://12factor.net/config
 [grpc]: http://www.grpc.io/
