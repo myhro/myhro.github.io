@@ -4,32 +4,23 @@ permalink: /about/
 title: About
 ---
 
-## Quem é Tiago "Myhro" Ilieve?
+## Who is Tiago "Myhro" Ilieve?
 
-Graduado pelo Curso de Bacharelado em Sistemas de Informação, vinculado ao Departamento de Ciências da Computação ([DCC][dcc]) da Universidade Estadual de Montes Claros ([Unimontes][unimontes]). Atualmente trabalha como DevOps do time de Engenharia do [Méliuz][meliuz] em Belo Horizonte.
-
-Recentemente, trabalhou com Administração e Desenvolvimento de Sistemas na [Sisqualis][sisqualis]. Durante a graduação fez estágio, cada um por um ano, como desenvolvedor Python/Django na [MinasSoft][minassoft] e como Administrador de Sistemas Linux, na [Aptans][aptans] e no Laboratório de Biologia Computacional ([LBC][lbc]), que faz parte do Programa de Pós-Graduação em Ciências Biológicas ([PPGCB][ppgcb]) da Unimontes.
+B.Sc. in Information Systems by the Computer Science Department ([DCC][dcc]) of the State University of Montes Claros ([Unimontes][unimontes]). Currently works as DevOps Engineer of [Zalando][zalando] in Berlin.
 
 E-mail: [contato@myhro.info][email]  
 GitHub: [myhro][github]  
 LinkedIn: [myhro][linkedin]  
 Twitter: [@myhro][twitter]
 
-Todos os textos aqui publicados estão disponíveis sob licença:  
-[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)][cc-by-4]
+All texts published here are available under license: [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by-4]
 
-[![](/images/cc-by.png)][cc-by-4]
 
-[aptans]: http://www.aptans.com/
-[cc-by-4]: https://creativecommons.org/licenses/by/4.0/deed.pt_BR
-[dcc]: http://www.dcc.unimontes.br/
+[cc-by-4]: https://creativecommons.org/licenses/by/4.0/deed
+[dcc]: http://www.ccet.unimontes.br/departamentos/dcc/
 [email]: mailto:contato@myhro.info
 [github]: https://github.com/myhro
-[lbc]: http://www.ppgcb.unimontes.br/lbc/
-[linkedin]: https://br.linkedin.com/in/myhro
-[meliuz]: https://www.meliuz.com.br/
-[minassoft]: http://www.minascurriculos.com.br/
-[ppgcb]: http://www.ppgcb.unimontes.br/
-[sisqualis]: http://www.sisqualis.com.br/
+[linkedin]: https://de.linkedin.com/in/myhro
 [twitter]: https://twitter.com/myhro
 [unimontes]: http://www.unimontes.br/
+[zalando]: https://www.zalando.de/
