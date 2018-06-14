@@ -87,11 +87,11 @@ package main
 import "time"
 
 type Client struct {
-	delegate ClientDelegate
+	delegate clientDelegate
 	timeout  time.Duration
 }
 
-type ClientDelegate interface {
+type clientDelegate interface {
 	delegatedFetch(time.Duration) string
 }
 
@@ -130,15 +130,15 @@ import (
 	"time"
 )
 
-type FakeClient struct{}
+type fakeClient struct{}
 
-func (c *FakeClient) delegatedFetch(t time.Duration) string {
+func (c *fakeClient) delegatedFetch(t time.Duration) string {
 	return "mocked Fetch"
 }
 
 func TestFetch(t *testing.T) {
 	c := New()
-	c.delegate = &FakeClient{}
+	c.delegate = &fakeClient{}
 	r := c.Fetch()
 	t.Fatal(r)
 }
@@ -163,33 +163,35 @@ So the delegation pattern approach works, but there are a few drawbacks:
 
 One cool thing about Go functions is that they can be treated as types, so they can be used as struct members or [passed as arguments to other functions][effective-go-funcs]. This allows us to do things like:
 
+`main.go`
+
 ```go
 package main
 
 import "time"
 
-type FetchType func(time.Duration) string
+type fetchType func(time.Duration) string
 
 type Client struct {
-	FetchImp FetchType
+	fetchImp fetchType
 	timeout  time.Duration
 }
 
-func SleepFetch(t time.Duration) string {
+func sleepFetch(t time.Duration) string {
 	time.Sleep(t)
 	return "actual Fetch"
 }
 
 func New() Client {
 	n := Client{
-		FetchImp: SleepFetch,
+		fetchImp: sleepFetch,
 		timeout:  1 * time.Second,
 	}
 	return n
 }
 
 func (c *Client) Fetch() string {
-	return c.FetchImp(c.timeout)
+	return c.fetchImp(c.timeout)
 }
 
 func main() {
@@ -216,7 +218,7 @@ func FakeFetch(t time.Duration) string {
 
 func TestFetch(t *testing.T) {
 	c := New()
-	c.FetchImp = FakeFetch
+	c.fetchImp = FakeFetch
 	r := c.Fetch()
 	t.Fatal(r)
 }
@@ -237,14 +239,19 @@ It's interesting to notice that the `FetchType` declaration itself can be omitte
 
 ```go
 type Client struct {
-	FetchImp func(time.Duration) string
+	fetchImp func(time.Duration) string
 	timeout  time.Duration
 }
 ```
 
 Thus avoiding the creation of a dummy `interface`, `type` or `struct` only for mocking it later.
 
+Updates:
+
+1. [Sandor Szücs][szuecs] pointed out that we have to care about not unintentionally exporting fake/internal methods or structs. Thanks!
+
 
 [delegation-pattern]: https://en.wikipedia.org/wiki/Delegation_pattern
 [effective-go-funcs]: https://golang.org/doc/effective_go.html#interface_methods
 [fernandomrm]: https://github.com/fernandomrm
+[szuecs]: https://github.com/szuecs
