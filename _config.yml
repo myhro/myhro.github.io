@@ -10,5 +10,4 @@ permalink: "/:year/:month/:title"
 url: "https://blog.myhro.info" # the base hostname & protocol for your site
 
 # Build settings
-gems: [jekyll-paginate]
 markdown: kramdown
