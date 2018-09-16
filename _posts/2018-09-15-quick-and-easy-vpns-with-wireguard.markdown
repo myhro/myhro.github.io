@@ -37,7 +37,7 @@ Here's an explanation of its fields:
 
 - `PrivateKey` is the server private key. It proves that the server is who it says it is, and the same will be valid for the clients on the other end. One will be able to validate the identity of the other.
 - `Address` is the IP and network mask for the VPN network.
-- `51820` UDP port which the server will listen for connections.
+- `ListenPort` tells in which UDP port the server will listen for connections.
 - `PostUp` are firewall rules and system commands that are needed for the server to act as a gateway, forwarding all network traffic. `PostDown` will disable them when the VPN is deactivated. `eth0` is the name of the main network interface, which can be something different like `ens5` if [systemd's Predictable Network Interface Names][systemd-net] are being used.
 - `PublicKey` and `AllowedIPs` defines which peers can connect to this server through a combination of IPs/key pairs. It's important to notice that the IPs defined here are within the VPN network range. Those are not the actual IPs which the client will use to connect to the server over the internet.
 
