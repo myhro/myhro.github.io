@@ -4,7 +4,7 @@ layout: post
 title: Local DNS-over-TLS (DoT) forwarder with CoreDNS
 ...
 
-The first time I heard about [DNS-over-TLS (DoT)][dot] was about a year ago, when [Cloudflare launched their `1.1.1.1` public resolver][1-1-1-1-launch]. It immediately appeared to be a more natural successor to regular plain-text DNS than [DNS-over-HTTPS (DoH)][doh]. The problem is that, back then, it was not so easy to use. Pages like the [client list in the DNS Privacy Project][dns-privacy-clients] mentions lengthy configuration options for forwarders like [Bind][bind]/[Knot DNS][knot-dns]/[Unbound][unbound], which aren't exactly known for being user-friendly. What I wanted was something like [Simple DNSCrypt][simple-dnscrypt] on Windows, but for Linux/macOS and supporting DoT instead of DNSCrypt, [which is a different protocol][dnscrypt-protocol].
+The first time I heard about [DNS-over-TLS (DoT)][dot] was about a year ago, when [Cloudflare launched their `1.1.1.1` public resolver][1-1-1-1-launch]. It immediately appeared to be a more natural successor to regular plain-text DNS than [DNS-over-HTTPS (DoH)][doh]. The problem is that, back then, it was not so easy to use. Pages like the [client list in the DNS Privacy Project][dns-privacy-clients] mention lengthy configuration options for forwarders like [Bind][bind]/[Knot DNS][knot-dns]/[Unbound][unbound], which aren't exactly known for being user-friendly. What I wanted was something like [Simple DNSCrypt][simple-dnscrypt] on Windows, but for Linux/macOS and supporting DoT instead of DNSCrypt, [which is a different protocol][dnscrypt-protocol].
 
 After a while I realized that [CoreDNS][coredns] supported DoT in [its forward plugin][coredns-forward]. By then, the only use-case I knew for CoreDNS was that it is commonly used for [service discovery inside Kubernetes clusters][coredns-kubernetes]. Starting from this point, I began investigating how hard would be to use it on my laptop, running macOS, and a couple remote servers that I use as workstations, running Linux. A DoT proxy/forwarder that supported caching seemed exactly what I was looking for.
 
@@ -85,7 +85,7 @@ Type=simple
 WantedBy=multi-user.target
 ```
 
-After starting it with `sudo launchctl load -w /Library/LaunchDaemons/coredns.plist` on macOS, or `sudo service coredns start` on Linux, we can confirm it's working by analysing the DNS packets that goes over the network. It's a matter of creating a `tcpdump` session on one terminal:
+After starting it with `sudo launchctl load -w /Library/LaunchDaemons/coredns.plist` on macOS, or `sudo service coredns start` on Linux, we can confirm it's working by analysing the DNS packets that go over the network. It's a matter of creating a `tcpdump` session on one terminal:
 
 ```
 $ sudo tcpdump -n 'host 1.1.1.1 or host 1.0.0.1'
