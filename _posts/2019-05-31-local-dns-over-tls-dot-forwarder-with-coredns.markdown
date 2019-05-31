@@ -135,10 +135,13 @@ Now it's a matter of configuring the system to use `127.0.0.1` as the DNS server
 
 **P.S.:** it's important to notice that using DNS-over-TLS together with regular HTTPS connections is still not enough to guarantee total browsing privacy. The target hostname is still sent in plain text during the TLS handshake. That will change when the [encrypted SNI extension to the TLS 1.3 protocol][encrypted-sni] becomes widely available. Given this particularity, Cloudflare offers a page to [check how secure/private your browsing experience is][cloudflare-sec-check].
 
+**Update:** [As pointed out by Miek Gieben][miekg-tweet], CoreDNS author, the manual installation steps mentioned here can be avoided. The [`coredns/deployment`][coredns-deployment] repository contains utilities for deploying it on different platforms, like macOS and Debian-like systems.
+
 
 [1-1-1-1-launch]: https://blog.cloudflare.com/dns-resolver-1-1-1-1/
 [bind]: https://www.isc.org/downloads/bind/
 [cloudflare-sec-check]: https://www.cloudflare.com/ssl/encrypted-sni/
+[coredns-deployment]: https://github.com/coredns/deployment
 [coredns-forward]: https://coredns.io/plugins/forward/
 [coredns-kubernetes]: https://kubernetes.io/docs/tasks/administer-cluster/coredns/
 [coredns-releases]: https://github.com/coredns/coredns/releases
@@ -150,5 +153,6 @@ Now it's a matter of configuring the system to use `127.0.0.1` as the DNS server
 [encrypted-sni]: https://blog.cloudflare.com/encrypted-sni/
 [golang]: https://golang.org/
 [knot-dns]: https://www.knot-dns.cz/
+[miekg-tweet]: https://twitter.com/miekg/status/1134496951976812544
 [simple-dnscrypt]: https://simplednscrypt.org/
 [unbound]: https://nlnetlabs.nl/unbound
