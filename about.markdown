@@ -6,21 +6,20 @@ title: About
 
 ## Who is Tiago "Myhro" Ilieve?
 
-B.Sc. in Information Systems by the Computer Science Department ([DCC][dcc]) of the State University of Montes Claros ([Unimontes][unimontes]). Currently works as DevOps Engineer of [Zalando][zalando] in Berlin.
+Bachelor of Science in Information Systems by the Computer Science Department (DCC) of the State University of Montes Claros ([Unimontes][unimontes]). Currently works as Software Engineer at [Toggl][toggl].
 
 E-mail: [contato@myhro.info][email]  
 GitHub: [myhro][github]  
 LinkedIn: [myhro][linkedin]  
 Twitter: [@myhro][twitter]
 
-All texts published here are available under license: [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by-4]
+All texts published here are available under [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by-4] license.
 
 
 [cc-by-4]: https://creativecommons.org/licenses/by/4.0/deed
-[dcc]: http://www.ccet.unimontes.br/departamentos/dcc/
 [email]: mailto:contato@myhro.info
 [github]: https://github.com/myhro
-[linkedin]: https://de.linkedin.com/in/myhro
+[linkedin]: https://www.linkedin.com/in/myhro/
+[toggl]: https://toggl.com/
 [twitter]: https://twitter.com/myhro
 [unimontes]: http://www.unimontes.br/
-[zalando]: https://www.zalando.de/
