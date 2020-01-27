@@ -34,7 +34,7 @@ Now it was the time to assemble the planned solution. With [Gin][gin] + [Gorilla
 [redis-pubsub]: https://redis.io/topics/pubsub
 [redis-subscribe]: https://redis.io/commands/subscribe
 [redis]: https://redis.io/
-[repo]: https://github.com/myhro/webhooks-websockets
+[repo]: https://github.com/myhro/webhooks
 [so-search]: https://stackoverflow.com/a/14070911
 [socket-io-wiki]: https://en.wikipedia.org/wiki/Socket.IO
 [socket-io]: https://socket.io/
