@@ -5,10 +5,12 @@ title: Slack threads are one honking great idea -- let's use more of those!
 ...
 
 <style>
-img {
-  height: 50%;
-  width: 50%;
-  margin-left: 0;
+@media screen and (min-width: 800px) {
+  img {
+    height: 50%;
+    width: 50%;
+    margin-left: 0;
+  }
 }
 </style>
 
@@ -53,7 +55,7 @@ Another situation greatly improved by threads is when going through the message 
 
 # Closing thoughts
 
-Threads were invented with a noble goal: to make text-based communication more efficient. Even if it might be tempting to take a shortcut and start typing a response when you see a message in a channel, remember that clicking on the Start/View thread button is a small step for you, but a giant leap for whole chatting experience. By doing that the life quality of everyone that might be involved a Slack conversation, either in that exact point in time or in a long time in the future, will be greatly improved.
+Threads were invented with a noble goal: to make text-based communication more efficient. Even if it might be tempting to take a shortcut and start typing a response when you see a message in a channel, remember that clicking on the Start/View thread button is a small step for you, but a giant leap for whole chatting experience. By doing that the life quality of everyone that might be involved in a Slack conversation, either in that exact point in time or in a long time in the future, will be greatly improved.
 
 
 [done]: /images/2020/slack-done.png
